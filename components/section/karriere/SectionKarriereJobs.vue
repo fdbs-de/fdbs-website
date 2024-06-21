@@ -1,0 +1,235 @@
+<template>
+    <section class="jobs-section">
+        <HeLimiter>
+            <h2 class="text-center mb-20">Unsere Stellenangebote</h2>
+            <div class="wrapper">
+                <div class="searchbar">
+                    <input type="text" placeholder="Stelle suchen" v-model="filterParameter.search">
+                    <div class="bar-divider"></div>
+                    <select v-model="filterParameter.type">
+                        <option :value="null">Alle Arten</option>
+                        <option value="vollzeit">Vollzeit</option>
+                        <option value="ausbildung">Ausbildung</option>
+                        <option value="duales studium">Duales Studium</option>
+                    </select>
+                    <div class="bar-divider"></div>
+                    <select v-model="filterParameter.category">
+                        <option :value="null">Alle Felder</option>
+                        <option value="logistik">Logistik</option>
+                        <option value="marketing">Marketing</option>
+                        <option value="service">Service</option>
+                        <option value="vertrieb">Vertrieb</option>
+                        <option value="verwaltung">Verwaltung</option>
+                    </select>
+                </div>
+        
+                <!-- <div class="grid" v-if="filteredJobs.length">
+                    <Card v-for="job in filteredJobs" cover
+                        aspect-ratio="16/9"
+                        tag-position="beneath-image"
+                        :key="job.id"
+                        :name="job.title"
+                        :image="job.image"
+                        :color="job.post_category.color"
+                        :primary-tag="job.post_category.name"
+                        :tags="job.tags"
+                    />
+                </div> -->
+                
+                <!-- <div class="placeholder" v-else>
+                    <p v-if="posts.length === 0">Wir schreiben zurzeit keine Stellen aus.</p>
+                    <p v-else>Keine Stellenangebote gefunden.</p>
+                </div> -->
+        
+                <small class="mt-4 text-center">
+                    <b>Alle Stellen</b> verstehen sich ausgeschrieben für <b>M/W/D</b>
+                </small>
+                
+                <div class="initiative-card">
+                    <h3>Deine <b>Initiativbewerbung</b></h3>
+                    <p>
+                        Sollte derzeit keine passende Stelle ausgeschrieben sein, laden wir Dich dennoch dazu ein, Dich bei uns zu bewerben.<br>
+                        Sende Deine Initiativbewerbung an <a href="mailto:bewerbungen@fdbs.de">bewerbungen@fdbs.de</a>.<br>
+                        <b>Wir freuen uns, von Dir zu hören!</b>
+                    </p>
+                </div>
+            </div>
+        </HeLimiter>
+    </section>
+</template>
+
+<script lang="ts" setup>
+    // TODO: Posts implemenation
+    const props = defineProps({
+        posts: {
+            type: Array,
+            default: () => [],
+        },
+    })
+
+    const filterParameter = ref({
+        search: '',
+        type: null,
+        category: null,
+    })
+
+    // const filteredJobs = computed(() => {
+    //     return props.posts.filter(job => {
+    //         if (filterParameter.value.search.trim() && !job?.title?.toLowerCase().trim().includes(filterParameter.value.search.toLowerCase().trim())) return false
+    //         if (filterParameter.value.type          && job?.category?.name?.toLowerCase() !== filterParameter.value.type) return false
+    //         if (filterParameter.value.category      && !(job?.tags?.map(e => e.toLowerCase()) || []).includes(filterParameter.value.category)) return false
+
+    //         return true
+    //     })
+    // })
+</script>
+
+<style lang="sass" scoped>
+    .jobs-section
+        padding-block: 4rem
+
+    .wrapper
+        display: flex
+        flex-direction: column
+        padding: 0 3rem 3rem
+        gap: 1.5rem
+        background: var(--color-background-soft)
+        border-radius: var(--radius-xl)
+        margin-top: 1.75rem
+
+        .searchbar
+            transform: translateY(-1.75rem)
+            height: 3.5rem
+            display: flex
+            align-items: stretch
+            border-radius: var(--radius-m)
+            background: var(--color-background)
+            box-shadow: var(--shadow-m)
+            overflow: hidden
+            gap: .5rem
+            border: 1px solid var(--color-background-soft)
+
+            .bar-divider
+                margin-block: .5rem
+                border-left: 1px solid var(--color-background-soft)
+
+            > input
+                flex: 1
+                padding: 0 1rem
+                border: none
+                border-radius: 0
+                background: transparent
+                font-size: 1.2rem
+                font-weight: 600
+                font-family: var(--font-heading)
+                color: inherit
+                min-width: 0
+
+            > select
+                height: auto
+                padding: 0 1rem 0 .5rem
+                border: none
+                border-radius: 0
+                background: transparent
+                font-weight: 400
+                font-size: 1rem
+                font-family: var(--font-heading)
+                color: inherit
+
+            > input,
+            > select
+                &:focus
+                    outline: none
+                    color: var(--color-primary)
+
+        .grid
+            display: grid !important
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr))
+            gap: 3rem
+
+        .placeholder
+            display: flex
+            align-items: center
+            justify-content: center
+            height: 12rem
+            font-size: 1.2rem
+            color: var(--color-text)
+
+        .initiative-card
+            background-color: var(--color-background)
+            background-image: url('/images/content/karriere/application.png')
+            background-position: bottom right
+            background-repeat: no-repeat
+            background-size: contain
+            border-radius: var(--radius-l)
+            padding: 2rem
+            box-shadow: var(--shadow-m)
+            margin-top: 2rem
+            position: relative
+            overflow: hidden
+            border: 1px solid var(--color-background)
+
+            &::before
+                content: ''
+                position: absolute
+                top: 0
+                left: 0
+                width: 100%
+                height: 100%
+                background: linear-gradient(135deg, rgba(255,255,255,1) 70%, rgba(255,255,255,.6) 100%)
+
+            h3
+                color: var(--color-primary)
+                font-size: clamp(1.75rem, 5vw, 2.5rem)
+                font-weight: 300
+                margin-block: 0
+                position: relative
+
+            a
+                color: var(--color-text)
+                font-weight: 600
+
+                &:hover
+                    color: var(--color-text)
+                    text-decoration: underline
+
+            p
+                margin-bottom: .4rem
+                position: relative
+
+
+
+    @media only screen and (max-width: 700px)
+        .wrapper
+            gap: .25rem
+            padding: 0 1rem 1rem
+            margin-top: 3rem
+
+            .searchbar
+                display: grid
+                grid-template-columns: 1fr 1fr
+                grid-template-rows: 3rem 3rem
+                grid-template-areas: "search search" "type category"
+                height: auto
+                gap: 0
+                transform: translateY(-3rem)
+
+                .bar-divider
+                    display: none
+
+                > select
+                    height: 100%
+                    width: 100%
+                    padding: 0 1rem
+
+                > input
+                    height: 100%
+                    width: 100%
+                    padding: 0 1rem
+                    font-size: 1rem
+                    grid-area: search
+                    border-bottom: 1px solid var(--color-background-soft)
+
+            .grid
+                gap: 2rem
+</style>
