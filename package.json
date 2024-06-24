@@ -15,6 +15,7 @@
     "axios": "^1.7.2",
     "floating-vue": "^5.2.2",
     "focus-trap-vue": "^4.0.3",
+    "lodash.throttle": "^4.1.1",
     "nuxt": "^3.11.2",
     "pinia": "^2.1.7",
     "sass": "^1.75.0",
