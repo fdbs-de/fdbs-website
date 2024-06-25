@@ -1,16 +1,16 @@
 <template>
     <div class="explorer">
         <div class="header py-4">
-            <IodIconButton type="button" variant="text" icon="refresh" @click="fetch" background="var(--color-text-soft)" v-tooltip="'Aktualisieren'"/>
-            <IodInput class="!h-10 w-64" placeholder="Suchen" clearable v-model="search"/>
+            <IodInput class="!h-10 w-72" placeholder="Suchen" clearable v-model="search"/>
             <HeSpacer />
             <IodButtonGroup class="bg-zinc-100">
                 <IodIconButton type="button" icon="grid_view" background="var(--color-text-soft)" :variant="layout === 'grid' ? 'contained' : 'text'" @click="layout = 'grid'"/>
                 <IodIconButton type="button" icon="view_list" background="var(--color-text-soft)" :variant="layout === 'list' ? 'contained' : 'text'" @click="layout = 'list'"/>
             </IodButtonGroup>
         </div>
-
+        
         <div class="header py-2">
+            <IodIconButton type="button" variant="text" corner="pill" icon="refresh" @click="fetch" v-tooltip="'Aktualisieren'"/>
             <MediaBreadcrumbs :path @navigate="openDirectory($event)"/>
             <HeSpacer />
             <IodLoader type="bar" v-show="loading"/>
@@ -157,7 +157,7 @@
             display: flex
             align-items: center
             padding-inline: 1rem
-            gap: 1rem
+            gap: .5rem
             border-bottom: 1px solid var(--color-background-soft)
             position: relative
 
