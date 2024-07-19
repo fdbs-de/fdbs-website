@@ -47,7 +47,6 @@ export const useMenu = (menu: 'main'|'legal'|'about'|'auth') => {
         ],
         'auth': (() => {
             let m =                                             [{ id: '1000', label: "Übersicht", href: "/intern" }]
-            if (auth.hasAnyRole(['Personal']))                  m.push({ id: '2000', label: "News", href: "/intern/news" })
             if (auth.hasAnyRole(['Personal', 'Kunde']))         m.push({ id: '3000', label: "Angebote", href: "/intern/angebote" })
             if (auth.hasAnyRole(['Personal']))                  m.push({ id: '4000', label: "Firmenwiki", href: "https://wiki.fdbs.de" })
             if (auth.hasAnyRole(['Personal']))                  m.push({ id: '4000', label: "Dokumente", href: "/intern/dokumente" })
