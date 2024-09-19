@@ -14,7 +14,7 @@ export function useAxios(options: Options = {})
 
     let headers: any = {
         accept: 'application/json',
-        referer: runtimeConfig.public.frontendUrl,
+        referer: runtimeConfig.public.websiteUrl,
     }
 
     // Get XSRF-TOKEN cookie

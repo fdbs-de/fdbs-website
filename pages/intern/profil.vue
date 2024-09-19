@@ -3,24 +3,24 @@
         <HeLimiter>
             <ProfileCard
                 class="rounded-xl border border-solid border-zinc-100"
-                :banner="auth.user.profile_banner"
-                :image="auth.user.profile_image"
-                :title="auth.user.name"
-                :subtitle="auth.user.email"
-                :allow-image-upload="auth.domain.policy_allow_profile_image_upload"
-                :allow-banner-upload="auth.domain.policy_allow_profile_banner_upload"
+                :banner="auth.user.banner"
+                :image="auth.user.avatar"
+                :title="(auth.user.name as string)"
+                :subtitle="(auth.user.email as string)"
+                :allow-image-upload="auth.domain.policy_allow_avatar_upload"
+                :allow-banner-upload="auth.domain.policy_allow_banner_upload"
             />
         </HeLimiter>
     </section>
     <SectionText>
         <div class="mb-12 flex items-center gap-4">
-            <IodButtonGroup class="flex-1">
+            <IodButtonGroup class="flex-1" corner="pill">
                 <IodButton type="button" label="Allgemeines" @click="tab = 'general'" :variant="tab === 'general' ? 'filled' : 'contained'" />
                 <IodButton type="button" label="Passwort" @click="tab = 'password'" :variant="tab === 'password' ? 'filled' : 'contained'" />
                 <IodButton type="button" label="2FA" @click="tab = '2fa'" :variant="tab === '2fa' ? 'filled' : 'contained'" />
             </IodButtonGroup>
             
-            <IodButton type="button" label="Abmelden" icon-right="logout" color-preset="error" @click="auth.logout()" />
+            <IodButton type="button" label="Abmelden" corner="pill" icon-right="logout" color-preset="error" @click="auth.logout()" />
         </div>
 
         <form class="flex flex-col gap-4" v-show="tab === 'general'" @submit.prevent>
