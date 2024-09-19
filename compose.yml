@@ -1,5 +1,5 @@
 services:
-  frontend:
+  website:
     image: ghcr.io/fdbs-de/fdbs-website:latest
     environment:
       - VIRTUAL_HOST=${WEBSITE_DOMAIN}
