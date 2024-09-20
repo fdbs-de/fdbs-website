@@ -1,17 +1,22 @@
 <template>
     <header :class="{'scrolled': isScrolled}">
         <HeLimiter>
-            <div class="flex justify-start w-40">
-                <NuxtLink to="/" class="mr-auto h-10">
-                    <img class="block h-full" src="/images/branding/logo_no_spacing.png" alt="FDBS Logo">
-                </NuxtLink>
-            </div>
-            <div class="flex lg:flex-1 lg:justify-center">
-                <HeMenu :menu="menu" mobile-submenu-show-toggle />
-            </div>
-            <div class="flex justify-end lg:w-40">
-                <IodButton v-if="cta" :is="NuxtLink" :to="cta.href" :label="cta.label" size="m" corner="pill" color-preset="primary"/>
-            </div>
+            <NuxtLink to="/" class="mr-auto h-10">
+                <img class="block h-full" src="/images/branding/logo_no_spacing.png" alt="FDBS Logo">
+            </NuxtLink>
+            <HeSpacer />
+            <HeMenu :menu="menu" mobile-submenu-show-toggle />
+            <IodButton
+                v-if="cta"
+                :is="NuxtLink"
+                :to="cta.href"
+                :label="cta.label"
+                :icon-right="cta.icon"
+                size="m"
+                corner="pill"
+                color-preset="primary"
+                class="!normal-case !tracking-normal !text-sm"
+            />
         </HeLimiter>
     </header>
 </template>
@@ -41,13 +46,8 @@
         isScrolled.value = window.scrollY > 0
     }
 
-    onMounted(() => {
-        window.addEventListener('scroll', handleScroll)
-    })
-
-    onBeforeUnmount(() => {
-        window.removeEventListener('scroll', handleScroll)
-    })
+    onMounted(() => addEventListener('scroll', handleScroll))
+    onBeforeUnmount(() => removeEventListener('scroll', handleScroll))
     // END: Scroll handling
 </script>
 
@@ -73,13 +73,10 @@
             height: 100%
             display: flex !important
             align-items: center
-            gap: 2rem
+            gap: 1rem
 
     @media only screen and (max-width: 1023px)
         header
-            .he-limiter
-                gap: 1rem
-
             .he-menu
                 order: 2 !important
 </style>

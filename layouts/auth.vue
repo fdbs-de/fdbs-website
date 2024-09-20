@@ -15,7 +15,7 @@
     })
 
     const menu = useMenu('auth')
-    const cta = ref({ label: 'Profil', href: '/intern/profil' })
+    const cta = ref({ label: 'Profil', href: '/intern/profil', icon: 'account_circle' })
 </script>
 
 <style lang="sass" scoped></style>

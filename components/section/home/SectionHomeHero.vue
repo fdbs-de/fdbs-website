@@ -10,10 +10,10 @@
                 bis hin zum <NuxtLink to="/mkbs">Marketing</NuxtLink>
                 und <NuxtLink to="/technischer-kundendienst">technischen Kundendienst</NuxtLink> können wir Ihnen helfen.
             </HeLimiter>
-            <a class="bottom-cta" href="#services">
+            <!-- <a class="bottom-cta" href="#services">
                 Unsere Services
                 <img src="/images/app/arrow_white_down.svg" alt="arrow down">
-            </a>
+            </a> -->
         </div>
     </section>
 </template>
@@ -38,7 +38,7 @@
         &::after
             content: ''
             background-color: rgb(white, 0.85)
-            background-image: linear-gradient(rgb(white, 0) 50%, rgb(white, 1) 100%)
+            background-image: linear-gradient(rgb(white, 0) 70%, rgb(white, 1) 100%)
             width: 100%
             height: 100%
             position: absolute
@@ -47,14 +47,14 @@
             z-index: 1
 
         .content-wrapper
-            min-height: calc(100vh - 4.5rem)
+            min-height: 70vh
             display: flex
             flex-direction: column
             justify-content: center
             align-items: center
             position: relative
             z-index: 2
-            padding: 2rem 1rem 6rem
+            padding: 2rem 1rem
             font-family: var(--font-heading)
 
             > h1
