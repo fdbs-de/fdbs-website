@@ -3,11 +3,6 @@ export default defineNuxtRouteMiddleware((to, from) => {
     
     if (!auth.session.authenticated)
     {
-        return navigateToAuthUrl('verify-2fa', to.fullPath)
-        return navigateToAuthUrl('login', to.fullPath)
-    }
-
-    if (auth.session.tfa_enabled && !auth.session.tfa_verified)
-    {
+        return auth.navigateToLogin(to.fullPath)
     }
 })

@@ -59,7 +59,8 @@ type DomainInfo = {
 
 
 export const useAuthStore = defineStore('auth', () => {
-
+    
+    const runtimeConfig = useRuntimeConfig()
     const options = ref({
         routes: {
             authHome: '/intern',
@@ -67,13 +68,13 @@ export const useAuthStore = defineStore('auth', () => {
         },
         apiRoutes: {
             csrf: '/sanctum/csrf-cookie',
-            user: '/api/user',
             session: '/api/session',
             domain: '/api/domain/settings',
             logout: '/logout',
         },
         superAdminPermissions: ['system.super-admin'],
     })
+
     const routes = computed(() => options.value.routes)
     const apiRoutes = computed(() => options.value.apiRoutes)
 
@@ -123,32 +124,18 @@ export const useAuthStore = defineStore('auth', () => {
         {}
     }
 
-    async function fetchUser() {
-        try
-        {
-            const {data} = await useAxios().get(apiRoutes.value.user)
-
-            user.value = data.data
-        }
-        catch (error)
-        {}
-    }
-
     async function fetchSession() {
-        try
-        {
+        try {
             const {data} = await useAxios().get(apiRoutes.value.session)
         
             user.value = data.user
             session.value = data.session
         }
-        catch (error)
-        {}
+        catch (error) {}
     }
 
     async function fetchDomain() {
-        try
-        {
+        try {
             const {data} = await useAxios().get(apiRoutes.value.domain)
             
             domain.value = data
@@ -158,8 +145,7 @@ export const useAuthStore = defineStore('auth', () => {
     }
 
 
-    async function load()
-    {
+    async function load() {
         await Promise.all([
             fetchCsrf(),
             fetchSession(),
@@ -169,14 +155,29 @@ export const useAuthStore = defineStore('auth', () => {
 
 
 
-    async function logout()
-    {
-        try
-        {
+    function navigateToAuth(endpoint: 'login' | 'register', returnTo: string = '') {
+        returnTo = encodeURI(`${runtimeConfig.public.websiteUrl}${returnTo}`)
+        navigateTo(`${runtimeConfig.public.frontendUrl}/auth/${endpoint}?intended=${returnTo}`, { replace: true, external: true })
+    }
+
+    function navigateToLogin(returnTo: string = '') {
+        navigateToAuth('login', returnTo)
+    }
+
+    function navigateToRegister(returnTo: string = '') {
+        navigateToAuth('register', returnTo)
+    }
+
+    function navigateToProfile(returnTo: string = '') {
+        returnTo = encodeURI(`${runtimeConfig.public.websiteUrl}${returnTo}`)
+        navigateTo(`${runtimeConfig.public.frontendUrl}/auth/profile?return=${returnTo}`, { replace: true, external: true })
+    }
+
+    async function logout() {
+        try {
             await useAxios().post(apiRoutes.value.logout)
         }
-        catch (error)
-        {}
+        catch (error) {}
 
         user.value = null
         session.value.authenticated = false
@@ -196,11 +197,14 @@ export const useAuthStore = defineStore('auth', () => {
         apiRoutes: apiRoutes as unknown as Record<string, string>,
 
         fetchCsrf,
-        fetchUser,
         fetchSession,
         fetchDomain,
         logout,
         load,
+
+        navigateToLogin,
+        navigateToRegister,
+        navigateToProfile,
 
         hasRole,
         hasAnyRole,
