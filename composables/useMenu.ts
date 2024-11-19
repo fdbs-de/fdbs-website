@@ -46,12 +46,14 @@ export const useMenu = (menu: 'main'|'legal'|'about'|'auth') => {
             { id: '3000', label: "Kontakt", href: "/kontakt" },
         ],
         'auth': (() => {
-            let m =                                             [{ id: '1000', label: "Übersicht", href: "/intern" }]
-            if (auth.hasAnyRole(['Personal', 'Kunde']))         m.push({ id: '3000', label: "Angebote", href: "/intern/angebote" })
-            if (auth.hasAnyRole(['Personal']))                  m.push({ id: '4000', label: "Firmenwiki", href: "https://wiki.fdbs.de" })
-            if (auth.hasAnyRole(['Personal']))                  m.push({ id: '4000', label: "Dokumente", href: "/intern/dokumente" })
-            if (auth.hasAnyRole(['Personal', 'Kunde']))         m.push({ id: '5000', label: "Spezifikationen", href: "/intern/spezifikationen" })
-            if (auth.hasAnyPerm(['system.access.admin.panel'])) m.push({ id: '6000', label: "Adminverwaltung", href: "https://helium.fdbs.de" })
+            let m = [{ id: '1000', label: "Übersicht", href: "/intern" }]
+
+            if (auth.isAdmin() || auth.hasAnyRole(['Personal', 'Kunde']))   m.push({ id: '3000', label: "Angebote", href: "/intern/angebote" })
+            // if (auth.isAdmin() || auth.hasAnyRole(['Personal']))            m.push({ id: '4000', label: "Firmenwiki", href: "/intern/wiki" })
+            if (auth.isAdmin() || auth.hasAnyRole(['Personal']))            m.push({ id: '4000', label: "Dokumente", href: "/intern/dokumente" })
+            if (auth.isAdmin() || auth.hasAnyRole(['Personal', 'Kunde']))   m.push({ id: '5000', label: "Spezifikationen", href: "/intern/spezifikationen" })
+            if (auth.isAdmin() || auth.hasAdminPanelAccess())               m.push({ id: '6000', label: "Adminverwaltung", href: auth.adminPanelUrl() })
+
             return m
         })(),
     })

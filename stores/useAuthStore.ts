@@ -3,11 +3,11 @@ import type { Role } from '~/types/role'
 type User = {
     id: number
 
-    profile_image: string
-    profile_banner: string | null
+    avatar: string
+    banner: string | null
     email: string | null
+    phone: string | null
     username: string | null
-    ident_number: string | null
 
     has_tfa_enabled: boolean
     has_tfa_totp_method_enabled: boolean
@@ -15,9 +15,9 @@ type User = {
     has_tfa_email_method_enabled: boolean
     default_tfa_method: string | null
 
+    name: string | null
     salutation: string | null
     fullname: string | null
-    name: string | null
     prefix: string | null
     firstname: string | null
     middlename: string | null
@@ -26,9 +26,9 @@ type User = {
     nickname: string | null
     legalname: string | null
 
-    company: string | null
+    organisation: string | null
     department: string | null
-    title: string | null
+    job_title: string | null
 
     email_verified_at: string | null
     enabled_at: string | null
@@ -37,9 +37,7 @@ type User = {
     updated_at: string | null
 
     settings: {
-        language?: string
-        timezone?: string
-        theme?: string
+        [key: string]: any
     }
 
     roles: Role[]
@@ -59,12 +57,11 @@ type DomainInfo = {
 
 
 export const useAuthStore = defineStore('auth', () => {
-    
     const runtimeConfig = useRuntimeConfig()
     const options = ref({
         routes: {
-            authHome: '/intern',
-            guestHome: '/',
+            auth: '/intern',
+            guest: '/',
         },
         apiRoutes: {
             csrf: '/sanctum/csrf-cookie',
@@ -72,12 +69,12 @@ export const useAuthStore = defineStore('auth', () => {
             domain: '/api/domain/settings',
             logout: '/logout',
         },
+        adminPermissions: ['system.admin', 'system.super-admin'],
         superAdminPermissions: ['system.super-admin'],
     })
 
     const routes = computed(() => options.value.routes)
     const apiRoutes = computed(() => options.value.apiRoutes)
-
 
     const user = ref<User|null>(null)
     const domain = ref<DomainInfo|null>(null)
@@ -87,41 +84,13 @@ export const useAuthStore = defineStore('auth', () => {
         tfa_verified: false,
     })
 
-    function isSuperAdmin(): boolean
-    {
-        if (!user.value) return false
-
-        return user.value.permissions.some(p => options.value.superAdminPermissions.includes(p))
-    }
-
-    function hasAnyRole(roles: string[]): boolean
-    {
-        if (!user.value) return false
-
-        return user.value.roles.map(r => r.name as string).some(r => roles.includes(r))
-    }
-
-    function hasAnyPerm(perms: string[]): boolean
-    {
-        if (!user.value) return false
-        
-        if (isSuperAdmin()) return true
-        
-        return user.value.permissions.some(p => perms.includes(p))
-    }
-    
-    function hasRole(role: string) { return hasAnyRole([role]) }
-    function hasPerm(perm: string) { return hasAnyPerm([perm]) }
-
 
 
     async function fetchCsrf() {
-        try
-        {
+        try {
             await useAxios().get(apiRoutes.value.csrf)
         }
-        catch (error)
-        {}
+        catch (error) {}
     }
 
     async function fetchSession() {
@@ -140,10 +109,8 @@ export const useAuthStore = defineStore('auth', () => {
             
             domain.value = data
         }
-        catch (error)
-        {}
+        catch (error) {}
     }
-
 
     async function load() {
         await Promise.all([
@@ -154,6 +121,10 @@ export const useAuthStore = defineStore('auth', () => {
     }
 
 
+
+    function adminPanelUrl() {
+        return `${runtimeConfig.public.frontendUrl}`
+    }
 
     function navigateToAuth(endpoint: 'login' | 'register', returnTo: string = '') {
         returnTo = encodeURI(`${runtimeConfig.public.websiteUrl}${returnTo}`)
@@ -184,7 +155,63 @@ export const useAuthStore = defineStore('auth', () => {
         session.value.tfa_enabled = false
         session.value.tfa_verified = false
 
-        navigateTo(routes.value.guestHome)
+        navigateTo(routes.value.guest)
+    }
+
+
+
+    function isAdmin() {
+        if (!user.value) return false
+
+        return options.value.adminPermissions.some((permission) => user.value?.permissions.includes(permission))
+    }
+
+    function isSuperAdmin() {
+        if (!user.value) return false
+
+        return options.value.superAdminPermissions.some((permission) => user.value?.permissions.includes(permission))
+    }
+
+    function hasAdminPanelAccess() {
+        return can('system.access.admin.panel')
+    }
+
+    function can(permissions: string|string[]) {
+        if (!user.value) return false
+
+        // Convert string to array
+        if (!Array.isArray(permissions)) permissions = [permissions]
+
+        // Check for super user
+        if (isAdmin()) return true
+
+        return permissions.every((permission) => user.value?.permissions.includes(permission))
+    }
+
+    function canAny(permissions: string|string[]) {
+        if (!user.value) return false
+
+        if (!Array.isArray(permissions)) permissions = [permissions]
+
+        if (isAdmin()) return true
+
+        return permissions.some((permission) => user.value?.permissions.includes(permission))
+    }
+
+    function hasRole(role: string|string[]) {
+        if (!user.value) return false
+
+        if (!Array.isArray(role)) role = [role]
+
+        return role.every(role => user.value?.roles?.map(r => r?.name ?? '').includes(role))
+    }
+
+    function hasAnyRole(roles: string|string[]): boolean {
+        if (!user.value) return false
+
+        if (!Array.isArray(roles)) roles = [roles]
+
+        return roles.some(role => user.value?.roles?.map(r => r?.name ?? '').includes(role))
     }
 
 
@@ -199,17 +226,20 @@ export const useAuthStore = defineStore('auth', () => {
         fetchCsrf,
         fetchSession,
         fetchDomain,
-        logout,
         load,
-
+        
+        adminPanelUrl,
         navigateToLogin,
         navigateToRegister,
         navigateToProfile,
+        logout,
 
+        isAdmin,
+        isSuperAdmin,
+        hasAdminPanelAccess,
+        can,
+        canAny,
         hasRole,
         hasAnyRole,
-        hasPerm,
-        hasAnyPerm,
-        isSuperAdmin,
     }
 })

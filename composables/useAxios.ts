@@ -14,7 +14,6 @@ export function useAxios(options: Options = {})
 
     let headers: any = {
         accept: 'application/json',
-        referer: runtimeConfig.public.websiteUrl,
     }
 
     // Get XSRF-TOKEN cookie
@@ -24,17 +23,18 @@ export function useAxios(options: Options = {})
     if (token.value) headers['X-XSRF-TOKEN'] = token.value as string
 
     // Add cookie header if on server
-    if (process.server)
+    if (import.meta.server)
     {
         headers = {
             ...headers,
             ...useRequestHeaders(['cookie']),
+            referer: runtimeConfig.public.websiteUrl as string,
         }
     }
 
     // Create axios instance
     return axios.create({
-        baseURL: runtimeConfig.public.backendUrl,
+        baseURL: runtimeConfig.public.backendUrl as string,
         withCredentials: true,
         headers: {
             ...headers,

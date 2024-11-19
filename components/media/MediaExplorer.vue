@@ -11,7 +11,7 @@
         
         <div class="header py-2">
             <IodIconButton type="button" variant="text" corner="pill" icon="refresh" @click="fetch" v-tooltip="'Aktualisieren'"/>
-            <MediaBreadcrumbs :path @navigate="openDirectory($event)"/>
+            <MediaBreadcrumbs :path="(path as string)" @navigate="openDirectory($event)"/>
             <HeSpacer />
             <IodLoader type="bar" v-show="loading"/>
         </div>
@@ -43,6 +43,7 @@
 
 <script lang="ts" setup>
     import type { MediaItem } from '~/types/media'
+    // @ts-ignore
     import throttle from 'lodash.throttle'
 
     type Pagination = {
@@ -107,8 +108,7 @@
     
             items.value = data.data
         }
-        catch (error)
-        {}
+        catch (error) {}
 
         loading.value = false
     }
