@@ -46,8 +46,8 @@
         text-align: center
         gap: 2rem
         padding: 2rem
-        border-radius: .5rem
-        border: 1px solid #e6e6e6
+        border-radius: var(--radius-l)
+        border: 2px solid #e6e6e6
 
         h3
             font-size: 1.25rem
