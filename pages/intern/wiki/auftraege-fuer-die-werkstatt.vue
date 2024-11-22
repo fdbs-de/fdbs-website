@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Aufträge für die Werkstatt" image="/storage/media/wiki/generisch/fdbs_muster_grau.png" />
+    <SectionHero title="Aufträge für die Werkstatt" image="/images/content/wiki/generisch/fdbs_muster_grau.png" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Aufträge für die Werkstatt',
         description: 'Allgemeines, -',
         category: 'Allgemeines',
+        image: '/images/content/wiki/generisch/fdbs_muster_grau.png',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

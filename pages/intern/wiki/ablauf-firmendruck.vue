@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Ablauf Firmendruck" image="/storage/media/wiki/generisch/fdbs_muster_grau.png" />
+    <SectionHero title="Ablauf Firmendruck" image="/images/content/wiki/generisch/fdbs_muster_grau.png" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Ablauf Firmendruck',
         description: 'Vertrieb, Firmendruck, Beutel, Dosen, Faltenbeutel',
         category: 'Vertrieb',
+        image: '/images/content/wiki/generisch/fdbs_muster_grau.png',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Krank- und Gesundmeldung + Urlaub" image="/storage/media/wiki/generisch/fdbs_muster_grau.png" />
+    <SectionHero title="Krank- und Gesundmeldung + Urlaub" image="/images/content/wiki/generisch/fdbs_muster_grau.png" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Krank- und Gesundmeldung + Urlaub',
         description: 'Logistik, -',
         category: 'Logistik',
+        image: '/images/content/wiki/generisch/fdbs_muster_grau.png',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

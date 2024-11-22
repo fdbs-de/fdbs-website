@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Bestellzeiten/Liefertage Lieferanten" image="/storage/media/wiki/generisch/fdbs_muster_grau.png" />
+    <SectionHero title="Bestellzeiten/Liefertage Lieferanten" image="/images/content/wiki/generisch/fdbs_muster_grau.png" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Bestellzeiten/Liefertage Lieferanten',
         description: 'Fleisch, Fleisch, Liefertage, Bestellzeiten',
         category: 'Fleisch',
+        image: '/images/content/wiki/generisch/fdbs_muster_grau.png',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

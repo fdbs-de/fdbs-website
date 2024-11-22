@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Grafik-Standards" image="/storage/media/wiki/generisch/fdbs_muster_rot.png" />
+    <SectionHero title="Grafik-Standards" image="/images/content/wiki/generisch/fdbs_muster_rot.png" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Grafik-Standards',
         description: 'Marketing, -',
         category: 'Marketing',
+        image: '/images/content/wiki/generisch/fdbs_muster_rot.png',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

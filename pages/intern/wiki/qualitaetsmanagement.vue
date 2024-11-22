@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Qualitätsmanagement" image="/storage/media/wiki/generisch/fdbs_muster_rot.png" />
+    <SectionHero title="Qualitätsmanagement" image="/images/content/wiki/generisch/fdbs_muster_rot.png" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Qualitätsmanagement',
         description: 'Marketing, -',
         category: 'Marketing',
+        image: '/images/content/wiki/generisch/fdbs_muster_rot.png',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

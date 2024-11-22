@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Vorbestellartikel" image="/storage/media/wiki/generisch/streifen.jpg" />
+    <SectionHero title="Vorbestellartikel" image="/images/content/wiki/generisch/streifen.jpg" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Vorbestellartikel',
         description: 'Vertrieb, Vorbestellen, Vorbesteller, Bestellzeiten',
         category: 'Vertrieb',
+        image: '/images/content/wiki/generisch/streifen.jpg',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

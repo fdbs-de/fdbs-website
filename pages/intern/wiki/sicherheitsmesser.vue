@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Sicherheitsmesser" image="/storage/media/wiki/generisch/muster_3.jpg" />
+    <SectionHero title="Sicherheitsmesser" image="/images/content/wiki/generisch/muster_3.jpg" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Sicherheitsmesser',
         description: 'Lager, messer, sicherheitsmesser, cutter',
         category: 'Lager',
+        image: '/images/content/wiki/generisch/muster_3.jpg',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

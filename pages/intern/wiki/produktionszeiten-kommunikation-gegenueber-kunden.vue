@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Produktionszeiten - Kommunikation gegenüber Kunden" image="/storage/media/wiki/generisch/fdbs_muster_rot.png" />
+    <SectionHero title="Produktionszeiten - Kommunikation gegenüber Kunden" image="/images/content/wiki/generisch/fdbs_muster_rot.png" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Produktionszeiten - Kommunikation gegenüber Kunden',
         description: 'Marketing, Produktionszeiten, telefonische Bestellung, Kommunikation gegenüber Kunden',
         category: 'Marketing',
+        image: '/images/content/wiki/generisch/fdbs_muster_rot.png',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

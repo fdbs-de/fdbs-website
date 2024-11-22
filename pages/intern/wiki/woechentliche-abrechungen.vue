@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Workflow wöchentliche Abrechungen (Websiteaktualisierungen)" image="/storage/media/wiki/generisch/fdbs_muster_rot.png" />
+    <SectionHero title="Workflow wöchentliche Abrechungen (Websiteaktualisierungen)" image="/images/content/wiki/generisch/fdbs_muster_rot.png" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Workflow wöchentliche Abrechungen (Websiteaktualisierungen)',
         description: 'Marketing, Workflow, Abrechnung',
         category: 'Marketing',
+        image: '/images/content/wiki/generisch/fdbs_muster_rot.png',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

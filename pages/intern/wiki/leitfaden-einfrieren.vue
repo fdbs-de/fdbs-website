@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Leitfaden 'einfrieren'" image="/storage/media/wiki/generisch/streifen.jpg" />
+    <SectionHero title="Leitfaden einfrieren" image="/images/content/wiki/generisch/streifen.jpg" />
     <SectionText>
         <HeDivider />
         <span>
@@ -16,15 +16,16 @@
 
 <script lang="ts" setup>
     definePageMeta({
-        title: 'Leitfaden "einfrieren"',
+        title: 'Leitfaden einfrieren',
         description: 'Lager, einfrieren, Bizerba, Waage, Etiketten, auszeichnen, PLU, Tiefklühl, Frische',
         category: 'Lager',
+        image: '/images/content/wiki/generisch/streifen.jpg',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })
 
     useSeoMeta({
-        title: 'Leitfaden "einfrieren"',
+        title: 'Leitfaden einfrieren',
         description: 'Lager, einfrieren, Bizerba, Waage, Etiketten, auszeichnen, PLU, Tiefklühl, Frische',
     })
 </script>

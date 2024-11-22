@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Checkliste zum Hostingumzug" image="/storage/media/wiki/generisch/fdbs_muster_grau.png" />
+    <SectionHero title="Checkliste zum Hostingumzug" image="/images/content/wiki/generisch/fdbs_muster_grau.png" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Checkliste zum Hostingumzug',
         description: 'Entwicklung, -',
         category: 'Entwicklung',
+        image: '/images/content/wiki/generisch/fdbs_muster_grau.png',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

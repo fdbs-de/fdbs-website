@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Entsorgung von Abfällen" image="/storage/media/wiki/generisch/fdbs_muster_rot.png" />
+    <SectionHero title="Entsorgung von Abfällen" image="/images/content/wiki/generisch/fdbs_muster_rot.png" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Entsorgung von Abfällen',
         description: 'Lager, -',
         category: 'Lager',
+        image: '/images/content/wiki/generisch/fdbs_muster_rot.png',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

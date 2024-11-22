@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Workflow FDBS Projekte" image="/storage/media/wiki/generisch/fdbs_muster_grau.png" />
+    <SectionHero title="Workflow FDBS Projekte" image="/images/content/wiki/generisch/fdbs_muster_grau.png" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Workflow FDBS Projekte',
         description: 'Allgemeines, Workflow',
         category: 'Allgemeines',
+        image: '/images/content/wiki/generisch/fdbs_muster_grau.png',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

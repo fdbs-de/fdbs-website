@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Workflow neues Personal / Änderungen beim Personal" image="/storage/media/wiki/generisch/fdbs_muster_rot.png" />
+    <SectionHero title="Workflow neues Personal / Änderungen beim Personal" image="/images/content/wiki/generisch/fdbs_muster_rot.png" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Workflow neues Personal / Änderungen beim Personal',
         description: 'Marketing, Workflow',
         category: 'Marketing',
+        image: '/images/content/wiki/generisch/fdbs_muster_rot.png',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

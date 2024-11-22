@@ -50,6 +50,7 @@
             font-weight: 700
             padding: 4rem 1rem 1.5rem
             margin: 0
+            text-shadow: 0 0 2px #fff
             background: radial-gradient(transparent 1px, var(--color-background) 1px)
             background-size: 4px 4px
             backdrop-filter: blur(6px)

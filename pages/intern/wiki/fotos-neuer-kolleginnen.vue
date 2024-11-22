@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Fotos neuer Kolleg*innen" image="/storage/media/wiki/generisch/fdbs_muster_grau.png" />
+    <SectionHero title="Fotos neuer Kolleg*innen" image="/images/content/wiki/generisch/fdbs_muster_grau.png" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Fotos neuer Kolleg*innen',
         description: 'Allgemeines, -',
         category: 'Allgemeines',
+        image: '/images/content/wiki/generisch/fdbs_muster_grau.png',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

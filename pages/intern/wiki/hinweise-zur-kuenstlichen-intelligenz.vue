@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="KI – Hinweise zur künstlichen Intelligenz" image="/storage/media/wiki/generisch/fdbs_muster_rot.png" />
+    <SectionHero title="KI – Hinweise zur künstlichen Intelligenz" image="/images/content/wiki/generisch/fdbs_muster_rot.png" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'KI – Hinweise zur künstlichen Intelligenz',
         description: 'Marketing, AI, Workflow, Hinweise',
         category: 'Marketing',
+        image: '/images/content/wiki/generisch/fdbs_muster_rot.png',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

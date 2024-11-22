@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Anzahlungsrechnungen Maschinenverkäufe" image="/storage/media/wiki/generisch/fdbs_muster_rot.png" />
+    <SectionHero title="Anzahlungsrechnungen Maschinenverkäufe" image="/images/content/wiki/generisch/fdbs_muster_rot.png" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Anzahlungsrechnungen Maschinenverkäufe',
         description: 'Werkstatt, -',
         category: 'Werkstatt',
+        image: '/images/content/wiki/generisch/fdbs_muster_rot.png',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

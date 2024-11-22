@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Aufschläge für externe Produktionen" image="/storage/media/wiki/generisch/fdbs_muster_rot.png" />
+    <SectionHero title="Aufschläge für externe Produktionen" image="/images/content/wiki/generisch/fdbs_muster_rot.png" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Aufschläge für externe Produktionen',
         description: 'Marketing, externe Produktionen, Aufschläge',
         category: 'Marketing',
+        image: '/images/content/wiki/generisch/fdbs_muster_rot.png',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

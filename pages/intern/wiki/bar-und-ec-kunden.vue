@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Bar und EC Kunden" image="/storage/media/wiki/generisch/fdbs_muster_rot.png" />
+    <SectionHero title="Bar und EC Kunden" image="/images/content/wiki/generisch/fdbs_muster_rot.png" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Bar und EC Kunden',
         description: 'Vertrieb, -',
         category: 'Vertrieb',
+        image: '/images/content/wiki/generisch/fdbs_muster_rot.png',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

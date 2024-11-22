@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Schriftgrößen und Informationen auf Dosenbanderolen" image="/storage/media/wiki/generisch/fdbs_muster_rot.png" />
+    <SectionHero title="Schriftgrößen und Informationen auf Dosenbanderolen" image="/images/content/wiki/generisch/fdbs_muster_rot.png" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Schriftgrößen und Informationen auf Dosenbanderolen',
         description: 'Marketing, Schriftgrößen, Darstellung, Etiketten, Banderolen',
         category: 'Marketing',
+        image: '/images/content/wiki/generisch/fdbs_muster_rot.png',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

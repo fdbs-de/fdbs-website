@@ -47,7 +47,7 @@
                     <h3>Dienstrad</h3>
                     <p>Dienstfahrrad-Leasing für Firmen.</p>
                 </NuxtLink>
-                <NuxtLink class="icon-card" target="_blank" to="/intern/ci">
+                <NuxtLink class="icon-card" target="_self" to="/intern/ci">
                     <IodIcon icon="format_paint"/>
                     <h3>Corporate Identity</h3>
                     <p>Styleguides für die FDBS Marke.</p>

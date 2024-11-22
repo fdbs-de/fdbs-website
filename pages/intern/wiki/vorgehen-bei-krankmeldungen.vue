@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Basics – Vorgehen bei Krankmeldungen" image="/storage/media/wiki/generisch/fdbs_muster_rot.png" />
+    <SectionHero title="Basics – Vorgehen bei Krankmeldungen" image="/images/content/wiki/generisch/fdbs_muster_rot.png" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Basics – Vorgehen bei Krankmeldungen',
         description: 'Allgemeines, Basics, Krankmeldung',
         category: 'Allgemeines',
+        image: '/images/content/wiki/generisch/fdbs_muster_rot.png',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

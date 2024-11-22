@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Warenannahme & Rechungen Marketing" image="/storage/media/wiki/generisch/fdbs_muster_rot.png" />
+    <SectionHero title="Warenannahme & Rechungen Marketing" image="/images/content/wiki/generisch/fdbs_muster_rot.png" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Warenannahme & Rechungen Marketing',
         description: 'Marketing, Warenannahme, Rechnungen',
         category: 'Marketing',
+        image: '/images/content/wiki/generisch/fdbs_muster_rot.png',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

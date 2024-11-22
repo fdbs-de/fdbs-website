@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Ablauf Explosivstoffe" image="/storage/media/wiki/generisch/streifen.jpg" />
+    <SectionHero title="Ablauf Explosivstoffe" image="/images/content/wiki/generisch/streifen.jpg" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Ablauf Explosivstoffe',
         description: 'Vertrieb, Kundenbefragung, Befragung, Kunden, Feedback',
         category: 'Vertrieb',
+        image: '/images/content/wiki/generisch/streifen.jpg',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

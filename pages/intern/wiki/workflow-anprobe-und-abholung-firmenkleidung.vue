@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Workflow Anprobe und Abholung Firmenkleidung" image="/storage/media/wiki/generisch/fdbs_muster_grau.png" />
+    <SectionHero title="Workflow Anprobe und Abholung Firmenkleidung" image="/images/content/wiki/generisch/fdbs_muster_grau.png" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Workflow Anprobe und Abholung Firmenkleidung',
         description: 'Allgemeines, -',
         category: 'Allgemeines',
+        image: '/images/content/wiki/generisch/fdbs_muster_grau.png',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Angebotspflege ohne Kundennummer" image="/storage/media/wiki/generisch/fdbs_muster_rot.png" />
+    <SectionHero title="Angebotspflege ohne Kundennummer" image="/images/content/wiki/generisch/fdbs_muster_rot.png" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Angebotspflege ohne Kundennummer',
         description: 'Vertrieb, Angebot, Kundennummer, Akquise, Neukunde',
         category: 'Vertrieb',
+        image: '/images/content/wiki/generisch/fdbs_muster_rot.png',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

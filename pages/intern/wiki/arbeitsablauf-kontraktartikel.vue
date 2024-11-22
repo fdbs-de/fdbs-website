@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Arbeitsablauf Kontraktartikel" image="/storage/media/wiki/generisch/muster_2.jpg" />
+    <SectionHero title="Arbeitsablauf Kontraktartikel" image="/images/content/wiki/generisch/muster_2.jpg" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Arbeitsablauf Kontraktartikel',
         description: 'Vertrieb, Kontrakt',
         category: 'Vertrieb',
+        image: '/images/content/wiki/generisch/muster_2.jpg',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

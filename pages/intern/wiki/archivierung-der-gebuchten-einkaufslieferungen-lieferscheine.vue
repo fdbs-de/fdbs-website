@@ -19,6 +19,7 @@
         title: 'Archivierung der gebuchten Einkaufslieferungen (Lieferscheine)',
         description: 'Lager, Anleitung, Guide, Digitalisierung',
         category: 'Lager',
+        image: 'https://www.scan-profi.de/wp-content/uploads/2018/10/Scannen-B%C3%BCro-Privat.jpg',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

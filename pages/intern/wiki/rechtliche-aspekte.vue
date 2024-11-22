@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Rechtliche Aspekte" image="/storage/media/wiki/generisch/fdbs_muster_grau.png" />
+    <SectionHero title="Rechtliche Aspekte" image="/images/content/wiki/generisch/fdbs_muster_grau.png" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Rechtliche Aspekte',
         description: 'Entwicklung, -',
         category: 'Entwicklung',
+        image: '/images/content/wiki/generisch/fdbs_muster_grau.png',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

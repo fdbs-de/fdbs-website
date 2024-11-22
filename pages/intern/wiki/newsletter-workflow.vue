@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Workflow Newsletter" image="/storage/media/wiki/generisch/fdbs_muster_rot.png" />
+    <SectionHero title="Workflow Newsletter" image="/images/content/wiki/generisch/fdbs_muster_rot.png" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Workflow Newsletter',
         description: 'Marketing, Workflow, Newsletter',
         category: 'Marketing',
+        image: '/images/content/wiki/generisch/fdbs_muster_rot.png',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Berechnung Produktion für Handzettel und Etiketten" image="/storage/media/wiki/generisch/fdbs_muster_rot.png" />
+    <SectionHero title="Berechnung Produktion für Handzettel und Etiketten" image="/images/content/wiki/generisch/fdbs_muster_rot.png" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Berechnung Produktion für Handzettel und Etiketten',
         description: 'Marketing, Produktion, Handzettel, Etiketten',
         category: 'Marketing',
+        image: '/images/content/wiki/generisch/fdbs_muster_rot.png',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

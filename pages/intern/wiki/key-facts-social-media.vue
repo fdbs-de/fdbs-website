@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Key Facts Social Media" image="/storage/media/wiki/generisch/fdbs_muster_rot.png" />
+    <SectionHero title="Key Facts Social Media" image="/images/content/wiki/generisch/fdbs_muster_rot.png" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Key Facts Social Media',
         description: 'Marketing, -',
         category: 'Marketing',
+        image: '/images/content/wiki/generisch/fdbs_muster_rot.png',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })

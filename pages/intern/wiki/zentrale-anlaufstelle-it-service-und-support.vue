@@ -1,6 +1,6 @@
 
 <template>
-    <SectionHero title="Zentrale Anlaufstelle IT-Service und -Support" image="/storage/media/wiki/IT/ITS.jpg" />
+    <SectionHero title="Zentrale Anlaufstelle IT-Service und -Support" image="/images/content/wiki/IT/ITS.jpg" />
     <SectionText>
         <HeDivider />
         <span>
@@ -19,6 +19,7 @@
         title: 'Zentrale Anlaufstelle IT-Service und -Support',
         description: 'IT, Support',
         category: 'IT',
+        image: '/images/content/wiki/IT/ITS.jpg',
         middleware: ['auth', 'personal'],
         layout: 'auth',
     })
