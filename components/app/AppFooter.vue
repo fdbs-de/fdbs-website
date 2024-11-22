@@ -67,10 +67,6 @@
                 </div>
                 <div class="spacer"></div>
                 <div class="social-wrapper">
-                    <!-- <a href="https://job38.de/arbeitgeber/fdbs-69115" target="_blank" rel="opener" title="job38">job38</a> -->
-                    <a href="https://www.kleinanzeigen.de/pro/FDBS" target="_blank" rel="opener" title="Kleinanzeigen">
-                        <img src="/images/social-icons/icon_kleinanzeigen.svg" alt="Kleinanzeigen">
-                    </a>
                     <a href="https://www.instagram.com/fdbs_foodservice/" target="_blank" rel="opener" title="Instagram">
                         <img src="/images/social-icons/icon_instagram.svg" alt="Instagram">
                     </a>

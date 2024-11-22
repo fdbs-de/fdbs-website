@@ -12,7 +12,7 @@
                         Unser technischer Kundendienst für Ihre<br>
                         Gastro-Küchen, Maschinen und mehr.
                     </p>
-                    <IodButton is="a" label="Kontaktieren Sie uns" href="/produkte-und-services/technischer-kundendienst" color-preset="primary"/>
+                    <IodButton :is="NuxtLink" to="/technischer-kundendienst" size="l" corner="pill" label="Kontaktieren Sie uns" color-preset="primary"/>
                 </div>
                 <div class="plain image-plain">
                     <img src="/images/content/customerservice/collage.png" alt="">
@@ -21,6 +21,10 @@
         </HeLimiter>
     </section>
 </template>
+
+<script lang="ts" setup>
+    const NuxtLink = defineNuxtLink({})
+</script>
 
 <style lang="sass" scoped>
     .fdbs-kundendienst

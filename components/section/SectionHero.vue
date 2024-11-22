@@ -34,18 +34,26 @@
 
         .inner-wrapper
             display: flex
-            align-items: center
-            justify-content: center
+            align-items: flex-end
             height: 300px
-            padding: 0 1rem
-            background-color: var(--color-background-soft)
+            padding: 0
+            border: 2px solid var(--color-border)
+            background-color: var(--color-background)
             background-position: center
             background-repeat: no-repeat
             background-size: cover
+            overflow: hidden
 
         h1
+            width: 100%
             text-align: center
             font-weight: 700
+            padding: 4rem 1rem 1.5rem
+            margin: 0
+            background: radial-gradient(transparent 1px, var(--color-background) 1px)
+            background-size: 4px 4px
+            backdrop-filter: blur(6px)
+            mask: linear-gradient(to bottom, transparent 0rem, black 4rem)
 
     @media only screen and (max-width: 700px)
         #hero-section

@@ -3,15 +3,15 @@
         <HeLimiter>
             <h2>Unsere Marken</h2>
             <div class="grid">
-                <a class="flex-1" href="/produkte-und-services/marken/il-campese">
-                    <img src="/images/content/marken/il-campese/ilcampese_cover.png">
-                </a>
-                <a class="flex-1 highlight" href="/produkte-und-services/marken/eichenhof">
+                <NuxtLink class="flex-1" to="/marken/eichenhof">
                     <img src="/images/content/marken/eichenhof/eichenhof_cover.png">
-                </a>
-                <a class="flex-1" href="/produkte-und-services/marken/maxi-france">
+                </NuxtLink>
+                <NuxtLink class="flex-1 highlight" to="/marken/il-campese">
+                    <img src="/images/content/marken/il-campese/ilcampese_cover.png">
+                </NuxtLink>
+                <NuxtLink class="flex-1" to="/marken/maxi-france">
                     <img src="/images/content/marken/maxi-france/maxifrance_cover.png">
-                </a>
+                </NuxtLink>
             </div>
         </HeLimiter>
     </section>

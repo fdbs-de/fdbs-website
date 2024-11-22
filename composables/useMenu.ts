@@ -49,10 +49,12 @@ export const useMenu = (menu: 'main'|'legal'|'about'|'auth') => {
             let m = [{ id: '1000', label: "Übersicht", href: "/intern" }]
 
             if (auth.isAdmin() || auth.hasAnyRole(['Personal', 'Kunde']))   m.push({ id: '3000', label: "Angebote", href: "/intern/angebote" })
-            // if (auth.isAdmin() || auth.hasAnyRole(['Personal']))            m.push({ id: '4000', label: "Firmenwiki", href: "/intern/wiki" })
+            if (auth.isAdmin() || auth.hasAnyRole(['Personal']))            m.push({ id: '4000', label: "Firmenwiki", href: "/intern/wiki" })
             if (auth.isAdmin() || auth.hasAnyRole(['Personal']))            m.push({ id: '4000', label: "Dokumente", href: "/intern/dokumente" })
             if (auth.isAdmin() || auth.hasAnyRole(['Personal', 'Kunde']))   m.push({ id: '5000', label: "Spezifikationen", href: "/intern/spezifikationen" })
             if (auth.isAdmin() || auth.hasAdminPanelAccess())               m.push({ id: '6000', label: "Adminverwaltung", href: auth.adminPanelUrl() })
+
+            m.push({ id: '7000', label: "Profil", href: "/intern/profil" })
 
             return m
         })(),

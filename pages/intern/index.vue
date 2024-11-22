@@ -1,22 +1,6 @@
 <template>
     <SectionHero title="Ihr Dashboard" image="/images/content/banner/foodservice_365702048_356901877_454625888.webp" />
     <SectionText size="page">
-        <!-- <HeCarousel class="h-96 rounded-xl" overlay dots arrows infinite :interval="5000">
-            <template #1>
-                <div class="h-full p-6 bg-rose-600">
-                    <h2 class="m-0 text-rose-50">Ihre Übersicht</h2>
-                    <p class="m-0 text-rose-100">Wir haben die Übersicht für Sie angepasst.</p>
-                </div>
-            </template>
-            <template #2>
-                <div class="h-full p-6 bg-amber-500">
-                    <h2 class="m-0 text-amber-950">Ihre Übersicht</h2>
-                    <p class="m-0 text-amber-900">Wir haben die Übersicht für Sie angepasst.</p>
-                </div>
-            </template>
-        </HeCarousel> -->
-
-
         <h2>Relevantes für Sie</h2>
         <div class="grid">
             <NuxtLink class="icon-card highlight" target="_self" to="/intern/angebote" v-if="auth.isAdmin() || auth.hasAnyRole(['Personal', 'Kunde'])">
@@ -25,11 +9,11 @@
                 <p>Finden Sie unsere aktuellen Angebote ganz einfach zum Download.</p>
             </NuxtLink>
 
-            <!-- <NuxtLink class="icon-card" target="_self" to="/intern/wiki" v-if="auth.isAdmin() || auth.hasRole('Personal')">
+            <NuxtLink class="icon-card" target="_self" to="/intern/wiki" v-if="auth.isAdmin() || auth.hasRole('Personal')">
                 <IodIcon icon="local_library" />
                 <h3>Firmenwiki</h3>
                 <p>Hier finden Sie alle Informationen rund um den FDBS.</p>
-            </NuxtLink> -->
+            </NuxtLink>
 
             <NuxtLink class="icon-card" target="_self" to="/intern/dokumente" v-if="auth.isAdmin() || auth.hasRole('Personal')">
                 <IodIcon icon="download" />
@@ -63,7 +47,7 @@
                     <h3>Dienstrad</h3>
                     <p>Dienstfahrrad-Leasing für Firmen.</p>
                 </NuxtLink>
-                <NuxtLink class="icon-card" target="_blank" to="/ci">
+                <NuxtLink class="icon-card" target="_blank" to="/intern/ci">
                     <IodIcon icon="format_paint"/>
                     <h3>Corporate Identity</h3>
                     <p>Styleguides für die FDBS Marke.</p>
@@ -90,7 +74,7 @@
     })
 
     definePageMeta({
-        middleware: 'auth',
+        middleware: ['auth'],
         layout: 'auth',
     })
 
@@ -111,7 +95,7 @@
         padding: 1.5rem
         color: var(--color-text-soft)
         border-radius: var(--radius-l)
-        border: 1px solid var(--color-background-soft)
+        border: 2px solid var(--color-background-soft)
         text-align: center
         transition: all 100ms ease-in
 

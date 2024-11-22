@@ -1,5 +1,5 @@
 <template>
-    <AppHeader :menu :cta/>
+    <AppHeader :menu/>
     <main>
         <slot />
     </main>

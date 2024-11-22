@@ -12,7 +12,7 @@
     })
 
     definePageMeta({
-        middleware: 'auth',
+        middleware: ['auth', 'personal'],
         layout: 'auth',
     })
 </script>

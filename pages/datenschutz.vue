@@ -1,7 +1,7 @@
 <template>
     <SectionHero title="Datenschutzerklärung" image="/images/content/banner/rechtliches_437198485.webp" />
     <SectionText>
-        <span class="contents" v-html="auth.domain?.legal_privacy"></span>
+        <span class="contents"></span>
     </SectionText>
 </template>
 
@@ -10,8 +10,6 @@
         title: 'Datenschutzerklärung',
         description: '',
     })
-
-    const auth = useAuthStore()
 </script>
 
 <style lang="sass" scoped></style>

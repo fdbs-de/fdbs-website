@@ -14,14 +14,15 @@
                             <b>wir bringen Sie an die Spitze!</b>
                         </p>
                     </div>
-                    <IodButton is="a" label="Jetzt durchstarten" href="/mkbs"/>
+                    <IodButton :is="NuxtLink" to="/mkbs" size="l" corner="pill" label="Jetzt durchstarten"/>
                 </div>
             </div>
         </HeLimiter>
     </section>
 </template>
 
-<script setup>
+<script lang="ts" setup>
+    const NuxtLink = defineNuxtLink({})
 </script>
 
 <style lang="sass" scoped>

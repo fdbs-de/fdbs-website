@@ -7,14 +7,16 @@
                     <IodIcon :icon="card.icon" />
                     <h3>{{ card.title }}</h3>
                     <p>{{ card.text }}</p>
-                    <IodButton is="a" :label="card.button" :href="card.link" color-preset="primary"/>
+                    <IodButton :is="NuxtLink" :to="card.link" :label="card.button" size="l" corner="pill" color-preset="primary"/>
                 </div>
             </div>
         </HeLimiter>
     </section>
 </template>
 
-<script setup>
+<script lang="ts" setup>
+    const NuxtLink = defineNuxtLink({})
+
     const cards = ref([
         {
             highlight: true,
@@ -89,7 +91,7 @@
             gap: 2rem
             padding: 2rem
             border-radius: var(--radius-l)
-            border: 1px solid var(--color-background-soft)
+            border: 2px solid var(--color-background-soft)
             text-align: center
 
             &.highlight

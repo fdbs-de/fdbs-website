@@ -1,0 +1,32 @@
+
+<template>
+    <SectionHero title="Checkliste zum Onlineshop" image="/storage/media/wiki/generisch/fdbs_muster_grau.png" />
+    <SectionText>
+        <HeDivider />
+        <span>
+            Kategorie: <b>Entwicklung</b><br>
+            Tags: <b>-</b>
+        </span>
+        <HeDivider />
+        <div class="formatted-content">
+            <p>Ein Onlineshop ist eine hervorragende Möglichkeit, für unseren Kunden (Shopbetreiber) seine Produkte an ein breiteres Publikum zu verkaufen. Die Vorteile sind klar: <strong>es kann rund um die Uhr verkauft werden</strong>, <strong>es ist bequem für den Käufer</strong> und <strong>die Produkte können professionell präsentiert werden</strong>. Doch zu einem Onlienshop gehören auch einige Verpflichtungen und Aufwände.</p><p>Im Folgenden Abschnitt wir aufgezählt, welche Infos wir vom Shopbetreiber benötigen und welche Verpflichtungen der Shopbetreiber hat, um seinen Onlineshop rechtssicher zu betreiben.</p><h2>Eingriff und Zugangsart</h2><div class="table-wrapper"><table><tbody><tr><th colspan="1" rowspan="1" colwidth="349" style="width: 349px;"><p>Option</p></th><th colspan="1" rowspan="1" colwidth="353" style="width: 353px;"><p>Vorteile</p></th><th colspan="1" rowspan="1" colwidth="334" style="width: 334px;"><p>Nachteile</p></th></tr><tr><td colspan="1" rowspan="1" colwidth="349" style="width: 349px;"><p><strong>Email-Only</strong><br>Der Shopbetreiber bekommt lediglich eine Email mit den Bestelldetails</p></td><td colspan="1" rowspan="1" colwidth="353" style="width: 353px;"><ul><li><p>Es ist einfach für den Shopbetreiber sich einen Workflow zu erarbeiten, da er sich nicht mit der Shopsoftware auseinandersetzen muss</p></li></ul></td><td colspan="1" rowspan="1" colwidth="334" style="width: 334px;"><ul><li><p>Der Käufer bekommt kein Feedback über den Status seiner Bestellungen</p></li></ul></td></tr><tr><td colspan="1" rowspan="1" colwidth="349" style="width: 349px;"><p><strong>Shopzugang</strong><br>Der Shopbetreiber bekommt einen Zugang zum Shop. Damit kann er den Bestellstatus manuell bearbeiten</p></td><td colspan="1" rowspan="1" colwidth="353" style="width: 353px;"><ul><li><p>Der Käufer bekommt Feedback über den Status seiner Bestellungen</p></li><li><p>Der Shopbetreiber hat eine geordnete Übersicht über alle Bestellungen</p></li><li><p>Der Shopbetreiber kann im Falle einer Rückgabe diese in der Shopsoftware als solche markieren.</p></li><li><p>Der Shopbetreiber kann die technischen Möglichkeiten der Shopsoftware vollständig nutzen</p></li></ul></td><td colspan="1" rowspan="1" colwidth="334" style="width: 334px;"><ul><li><p>Der Shopbetreiber muss sich intensiv mit der Shopsoftware auseinandersetzen. Eine Einführung unsererseits ist u.U. angebracht.</p></li><li><p>Der Shopbetreiber hat Mehraufwand durch die manuelle Statusvergabe</p></li></ul></td></tr></tbody></table></div><h2>Produktinfos</h2><ul><li><p>Produktbezeichnung&nbsp;</p></li><li><p>Zutaten mit Auszeichnung der Allergene und Prozentangaben&nbsp;</p></li><li><p>Nährwertangaben&nbsp;/ Nährwerttabellen (mehr unter <strong>Nährwertangaben</strong>)</p></li><li><p>Preis mit Nettofüllmenge &amp; Basispreis&nbsp;</p></li><li><p>Bruttogewicht (inkl. Verpackung für die Versandkostenberechnung)&nbsp;</p></li><li><p>Ggf. Produktfoto (kann nach Absprache auch vom FDBS erstellt werden)&nbsp;</p></li><li><p>Anweisungen zur Aufbewahrung oder Verwendung&nbsp;</p></li><li><p>Bei Fleisch Ursprungsland und Herkunftsort&nbsp;</p></li><li><p>Bei Fertiggerichten eine Gebrauchsanleitung&nbsp;</p></li><li><p>Angaben zum Hersteller&nbsp;</p></li></ul><h2>Versandabwicklung</h2><ul><li><p>Welche Versanddienstleister&nbsp;</p></li><li><p>Welche Versandkostenstaffeln&nbsp;</p></li><li><p>Ab welchem Bestellwert gibt es kostenlosen Versand&nbsp;</p></li><li><p>In Welche Länder / Regionen wird versandt&nbsp;</p></li><li><p>Was wiegen Verpackung und Füllmaterial (für die Versandkostenberechnung)&nbsp;</p></li><li><p>Wie soll mit Reklamationen umgegangen werden&nbsp;</p></li></ul><h2>Bezahlung</h2><ul><li><p>Welche Bezahlmöglichkeiten soll es geben?&nbsp;<br>(z.B. PayPal, Vorkasse, Rechnung, usw.)</p></li></ul><h2>Rechtstexte und Consent Tools</h2><p>Auf Wunsch können wir für auch folgende rechtliche Notwendigkeiten erstellen und einbinden:</p><ul><li><p>AGBs für den Onlineshop (mit anwaltlicher Haftung)&nbsp;</p></li><li><p>Widerrufsbelehrung mit Widerrufsformular&nbsp;</p></li><li><p>Datenschutzerklärung (mit anwaltlicher Haftung)&nbsp;</p></li><li><p>Cookie Consent Tool</p></li></ul><h2>Nährwertangaben</h2><p>Die Nährwerte von Lebensmittel-Produkten sind für größere Shopbetreiber <strong>rechtlich verpflichtende</strong> Angaben. Nur wenige Shopbetreiber sind von dieser Pflicht befreit. Hierzu zählen:</p><ul><li><p>Kleinstunternehmer<br>(weniger als 10 Mitarbeiter <strong>UND</strong> weniger als 2 Mio.€ Jahresumsatz)</p></li><li><p>die ihre verkauften Produkte selber herstellen <strong>UND</strong></p></li><li><p>direkt an den Endverbraucher verkaufen (B2C)</p></li></ul><p>somit also Shopbetreiber welche Hersteller und Händler zugleich sind.</p><h2>Resourcen und Links</h2><ul><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.e-recht24.de/ecommerce/8060-recht-online-shop-abmahnsicher.html">https://www.e-recht24.de/ecommerce/8060-recht-online-shop-abmahnsicher.html</a></p></li><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.it-recht-kanzlei.de/Thema/lebensmittel.html">https://www.it-recht-kanzlei.de/Thema/lebensmittel.html</a></p></li><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.protectedshops.de/infothek/whitepaper/naehrwertkennzeichnung-neue-pflichten-fuer-haendler-ab-dem-13-12-2016">https://www.protectedshops.de/infothek/whitepaper/naehrwertkennzeichnung-neue-pflichten-fuer-haendler-ab-dem-13-12-2016</a></p></li></ul>
+        </div>
+    </SectionText>
+</template>
+
+<script lang="ts" setup>
+    definePageMeta({
+        title: 'Checkliste zum Onlineshop',
+        description: 'Entwicklung, -',
+        category: 'Entwicklung',
+        middleware: ['auth', 'personal'],
+        layout: 'auth',
+    })
+
+    useSeoMeta({
+        title: 'Checkliste zum Onlineshop',
+        description: 'Entwicklung, -',
+    })
+</script>
+
+<style lang="sass" scoped></style>

@@ -2,7 +2,7 @@
     <SectionHero title="Kontakt" image="/images/content/banner/kontakt_360006987.webp" />
     <SectionText>
         <div class="flex flex-wrap items-center gap-6">
-            <div class="p-6 min-w-72 flex-1 flex flex-col gap-4 bg-zinc-100 rounded-lg">
+            <div class="p-6 min-w-72 flex-1 flex flex-col gap-4 border-2 border-solid border-zinc-200 rounded-lg">
                 <h2 class="m-0">Anfahrt</h2>
                 <p class="m-0">
                     Christian-Pommer-Straße 31/33<br>
@@ -10,7 +10,7 @@
                     Deutschland
                 </p>
             </div>
-            <div class="p-6 min-w-72 flex-1 flex flex-col gap-4 bg-zinc-100 rounded-lg">
+            <div class="p-6 min-w-72 flex-1 flex flex-col gap-4 border-2 border-solid border-zinc-200 rounded-lg">
                 <h2 class="m-0">Kontakt</h2>
                 <p class="m-0">
                     Email: <NuxtLink to="mailto:info@fdbs.de"><b>info@fdbs.de</b></NuxtLink><br>
