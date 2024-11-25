@@ -1,5 +1,5 @@
 <template>
-    <SectionHero title="Dokumente" image="/images/content/banner/foodservice_365702048_356901877_454625888.webp" />
+    <SectionHero title="Unsere Angebote" image="/images/content/banner/foodservice_365702048_356901877_454625888.webp" />
     <SectionText size="page">
         <MediaExplorer root="domain/angebote/mp" />
     </SectionText>
@@ -7,7 +7,7 @@
 
 <script lang="ts" setup>
     useSeoMeta({
-        title: 'Dokumente',
+        title: 'Unsere Angebote',
         description: '',
     })
 
