@@ -666,7 +666,7 @@
         .box-wrapper
             width: 100%
             height: 100%
-            overflow: auto
+            overflow: hidden
             position: relative
             border-radius: inherit
             display: flex
