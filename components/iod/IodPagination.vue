@@ -39,7 +39,7 @@
         gap: .25rem
         padding: .25rem
         height: 2.5rem
-        border-radius: var(--radius-m)
+        border-radius: 5rem
         background: var(--color-background-soft)
         overflow: hidden
         user-select: none

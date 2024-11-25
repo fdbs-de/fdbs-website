@@ -1,35 +1,36 @@
 <template>
     <div class="explorer">
-        <div class="header py-4">
-            <IodInput class="!h-10 w-72" placeholder="Suchen" clearable v-model="search"/>
-            <HeSpacer />
-            <IodButtonGroup class="bg-zinc-100">
-                <IodIconButton type="button" icon="grid_view" background="var(--color-text-soft)" :variant="layout === 'grid' ? 'contained' : 'text'" @click="layout = 'grid'"/>
-                <IodIconButton type="button" icon="view_list" background="var(--color-text-soft)" :variant="layout === 'list' ? 'contained' : 'text'" @click="layout = 'list'"/>
-            </IodButtonGroup>
-        </div>
-        
-        <div class="header py-2">
-            <IodIconButton type="button" variant="text" corner="pill" icon="refresh" @click="fetch" v-tooltip="'Aktualisieren'"/>
-            <MediaBreadcrumbs :path="(path as string)" @navigate="openDirectory($event)"/>
-            <HeSpacer />
+        <div class="header">
+            <MediaBreadcrumbs class="p-1 gap-1 rounded-full bg-background-soft w-full md:w-auto" :path="(path as string)" @navigate="openDirectory($event)"/>
+            <HeSpacer class="hidden md:block" />
+            <IodInput class="!h-10 !rounded-full w-full md:w-auto" placeholder="Suchen" clearable v-model="search">
+                <template #right>
+                    <IodIconButton type="button" class="!w-12" icon="refresh" size="s" corner="pill" variant="text" @click="fetch" v-tooltip="'Aktualisieren'"/>
+                </template>
+            </IodInput>
+
             <IodLoader type="bar" v-show="loading"/>
         </div>
+        
 
         <div class="main small-scrollbar">
-            <div class="grid" v-if="items.length && layout === 'grid'">
+            <div class="grid gap-2 p-2 md:gap-4 md:p-4" v-if="items.length && layout === 'grid'">
                 <MediaItem v-for="item in items" :item="item" @click="navigateOrDownload(item)" />
             </div>
 
             <div class="list" v-if="items.length && layout === 'list'">
-                <MediaRow is="button" v-for="item in items" :item="item" @click="navigateOrDownload(item)" />
+                <MediaRow v-for="item in items" :item="item" @click="navigateOrDownload(item)" />
+            </div>
+
+            <div class="flex items-center justify-center h-40 select-none" v-if="!items.length">
+                <span>Keine Dateien gefunden</span>
             </div>
         </div>
 
         <div class="footer">
-            <IodPagination v-model="pagination"/>
-            <HeSpacer />
-            <IodSelect class="!h-10" v-tooltip="'Einträge pro Seite'" :modelValue="pagination.size" @update:modelValue="setPagination({ size: parseInt($event) })" :options="[
+            <IodPagination v-model="pagination" class="w-full md:w-auto" />
+            <HeSpacer class="hidden md:block" />
+            <IodSelect class="w-full md:w-auto !h-10 !rounded-full" v-tooltip="'Einträge pro Seite'" :modelValue="pagination.size" @update:modelValue="setPagination({ size: parseInt($event) })" :options="[
                 { value: 10, text: '10 pro Seite' },
                 { value: 20, text: '20 pro Seite' },
                 { value: 50, text: '50 pro Seite' },
@@ -37,6 +38,10 @@
                 { value: 250, text: '250 pro Seite' },
                 { value: 100000000, text: 'Alle' },
             ]"/>
+            <div class="flex items-center p-1 gap-1 rounded-full bg-background-soft">
+                <IodIconButton type="button" class="!w-12" icon="grid_on" size="s" corner="pill" :variant="layout === 'grid' ? 'contained' : 'text'" @click="layout = 'grid'" v-tooltip="'Gridansicht'" />
+                <IodIconButton type="button" class="!w-12" icon="view_headline" size="s" corner="pill" :variant="layout === 'list' ? 'contained' : 'text'" @click="layout = 'list'" v-tooltip="'Listenansicht'" />
+            </div>
         </div>
     </div>
 </template>
@@ -153,11 +158,15 @@
         border: 1px solid var(--color-background-soft)
         border-radius: var(--radius-l)
 
+        .bg-background-soft
+            background: var(--color-background-soft)
+
         .header
             display: flex
+            flex-wrap: wrap
             align-items: center
-            padding-inline: 1rem
-            gap: .5rem
+            gap: 1rem
+            padding: 1rem
             border-bottom: 1px solid var(--color-background-soft)
             position: relative
 
@@ -169,26 +178,19 @@
                 height: 2px !important
 
         .main
-            background: var(--color-background-soft)
-            min-height: 10rem
-
             .grid
                 display: grid
-                grid-template-columns: repeat(auto-fill, minmax(170px, 1fr))
-                gap: 1rem
-                padding: 1rem
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr))
 
             .list
-                padding: 1rem .25rem
-                gap: .25rem
                 display: flex
                 flex-direction: column
 
         .footer
             display: flex
+            flex-wrap: wrap
             align-items: center
-            padding-inline: 1rem
             gap: 1rem
-            height: 4.5rem
+            padding: 1rem
             border-top: 1px solid var(--color-background-soft)
 </style>
