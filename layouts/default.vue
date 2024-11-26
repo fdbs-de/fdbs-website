@@ -15,7 +15,7 @@
     })
 
     const menu = useMenu('main')
-    const cta = ref({ label: 'Loginbereich', href: '/intern/login' })
+    const cta = ref({ label: 'Loginbereich', href: '/login' })
 </script>
 
 <style lang="sass" scoped></style>
