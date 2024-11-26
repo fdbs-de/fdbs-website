@@ -1,7 +1,7 @@
 <template>
     <div class="explorer">
         <div class="header">
-            <MediaBreadcrumbs class="p-1 gap-1 rounded-full bg-background-soft w-full md:w-auto" :path="(path as string)" @navigate="openDirectory($event)"/>
+            <MediaBreadcrumbs class="p-1 gap-1 rounded-full bg-background-soft w-full md:w-auto" :path="(path as string)" @navigate="navigate($event)"/>
             <HeSpacer class="hidden md:block" />
             <IodInput class="!h-10 !rounded-full w-full md:w-auto" placeholder="Suchen" clearable v-model="search">
                 <template #right>
@@ -15,11 +15,11 @@
 
         <div class="main small-scrollbar">
             <div class="grid gap-2 p-2 md:gap-4 md:p-4" v-if="items.length && layout === 'grid'">
-                <MediaItem v-for="item in items" :item="item" @click="navigateOrDownload(item)" />
+                <MediaItem v-for="item in items" :item="item" @navigate="navigate(item.src_path)" />
             </div>
 
             <div class="list" v-if="items.length && layout === 'list'">
-                <MediaRow v-for="item in items" :item="item" @click="navigateOrDownload(item)" />
+                <MediaRow v-for="item in items" :item="item" @navigate="navigate(item.src_path)" />
             </div>
 
             <div class="flex items-center justify-center h-40 select-none" v-if="!items.length">
@@ -78,7 +78,7 @@
     const route = useRoute()
     const loading = ref(false)
     const path = ref(route.query?.path || props.root)
-    const items = ref([])
+    const items = ref<MediaItem[]>([])
     
     const layout = ref(props.layout)
     const search = ref('')
@@ -125,15 +125,7 @@
 
 
 
-    function navigateOrDownload(item: MediaItem) {
-        item.mime_type === 'directory' ? openDirectory(item.src_path as string) : downloadFile(item.cdn_path as string)
-    }
-
-    function downloadFile(p: string) {
-        window.open(p, '_blank')
-    }
-
-    function openDirectory(p: string) {
+    function navigate(p: string) {
         // Early return if above root
         if (!p.startsWith(props.root)) return
 
@@ -149,7 +141,7 @@
 
 
 
-    useRouter().beforeEach((to) => openDirectory(to.query.path as string || props.root))
+    useRouter().beforeEach((to) => navigate(to.query.path as string || props.root))
     watch(() => [path, search, pagination.value.size, pagination.value.page], throttledFetch, { deep: true })
 </script>
 

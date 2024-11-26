@@ -1,5 +1,14 @@
 <template>
-    <button type="button" class="media-item" :class="classes">
+    <component
+        download
+        type="button"
+        target="_blank"
+        class="media-item"
+        :is="isDirectory ? 'button' : 'a'"
+        :href="item.cdn_path"
+        :class="{'disabled': disabled}"
+        @click="isDirectory ? emit('navigate') : null"
+    >
         <div class="media-preview">
             <img class="media-thumbnail bg-zinc-800" v-if="item.thumbnail" :src="item.thumbnail" :alt="item.name">
             <div class="media-icon-wrapper" v-else>
@@ -9,13 +18,11 @@
         <div class="media-info">
             <span class="title" v-tooltip="tooltip" href="#">{{ item.name }}</span>
         </div>
-    </button>
+    </component>
 </template>
 
 <script lang="ts" setup>
     import type { MediaItem } from '~/types/media'
-
-
 
     const props = defineProps({
         item: {
@@ -29,19 +36,9 @@
     })
 
     const isDirectory = computed(() => props.item.mime_type === 'directory')
+    const tooltip = computed(() => props.item.name + (isDirectory.value ? '' : ' - ' + humanFileSize(props.item.meta.size as number)))
 
-    const classes = computed(() => {
-        return [
-            isDirectory.value ? 'is-directory' : 'is-file',
-            {
-                'disabled': props.disabled,
-            },
-        ]
-    })
-
-    const tooltip = computed(() => {
-        return props.item.name + (isDirectory.value ? '' : ' - ' + humanFileSize(props.item.meta.size as number))
-    })
+    const emit = defineEmits(['navigate'])
 </script>
 
 <style lang="sass" scoped>

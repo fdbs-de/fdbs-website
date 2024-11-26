@@ -1,5 +1,14 @@
 <template>
-    <button type="button" class="media-row" :class="classes" >
+    <component
+        download
+        type="button"
+        target="_blank"
+        class="media-row"
+        :is="isDirectory ? 'button' : 'a'"
+        :href="item.cdn_path"
+        :class="{'disabled': disabled}"
+        @click="isDirectory ? emit('navigate') : null"
+    >
         <div class="media-preview">
             <img class="media-thumbnail bg-zinc-800" v-if="item.thumbnail" :src="item.thumbnail" :alt="item.name">
             <div class="media-icon-wrapper" v-else>
@@ -7,7 +16,7 @@
             </div>
         </div>
         <span class="title" v-tooltip="tooltip">{{ item.name }}</span>
-    </button>
+    </component>
 </template>
 
 <script lang="ts" setup>
@@ -25,19 +34,9 @@
     })
 
     const isDirectory = computed(() => props.item.mime_type === 'directory')
+    const tooltip = computed(() => props.item.name + (isDirectory.value ? '' : ' - ' + humanFileSize(props.item.meta.size as number)))
 
-    const classes = computed(() => {
-        return [
-            isDirectory.value ? 'is-directory' : 'is-file',
-            {
-                'disabled': props.disabled,
-            },
-        ]
-    })
-
-    const tooltip = computed(() => {
-        return props.item.name + (isDirectory.value ? '' : ' - ' + humanFileSize(props.item.meta.size as number))
-    })
+    const emit = defineEmits(['navigate'])
 </script>
 
 <style lang="sass" scoped>
