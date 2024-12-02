@@ -2,6 +2,10 @@
 <template>
     <SectionHero title="Lagermitarbeiter Spätschicht" image="/images/content/banner/karriere_513169496_482949832.webp" />
     <SectionText>
+        <p class="flex flex-col pb-12">
+            <IodButton :is="NuxtLink" corner="l" size="l" background="#003A9B" icon-left="open_in_new" label="Schnellbewerbung auf Indeed" to="https://de.indeed.com/viewjob?jk=3e0b65dc60a1e340" target="_blank"/>
+        </p>
+        <HeDivider />
         <span>
             Anstellungsart: <b>Vollzeit</b><br>
             Tags: <b>Logistik, Spätschicht, Lager</b>
@@ -14,6 +18,8 @@
 </template>
 
 <script lang="ts" setup>
+    const NuxtLink = defineNuxtLink({})
+
     definePageMeta({
         title: 'Lagermitarbeiter Spätschicht',
         description: 'Vollzeit, Logistik, Spätschicht, Lager',
