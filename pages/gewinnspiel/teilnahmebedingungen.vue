@@ -83,6 +83,7 @@
         <h4>3) Ihre Betroffenenrechte</h4>
         <p> Das geltende Datenschutzrecht räumt Ihnen bei Vorliegen der jeweiligen gesetzlichen
             Voraussetzungen die nachstehend aufgeführten Betroffenenrechte ein:
+        </p>
         <ul class="list-disc pl-6">
             <li>Auskunftsrecht gemäß Art. 15 DSGVO</li>
             <li>Recht auf Berichtigung gemäß Art. 16 DSGVO</li>
@@ -93,7 +94,6 @@
             <li>Recht auf Widerruf erteilter Einwilligungen gemäß Art. 7 Abs. 3 DSGVO</li>
             <li>Recht auf Beschwerde bei der zuständigen Aufsichtsbehörde gemäß Art. 77 DSGVO</li>
         </ul>
-        </p>
         <p><b>Viel Glück und Erfolg wünscht das Team vom FDBS</b></p>
     </SectionText>
 </template>
