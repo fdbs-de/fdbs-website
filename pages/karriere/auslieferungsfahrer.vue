@@ -81,7 +81,7 @@
             </p>
             <p>
                 Für weitere Rückfragen steht Dir <strong>Jessica Ackermann</strong> telefonisch
-                unter <a target="_self" rel="noopener noreferrer nofollow" href="tel:05312105560">0531 - 210 55-100</a>
+                unter <a target="_self" rel="noopener noreferrer nofollow" href="tel:053121055100">0531 - 210 55-100</a>
                 zur Verfügung.
             </p>
         </div>
