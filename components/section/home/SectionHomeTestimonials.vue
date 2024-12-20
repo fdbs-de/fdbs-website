@@ -51,17 +51,6 @@
             },
         },
         {
-            id: 2,
-            type: 'Mitarbeiter',
-            text: 'Eine Philosophie, die gelebt wird: So kann man den FDBS am besten beschreiben. Ständiges Hinterfragen und Optimieren der logistischen Prozesse macht uns stark. Das aktive Gestalten meines Arbeitsbereiches bereitet mir viel Freude und von einer offenen und ehrlichen Feedbackkultur profitiere ich in meinem Bereich ungemein. Es macht einfach Spaß, sich für den FDBS und seine Ziele einzusetzen.',
-            author: {
-                image: '/images/content/testimonials/weniger.png',
-                name: 'Tobias Weniger',
-                company: 'FDBS',
-                link: 'https://fdbs.de',
-            },
-        },
-        {
             id: 3,
             type: 'Partner',
             text: 'Der FDBS ist für uns als R&S Vertriebs GmbH seit weit über 30 Jahren ein wichtiger Handelspartner. Die Zusammenarbeit ist stets unbürokratisch und Entscheidungen für ein Produkt werden schnell, zuverlässig und kurzfristig getroffen. Der FDBS unterstützt uns auch kreativ, indem sie unsere Werbemittel auf ihren eigenen Webseiten und in Handzetteln veröffentlicht und Vorschläge zu neuen Gestaltungen macht. Für uns ist die FDBS ein wichtiger und kompetenter Großhändler und Partner, mit viel Know-How und einem tollen Team!',
