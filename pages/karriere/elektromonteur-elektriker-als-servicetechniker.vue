@@ -1,10 +1,10 @@
 <template>
-    <SectionHero title="Vertriebsmitarbeiter für Gastronomie & Hotellerie im Außendienst (Großraum Hannover)"
+    <SectionHero title="Elektromonteur / Elektriker als Servicetechniker"
         image="/images/content/banner/karriere_513169496_482949832.webp" />
     <SectionText>
         <span>
             Anstellungsart: <b>Vollzeit</b><br>
-            Tags: <b>Vertrieb, Außendienst</b>
+            Tags: <b>Werkstatt & Kundendienst, Industrie</b>
         </span>
         <HeDivider />
         <div class="formatted-content">
@@ -21,74 +21,64 @@
                 in Kundendienst, Werkstatt und Marketing, der den Anforderungen unserer Kunden entspricht.</p>
             <p style="text-align: start">Du hast Interesse an der Food Branche, suchst Abwechslung und bist bereit
                 Verantwortung zu übernehmen? Dann bist Du bei uns genau richtig!</p>
-            <p>Zur Verstärkung unseres Verkaufsteams suchen wir jeweils für den <strong>Großraum Hannover</strong> zum
-                <strong>01.01.2025</strong> einen</p>
-            <h3><strong><span style="color: var(--color-primary)">Vertriebsmitarbeiter für Gastronomie &amp; Hotellerie
-                        im Außendienst (m/w/d)</span></strong></h3>
+            <p>Zur Verstärkung unseres Verkaufsteams suchen wir zum
+                <strong>nächstmöglichen Zeitpunkt</strong> einen
+            </p>
+            <h3><strong><span style="color: var(--color-primary)">Elektromonteur / Elektriker als Servicetechniker
+                        (m/w/d)</span></strong></h3>
             <p><strong>Zu Deinen Aufgaben zählt:</strong></p>
             <ul>
                 <li>
-                    <p>Akquisition von Neukunden; primär in den Bereichen Hotellerie, Gastronomie, Großküchen und
-                        Gemeinschaftsverpflegung</p>
+                    <p>Fehlerdiagnose, Reparatur und Wartung von Fleischereimaschinen, Gewerbespülmaschinen und
+                        thermischen Küchengeräten in der Gastronomie und der Gemeinschafts- und Schulverpflegung</p>
                 </li>
                 <li>
-                    <p>Betreuung von Bestandskunden</p>
+                    <p>Installation und Montage von Neugeräten</p>
                 </li>
                 <li>
-                    <p>Produktvorstellung und Sortimentspflege</p>
-                </li>
-                <li>
-                    <p>Angebotserstellung und Auftragserfassung</p>
-                </li>
-                <li>
-                    <p>Optimierung von Verkaufsstrategien</p>
-                </li>
-                <li>
-                    <p>Reporting gegenüber der Vertriebsleitung</p>
+                    <p>Geräteprüfungen nach DGUV-V3</p>
                 </li>
             </ul>
             <p><strong>Das solltest Du mitbringen:</strong></p>
             <ul>
                 <li>
-                    <p>abgeschlossene Ausbildung im kaufmännischen Bereich, im Lebensmittelhandwerk und/ oder in der
-                        Gastronomie</p>
+                    <p>erfolgreich abgeschlossene Ausbildung in einem elektrotechnischen Beruf</p>
                 </li>
                 <li>
-                    <p>Kenntnisse über die Ansprüche und Bedürfnisse der Kunden in der Lebensmittelbranche</p>
+                    <p>mehrjährige Berufserfahrung wünschenswert, aber nicht Bedingung</p>
                 </li>
                 <li>
-                    <p>Kommunikationsfähigkeit, sicheres Auftreten und Verhandlungsgeschick</p>
+                    <p>Zuverlässigkeit, Teamfähigkeit, freundliches und kundenorientiertes Auftreten</p>
                 </li>
                 <li>
-                    <p>eigenständiges Arbeiten, Organisationsvermögen und Flexibilität</p>
+                    <p>Selbstorganisation, Eigeninitiative und Mobilität</p>
                 </li>
                 <li>
-                    <p>sicherer Umgang mit Warenwirtschaftssystemen und den gängigen MS-Office Anwendungen (Excel, Word)
-                    </p>
+                    <p>Grundkenntnisse in MS-Office Anwendungen</p>
+                </li>
+                <li>
+                    <p>Führerschein Klasse B, vorteilhaft auch Klasse BE</p>
                 </li>
             </ul>
             <p><strong>Wir bieten Dir:</strong></p>
             <ul>
                 <li>
-                    <p>abwechslungsreiches und verantwortungsvolles Aufgabengebiet</p>
-                </li>
-                <li>
-                    <p>attraktive Vergütung</p>
+                    <p>attraktive Vergütung zzgl. Sonderzahlungen</p>
                 </li>
                 <li>
                     <p>30 Tage Jahresurlaub</p>
                 </li>
                 <li>
-                    <p>Dienstwagen (auch zur privaten Nutzung)</p>
-                </li>
-                <li>
                     <p>Dienstfahrrad-Leasing</p>
                 </li>
                 <li>
-                    <p>langfristige Zusammenarbeit</p>
+                    <p>umfangreiche Fortbildungsmöglichkeiten mit Kostenübernahme</p>
                 </li>
                 <li>
-                    <p>umfangreiche Fortbildungsmöglichkeiten mit Kostenübernahme</p>
+                    <p>ein abwechslungsreiches und verantwortungsvolles Aufgabengebiet</p>
+                </li>
+                <li>
+                    <p>Gestellung von hochwertiger Arbeitsbekleidung, Werkzeug und modernen Service-Fahrzeugen</p>
                 </li>
                 <li>
                     <p>Viele weitere Mitarbeitervorteile (z. B. betriebliche Altersvorsorge, Rabatte auf unsere
@@ -108,13 +98,13 @@
 
 <script lang="ts" setup>
 definePageMeta({
-    title: 'Vertriebsmitarbeiter für Gastronomie & Hotellerie im Außendienst (Großraum Hannover)',
-    description: 'Vollzeit, Vertrieb, Außendienst',
+    title: 'Elektromonteur / Elektriker als Servicetechniker',
+    description: 'Vollzeit, Werkstatt & Kundendienst, Industrie',
 })
 
 useSeoMeta({
-    title: 'Vertriebsmitarbeiter für Gastronomie & Hotellerie im Außendienst (Großraum Hannover)',
-    description: 'Vollzeit, Vertrieb, Außendienst',
+    title: 'Elektromonteur / Elektriker als Servicetechniker',
+    description: 'Vollzeit, Werkstatt & Kundendienst, Industrie',
 })
 </script>
 

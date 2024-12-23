@@ -1,10 +1,9 @@
 <template>
-    <SectionHero title="Vertriebsmitarbeiter für Gastronomie & Hotellerie im Außendienst (Großraum Hannover)"
-        image="/images/content/banner/karriere_513169496_482949832.webp" />
+    <SectionHero title="Speditionskaufmann" image="/images/content/banner/karriere_513169496_482949832.webp" />
     <SectionText>
         <span>
             Anstellungsart: <b>Vollzeit</b><br>
-            Tags: <b>Vertrieb, Außendienst</b>
+            Tags: <b>Fuhrpark, Logistik</b>
         </span>
         <HeDivider />
         <div class="formatted-content">
@@ -21,74 +20,91 @@
                 in Kundendienst, Werkstatt und Marketing, der den Anforderungen unserer Kunden entspricht.</p>
             <p style="text-align: start">Du hast Interesse an der Food Branche, suchst Abwechslung und bist bereit
                 Verantwortung zu übernehmen? Dann bist Du bei uns genau richtig!</p>
-            <p>Zur Verstärkung unseres Verkaufsteams suchen wir jeweils für den <strong>Großraum Hannover</strong> zum
-                <strong>01.01.2025</strong> einen</p>
-            <h3><strong><span style="color: var(--color-primary)">Vertriebsmitarbeiter für Gastronomie &amp; Hotellerie
-                        im Außendienst (m/w/d)</span></strong></h3>
+            <p>Zur Verstärkung unseres Verkaufsteams suchen wir zum
+                <strong>nächstmöglichen Zeitpunkt</strong> einen
+            </p>
+            <h3><strong><span style="color: var(--color-primary)">Speditionskaufmann
+                        (m/w/d)</span></strong></h3>
             <p><strong>Zu Deinen Aufgaben zählt:</strong></p>
             <ul>
                 <li>
-                    <p>Akquisition von Neukunden; primär in den Bereichen Hotellerie, Gastronomie, Großküchen und
-                        Gemeinschaftsverpflegung</p>
+                    <p>Unterstützung der Fuhrparkleitung bei allen administrativen Aufgaben</p>
                 </li>
                 <li>
-                    <p>Betreuung von Bestandskunden</p>
+                    <p>selbstständige und umfassende Touren- und Einsatzplanung der Berufskraftfahrer unter
+                        Berücksichtigung von aktuellen Kundenanforderungen</p>
                 </li>
                 <li>
-                    <p>Produktvorstellung und Sortimentspflege</p>
+                    <p>Sicherstellung der termingerechten Warenauslieferung</p>
                 </li>
                 <li>
-                    <p>Angebotserstellung und Auftragserfassung</p>
+                    <p>Optimierung der Tourenplanung zur optimalen Auslastung des Fuhrparks und Vermeidung von
+                        Nachlieferungen</p>
                 </li>
                 <li>
-                    <p>Optimierung von Verkaufsstrategien</p>
+                    <p>Sicherstellung der Einhaltung aller bestehenden Gesetze und Vorschriften bezüglich der Lenk- und
+                        Arbeitszeiten</p>
                 </li>
                 <li>
-                    <p>Reporting gegenüber der Vertriebsleitung</p>
+                    <p>Durchführung und Dokumentation stichpunktartiger Abfahrts-, Reinigungs- und Fahrzeugkontrollen
+                    </p>
+                </li>
+                <li>
+                    <p>Abteilungsübergreifende Kommunikation zur Sicherstellung termingerechter Auslieferung und
+                        Bearbeitung von Klärungsfällen</p>
+                </li>
+                <li>
+                    <p>Pflege von Stammdaten in unseren Softwaresystemen</p>
+                </li>
+                <li>
+                    <p>Leergutverwaltung: Überwachung, Organisation und Dokumentation Leergut, einschließlich
+                        Bestandsmanagement und Kommunikation mit Kunden</p>
                 </li>
             </ul>
             <p><strong>Das solltest Du mitbringen:</strong></p>
             <ul>
                 <li>
-                    <p>abgeschlossene Ausbildung im kaufmännischen Bereich, im Lebensmittelhandwerk und/ oder in der
-                        Gastronomie</p>
+                    <p>abgeschlossene Ausbildung zum Kaufmann für Spedition und Logistikdienstleistungen oder eine
+                        vergleichbare Ausbildung im logistischen Bereich</p>
                 </li>
                 <li>
-                    <p>Kenntnisse über die Ansprüche und Bedürfnisse der Kunden in der Lebensmittelbranche</p>
+                    <p>Berufserfahrung in der Tourendisposition wünschenswert</p>
                 </li>
                 <li>
-                    <p>Kommunikationsfähigkeit, sicheres Auftreten und Verhandlungsgeschick</p>
+                    <p>eigenständiges Arbeiten sowie Organisationsvermögen</p>
                 </li>
                 <li>
-                    <p>eigenständiges Arbeiten, Organisationsvermögen und Flexibilität</p>
+                    <p>ein hohes Maß an Selbstorganisation und Flexibilität</p>
                 </li>
                 <li>
-                    <p>sicherer Umgang mit Warenwirtschaftssystemen und den gängigen MS-Office Anwendungen (Excel, Word)
-                    </p>
+                    <p>technisches Verständnis</p>
+                </li>
+                <li>
+                    <p>Gute Ortskenntnisse in Braunschweig und 250km im Umkreis</p>
+                </li>
+                <li>
+                    <p>ausgeprägte Kommunikationsfähigkeiten und ein starker Teamgedanke</p>
+                </li>
+                <li>
+                    <p>ein sicherer Umgang mit MS Office</p>
                 </li>
             </ul>
             <p><strong>Wir bieten Dir:</strong></p>
             <ul>
                 <li>
-                    <p>abwechslungsreiches und verantwortungsvolles Aufgabengebiet</p>
-                </li>
-                <li>
-                    <p>attraktive Vergütung</p>
+                    <p>attraktive Vergütung zzgl. Sonderzahlungen</p>
                 </li>
                 <li>
                     <p>30 Tage Jahresurlaub</p>
                 </li>
                 <li>
-                    <p>Dienstwagen (auch zur privaten Nutzung)</p>
-                </li>
-                <li>
                     <p>Dienstfahrrad-Leasing</p>
                 </li>
                 <li>
-                    <p>langfristige Zusammenarbeit</p>
+                    <p>umfangreiche Fortbildungsmöglichkeiten mit Kostenübernahme</p>
                 </li>
                 <li>
-                    <p>umfangreiche Fortbildungsmöglichkeiten mit Kostenübernahme</p>
+                    <p>ein abwechslungsreiches und verantwortungsvolles Aufgabengebiet</p>
                 </li>
                 <li>
                     <p>Viele weitere Mitarbeitervorteile (z. B. betriebliche Altersvorsorge, Rabatte auf unsere
@@ -108,13 +124,13 @@
 
 <script lang="ts" setup>
 definePageMeta({
-    title: 'Vertriebsmitarbeiter für Gastronomie & Hotellerie im Außendienst (Großraum Hannover)',
-    description: 'Vollzeit, Vertrieb, Außendienst',
+    title: 'Speditionskaufmann',
+    description: 'Vollzeit, Fuhrpark, Logistik',
 })
 
 useSeoMeta({
-    title: 'Vertriebsmitarbeiter für Gastronomie & Hotellerie im Außendienst (Großraum Hannover)',
-    description: 'Vollzeit, Vertrieb, Außendienst',
+    title: 'Speditionskaufmann',
+    description: 'Vollzeit, Fuhrpark, Logistik',
 })
 </script>
 
