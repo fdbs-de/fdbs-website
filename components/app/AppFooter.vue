@@ -56,6 +56,7 @@
                 <h3 class="headline primary">Rechtliches</h3>
                 <nav class="navigation">
                     <NuxtLink class="link" v-for="item in legalMenu" :key="item.id" :to="item.href">{{item.label}}</NuxtLink>
+                    <a class="link" href="#" @click.prevent="cookieBanner.open()">Cookie Einstellungen</a>
                 </nav>
             </div>
         </HeLimiter>
@@ -89,6 +90,8 @@
             </div>
         </HeLimiter>
     </footer>
+
+    <AppCookieBanner ref="cookieBanner"/>
 </template>
 
 <script setup>
@@ -97,6 +100,8 @@
     const productsMenu = computed(() => {
         return useMenu('main').find(e => e.id === '4000')?.children || []
     })
+
+    const cookieBanner = ref()
 </script>
 
 <style lang="sass" scoped>
