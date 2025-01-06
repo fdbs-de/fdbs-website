@@ -17,6 +17,7 @@
     "focus-trap-vue": "^4.0.3",
     "lodash.throttle": "^4.1.1",
     "pinia": "^2.1.7",
+    "posthog-js": "^1.203.2",
     "sass": "^1.75.0",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
