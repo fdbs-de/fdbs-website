@@ -160,7 +160,7 @@
             <h4>Was ist PostHog?</h4>
             <p>Tool zur Analyse des Nutzerverhaltens</p>
             <h4>Wer verarbeitet Ihre Daten?</h4>
-            <p>PostHog, Inc., 2261 Market Street #4008, San Francisco, CA 94114, UAS</p>
+            <p>PostHog, Inc., 2261 Market Street #4008, San Francisco, CA 94114, USA</p>
             <div>
             <h4>Wurde ein Vertrag über Auftragsverarbeitung mit PostHog, Inc. geschlossen?</h4>
             <p>Ja</p>
