@@ -71,9 +71,6 @@
                     <a href="https://www.instagram.com/fdbs_foodservice/" target="_blank" rel="opener" title="Instagram">
                         <img src="/images/social-icons/icon_instagram.svg" alt="Instagram">
                     </a>
-                    <a href="https://job38.de/arbeitgeber/fdbs-69115" target="_blank" rel="opener" title="job38">
-                        <img src="/images/social-icons/icon_job38.svg" alt="job38">
-                    </a>
                     <a href="https://www.xing.com/pages/fleischer-dienst-braunschweig-eg" target="_blank" rel="opener" title="Xing">
                         <img src="/images/social-icons/icon_xing.svg" alt="Xing">
                     </a>
