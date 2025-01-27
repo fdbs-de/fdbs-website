@@ -37,25 +37,28 @@
                     <br>
                     <b>Bestellhotline:</b><br>
                     0531 - 210 55-23<br>
-                    (besetzt von 07:00 - 15:00)<br>
+                    auftrag@fdbs.de<br>
                 </div>
             </div>
             <div class="block">
                 <h3 class="headline primary">Produkte & Services</h3>
                 <nav class="navigation">
-                    <NuxtLink class="link" v-for="item in productsMenu" :key="item.id" :to="item.href">{{item.label}}</NuxtLink>
+                    <NuxtLink class="link" v-for="item in productsMenu" :key="item.id" :to="item.href">{{ item.label }}
+                    </NuxtLink>
                 </nav>
             </div>
             <div class="block">
                 <h3 class="headline primary">Über Uns</h3>
                 <nav class="navigation">
-                <NuxtLink class="link" v-for="item in aboutMenu" :key="item.id" :to="item.href">{{item.label}}</NuxtLink>
+                    <NuxtLink class="link" v-for="item in aboutMenu" :key="item.id" :to="item.href">{{ item.label }}
+                    </NuxtLink>
                 </nav>
             </div>
             <div class="block">
                 <h3 class="headline primary">Rechtliches</h3>
                 <nav class="navigation">
-                    <NuxtLink class="link" v-for="item in legalMenu" :key="item.id" :to="item.href">{{item.label}}</NuxtLink>
+                    <NuxtLink class="link" v-for="item in legalMenu" :key="item.id" :to="item.href">{{ item.label }}
+                    </NuxtLink>
                     <a class="link" href="#" @click.prevent="cookieBanner.open()">Cookie Einstellungen</a>
                 </nav>
             </div>
@@ -68,19 +71,24 @@
                 </div>
                 <div class="spacer"></div>
                 <div class="social-wrapper">
-                    <a href="https://www.instagram.com/fdbs_foodservice/" target="_blank" rel="opener" title="Instagram">
+                    <a href="https://www.instagram.com/fdbs_foodservice/" target="_blank" rel="opener"
+                        title="Instagram">
                         <img src="/images/social-icons/icon_instagram.svg" alt="Instagram">
                     </a>
-                    <a href="https://www.xing.com/pages/fleischer-dienst-braunschweig-eg" target="_blank" rel="opener" title="Xing">
+                    <a href="https://www.xing.com/pages/fleischer-dienst-braunschweig-eg" target="_blank" rel="opener"
+                        title="Xing">
                         <img src="/images/social-icons/icon_xing.svg" alt="Xing">
                     </a>
-                    <a href="https://g.page/r/CWfKbNs4inYXEAg/review" target="_blank" rel="opener" title="Bewerten Sie uns auf Google">
+                    <a href="https://g.page/r/CWfKbNs4inYXEAg/review" target="_blank" rel="opener"
+                        title="Bewerten Sie uns auf Google">
                         <img src="/images/social-icons/icon_google.svg" alt="Bewerten Sie uns auf Google">
                     </a>
-                    <a href="https://www.facebook.com/FleischerDienstBraunschweig" target="_blank" rel="opener" title="Facebook">
+                    <a href="https://www.facebook.com/FleischerDienstBraunschweig" target="_blank" rel="opener"
+                        title="Facebook">
                         <img src="/images/social-icons/icon_facebook.svg" alt="Facebook">
                     </a>
-                    <a href="https://www.linkedin.com/company/fdbsfoodservice" target="_blank" rel="opener" title="LinkedIn">
+                    <a href="https://www.linkedin.com/company/fdbsfoodservice" target="_blank" rel="opener"
+                        title="LinkedIn">
                         <img src="/images/social-icons/icon_linkedin.svg" alt="LinkedIn">
                     </a>
                 </div>
@@ -88,17 +96,17 @@
         </HeLimiter>
     </footer>
 
-    <AppCookieBanner ref="cookieBanner"/>
+    <AppCookieBanner ref="cookieBanner" />
 </template>
 
 <script setup>
-    const aboutMenu = useMenu('about')
-    const legalMenu = useMenu('legal')
-    const productsMenu = computed(() => {
-        return useMenu('main').find(e => e.id === '4000')?.children || []
-    })
+const aboutMenu = useMenu('about')
+const legalMenu = useMenu('legal')
+const productsMenu = computed(() => {
+    return useMenu('main').find(e => e.id === '4000')?.children || []
+})
 
-    const cookieBanner = ref()
+const cookieBanner = ref()
 </script>
 
 <style lang="sass" scoped>
