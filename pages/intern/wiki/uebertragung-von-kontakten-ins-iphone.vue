@@ -1,6 +1,6 @@
 <template>
     <SectionHero title="Übertragung von Kontakten ins iPhone"
-        image="/images/content/wiki/IT/Uebertragung-von-Kontakten-ins-iPhone/contacts-header.png" />
+        image="/images/content/wiki/generisch/fdbs_muster_rot.png" />
     <SectionText>
         <HeDivider />
         <span>
@@ -11,7 +11,8 @@
         <div class="formatted-content">
             <p>Die Übertragung von Kontakten auf ein Smartphone kann schnell und einfach erfolgen. In diesem
                 Artikel erklären wir eine unkomplizierte Methode, mit der Kontakte problemlos auf ein mobiles
-                Gerät übertragen werden können. Dabei ist zu beachten, dass diese Methode die Kontaktdaten lediglich einmalig überträgt. </p>
+                Gerät übertragen werden können. Dabei ist zu beachten, dass diese Methode die Kontaktdaten lediglich
+                einmalig überträgt. </p>
             <div icon="star" class="key-fact"><span class="icon" data-icon="star" contenteditable="false"></span>
                 <div class="content">
                     <p>Bei Problemen oder Unklarheiten, wende dich gerne an die IT.</p>
@@ -53,7 +54,7 @@ definePageMeta({
     title: 'Übertragung von Kontakten ins iPhone',
     description: 'IT, Kontakte, Smartphone',
     category: 'IT',
-    image: '/images/content/wiki/IT/Uebertragung-von-Kontakten-ins-iPhone/contacts-header.png',
+    image: '/images/content/wiki/generisch/fdbs_muster_rot.png',
     middleware: ['auth', 'personal'],
     layout: 'auth',
 })
