@@ -1,10 +1,9 @@
 <template>
-    <SectionHero title="Mitarbeiter im Vertriebsinnendienst in Vollzeit oder Teilzeit"
-        image="/images/content/banner/karriere_513169496_482949832.webp" />
+    <SectionHero title="Mediengestalter" image="/images/content/banner/karriere_513169496_482949832.webp" />
     <SectionText>
         <span>
-            Anstellungsart: <b>Vollzeit / Teilzeit</b><br>
-            Tags: <b>Vertrieb, Innendienst</b>
+            Anstellungsart: <b>Vollzeit</b><br>
+            Tags: <b>Marketing</b>
         </span>
         <HeDivider />
         <div class="formatted-content">
@@ -21,54 +20,68 @@
                 in Kundendienst, Werkstatt und Marketing, der den Anforderungen unserer Kunden entspricht.</p>
             <p style="text-align: start">Du hast Interesse an der Food Branche, suchst Abwechslung und bist bereit
                 Verantwortung zu übernehmen? Dann bist Du bei uns genau richtig!</p>
-            <p>Zur Verstärkung unseres Teams suchen wir zum nächstmöglichen Zeitpunkt</p>
-            <h3><strong><span style="color: var(--color-primary)">Mitarbeiter im Vertriebsinnendienst in Vollzeit oder
-                        Teilzeit (m/w/d)</span></strong></h3>
+            <p>Wenn Du interessante und zukunftsorientierte Projekte umsetzen willst und etwas bewegen möchtest - dann
+                bist Du bei uns genau richtig!</p>
+            <h3><strong><span style="color: var(--color-primary)">Mediengestalter (m/w/d)</span></strong></h3>
             <p><strong>Zu Deinen Aufgaben zählt:</strong></p>
             <ul>
                 <li>
-                    <p>Entgegennahme der Kundenbestellungen per Telefon und E-Mail</p>
+                    <p><span>Entwicklung, Gestaltung und Adaption verschiedenster Kommunikationsinhalte im Print- und
+                            Web-Bereich für unsere Kunden und den FDBS</span></p>
                 </li>
                 <li>
-                    <p>Erfassung der Kundenbestellungen im Warenwirtschaftssystem NAVISION (Microsoft)</p>
+                    <p><span>Selbstständige Umsetzung von Werbemitteln, Anzeigen und POS-Materialien unserer Marke
+                            sowie die Marken unserer Kunden unter Berücksichtigung des jeweiligen CI</span></p>
                 </li>
                 <li>
-                    <p>Kundenberatung und Erstellen von Verkaufsangeboten</p>
-                </li>
-                <li>
-                    <p>Artikelbedarfsermittlungen durchführen</p>
-                </li>
-                <li>
-                    <p>Sie sind die Schnittstelle zwischen den Kunden, dem Außendienst und den Belieferungsabteilungen
+                    <p><span>Auswahl und Bereitstellung von Bildmaterial inkl. Bildbearbeitung, Retusche,
+                            Farbabgleich, Freistellung von Produktbildern sowie Adaption auf verschiedene Formate</span>
                     </p>
                 </li>
                 <li>
-                    <p>Bearbeitung eines eigenen Kundenbereiches im Verkaufsteam</p>
+                    <p><span>Qualitätssicherung und Kontrolle unseres visuellen Markenauftritts vom Entwurf bis hin
+                            zur Druckdatenerstellung</span></p>
+                </li>
+                <li>
+                    <p><span>Fotografieren von Produkten mit speziellem Fotoequipment</span></p>
+                </li>
+                <li>
+                    <p><span>Eigenverantwortliches Arbeiten und Entwicklung eines effizienten Workflows</span></p>
+                </li>
+                <li>
+                    <p><span>Satz- und Layoutarbeiten, Reinzeichnung, Bildbearbeitung, Erstellung von
+                            Illustrationen</span></p>
+                </li>
+                <li>
+                    <p><span>Enge Abstimmung mit dem Marketing-Team, anderen Abteilungen sowie externen
+                            Dienstleistern</span></p>
+                    <p></p>
                 </li>
             </ul>
             <p><strong>Das solltest Du mitbringen:</strong></p>
             <ul>
                 <li>
-                    <p>abgeschlossene kaufmännische oder gastronomische Ausbildung und erste Erfahrungen im Bereich
-                        Vertriebsinnendienst bzw. Kundenservice</p>
+                    <p><span>erfolgreich abgeschlossene Ausbildung z.B. zum Mediengestalter bzw. Studium
+                            Kommunikationsdesign oder relevante Berufserfahrung im grafischen Bereich, Quereinstieg auch
+                            möglich</span></p>
                 </li>
                 <li>
-                    <p>sehr gute Kommunikationskompetenz in Wort und Schrift</p>
+                    <p><span>Sicherer Umgang mit Adobe Creative Suite (wie Acrobat, InDesign, Photoshop und
+                            Illustrator) sowie Microsoft Office</span></p>
                 </li>
                 <li>
-                    <p>eine hohe Kunden- und Serviceorientierung</p>
+                    <p><span>Erfahrung in der Erstellung von Inhalten für Social Media und gutes Verständnis für
+                            digitale
+                            Kommunikation</span></p>
                 </li>
                 <li>
-                    <p>Teamfähigkeit sowie eine selbstständige und strukturierte Arbeitsweise</p>
+                    <p><span>sicherer Umgang mit Warenwirtschaftssystemen, idealerweise Microsoft NAVISION, sowie mit
+                            MS-Office Anwendungen (Excel, Word)</span></p>
                 </li>
                 <li>
-                    <p>einen sicheren Umgang mit den gängigen MS-Office Anwendungen</p>
-                </li>
-                <li>
-                    <p>Erfahrung im Umgang mit Warenwirtschaftssystemen wünschenswert</p>
-                </li>
-                <li>
-                    <p>Fachkenntnisse im Lebensmittelbereich vorteilhaft</p>
+                    <p><span>Erfahrungen im Bereich Werbetechnik, Fahrzeugbeschriftungen wünschenswert, aber nicht
+                            Voraussetzung</span></p>
+                    <p></p>
                 </li>
             </ul>
             <p><strong>Wir bieten Dir:</strong></p>
@@ -80,7 +93,7 @@
                     <p>30 Tage Jahresurlaub</p>
                 </li>
                 <li>
-                    <p>Dienstfahrrad-Leasing</p>
+                    <p>Dienstfahrrad-Leasing, Betriebliche Altersvorsorge</p>
                 </li>
                 <li>
                     <p>umfangreiche Fortbildungsmöglichkeiten mit Kostenübernahme</p>
@@ -89,8 +102,9 @@
                     <p>ein abwechslungsreiches und verantwortungsvolles Aufgabengebiet</p>
                 </li>
                 <li>
-                    <p>Viele weitere Mitarbeitervorteile (z. B. betriebliche Altersvorsorge, Rabatte auf unsere
+                    <p>Viele weitere Mitarbeitervorteile (z. B. Rabatte auf unsere
                         Handelsprodukte, Corporate Benefits, Teamevents)</p>
+                    <p></p>
                 </li>
             </ul>
             <p>Haben wir Dein Interesse geweckt?<br><br>Dann freuen wir uns auf Deine aussagekräftigen
@@ -103,17 +117,14 @@
         </div>
     </SectionText>
 </template>
-
 <script lang="ts" setup>
 definePageMeta({
-    title: 'Mitarbeiter im Vertriebsinnendienst in Vollzeit oder Teilzeit',
-    description: 'Vollzeit / Teilzeit, Vertrieb, Innendienst',
+    title: 'Mediengestalter',
+    description: 'Vollzeit, Marketing',
 })
-
 useSeoMeta({
-    title: 'Mitarbeiter im Vertriebsinnendienst in Vollzeit oder Teilzeit',
-    description: 'Vollzeit / Teilzeit, Vertrieb, Innendienst',
+    title: 'Mediengestalter',
+    description: 'Vollzeit, Marketing',
 })
 </script>
-
 <style lang="sass" scoped></style>

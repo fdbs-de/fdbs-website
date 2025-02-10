@@ -1,10 +1,9 @@
 <template>
-    <SectionHero title="Vertriebsmitarbeiter für Fleischereien im Außendienst (Großraum Göttingen / Kassel)"
-        image="/images/content/banner/karriere_513169496_482949832.webp" />
+    <SectionHero title="Einkäufer / Disponent" image="/images/content/banner/karriere_513169496_482949832.webp" />
     <SectionText>
         <span>
             Anstellungsart: <b>Vollzeit</b><br>
-            Tags: <b>Vertrieb, Außendienst</b>
+            Tags: <b>Einkauf</b>
         </span>
         <HeDivider />
         <div class="formatted-content">
@@ -21,82 +20,74 @@
                 in Kundendienst, Werkstatt und Marketing, der den Anforderungen unserer Kunden entspricht.</p>
             <p style="text-align: start">Du hast Interesse an der Food Branche, suchst Abwechslung und bist bereit
                 Verantwortung zu übernehmen? Dann bist Du bei uns genau richtig!</p>
-            <p>Zur Verstärkung unseres Verkaufsteams suchen wir für den <strong>Großraum Göttingen / Kassel</strong> zum
-                <strong>01.01.2025</strong> einen</p>
-            <h3><strong><span style="color: var(--color-primary)">Vertriebsmitarbeiter für Fleischereien im Außendienst
-                        (m/w/d)</span></strong></h3>
+            <p>Zur Verstärkung unseres Verkaufsteams suchen wir einen</p>
+            <h3><strong><span style="color: var(--color-primary)">Einkäufer / Disponenten (m/w/d)</span></strong></h3>
             <p><strong>Zu Deinen Aufgaben zählt:</strong></p>
             <ul>
                 <li>
-                    <p>Akquisition von Neukunden; primär in den Bereichen Hotellerie, Gastronomie, Großküchen und
-                        Gemeinschaftsverpflegung</p>
+                    <p><span>Disposition verschiedenster Lebensmittel und sonstiger Bedarfsartikel</span></p>
                 </li>
                 <li>
-                    <p>Betreuung von Bestandskunden</p>
+                    <p><span>Überwachung der fristgerechten Lieferungen</span></p>
                 </li>
                 <li>
-                    <p>Produktvorstellung und Sortimentspflege</p>
+                    <p><span>Rechnungskontrolle und -freigabe</span></p>
                 </li>
                 <li>
-                    <p>Angebotserstellung und Auftragserfassung</p>
+                    <p><span>Artikelstammpflege im Warenwirtschaftssystem</span></p>
                 </li>
                 <li>
-                    <p>Optimierung von Verkaufsstrategien</p>
+                    <p><span>regelmäßige Bestands- und Sortimentskontrollen</span></p>
                 </li>
                 <li>
-                    <p>Reporting gegenüber der Vertriebsleitung</p>
+                    <p><span>Durchführung von Inventuren</span></p>
+                </li>
+                <li>
+                    <p><span>Bearbeiten von Retouren (Kunden und Lieferanten)</span></p>
+                    <p></p>
                 </li>
             </ul>
             <p><strong>Das solltest Du mitbringen:</strong></p>
             <ul>
                 <li>
-                    <p>Abgeschlossene Ausbildung zum Fleischer, im Lebensmittelhandwerk und/ oder in der Gastronomie
-                        oder kaufmännische Ausbildung wünschenswert</p>
+                    <p><span>abgeschlossene kaufmännische Ausbildung</span></p>
                 </li>
                 <li>
-                    <p>Idealerweise mehrjährige Erfahrung im Verkauf in der Lebensmittelbranche oder in der Gastronomie
-                    </p>
+                    <p><span>Kenntnisse im Lebensmittelbereich wünschenswert, aber nicht Bedingung</span></p>
                 </li>
                 <li>
-                    <p>Kenntnisse über die Ansprüche und Bedürfnisse der Kunden in der Lebensmittelbranche</p>
+                    <p>eigenständiges Arbeiten, Organisationsvermögen und Teamfähigkeit</p>
                 </li>
                 <li>
-                    <p>Kommunikationsfähigkeit, sicheres Auftreten und Verhandlungsgeschick</p>
-                </li>
-                <li>
-                    <p>Eigenständiges Arbeiten, Organisationsvermögen und Flexibilität</p>
-                </li>
-                <li>
-                    <p>Sicherer Umgang mit Warenwirtschaftssystemen und den gängigen MS-Office Anwendungen (Excel, Word)
-                    </p>
+                    <p><span>sicherer Umgang mit Warenwirtschaftssystemen, idealerweise Microsoft NAVISION, sowie mit
+                            MS-Office Anwendungen (Excel, Word)</span></p>
+                    <p></p>
                 </li>
             </ul>
             <p><strong>Wir bieten Dir:</strong></p>
             <ul>
                 <li>
-                    <p>abwechslungsreiches und verantwortungsvolles Aufgabengebiet</p>
-                </li>
-                <li>
-                    <p>attraktive Vergütung</p>
+                    <p>attraktive Vergütung zzgl. Sonderzahlungen</p>
                 </li>
                 <li>
                     <p>30 Tage Jahresurlaub</p>
                 </li>
                 <li>
-                    <p>Dienstwagen (auch zur privaten Nutzung)</p>
-                </li>
-                <li>
                     <p>Dienstfahrrad-Leasing</p>
-                </li>
-                <li>
-                    <p>langfristige Zusammenarbeit</p>
                 </li>
                 <li>
                     <p>umfangreiche Fortbildungsmöglichkeiten mit Kostenübernahme</p>
                 </li>
                 <li>
+                    <p>ein abwechslungsreiches und verantwortungsvolles Aufgabengebiet</p>
+                </li>
+                <li>
                     <p>Viele weitere Mitarbeitervorteile (z. B. betriebliche Altersvorsorge, Rabatte auf unsere
                         Handelsprodukte, Corporate Benefits, Teamevents)</p>
+                </li>
+                <li>
+                    <p>uvm.</p>
+                    <p></p>
                 </li>
             </ul>
             <p>Haben wir Dein Interesse geweckt?<br><br>Dann freuen wir uns auf Deine aussagekräftigen
@@ -109,17 +100,14 @@
         </div>
     </SectionText>
 </template>
-
 <script lang="ts" setup>
 definePageMeta({
-    title: 'Vertriebsmitarbeiter für Fleischereien im Außendienst (Großraum Göttingen / Kassel)',
-    description: 'Vollzeit, Vertrieb, Außendienst',
+    title: 'Einkäufer / Disponent',
+    description: 'Vollzeit, Einkauf',
 })
-
 useSeoMeta({
-    title: 'Vertriebsmitarbeiter für Fleischereien im Außendienst (Großraum Göttingen / Kassel)',
-    description: 'Vollzeit, Vertrieb, Außendienst',
+    title: 'Einkäufer / Disponent',
+    description: 'Vollzeit, Einkauf',
 })
 </script>
-
 <style lang="sass" scoped></style>

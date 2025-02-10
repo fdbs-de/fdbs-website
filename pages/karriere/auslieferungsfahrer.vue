@@ -2,7 +2,9 @@
     <SectionHero title="Auslieferungsfahrer ab 7,5t" image="/images/content/banner/karriere_513169496_482949832.webp" />
     <SectionText>
         <p class="flex flex-col pb-12">
-            <IodButton :is="NuxtLink" corner="l" size="l" background="#003A9B" icon-left="open_in_new" label="Schnellbewerbung auf Indeed" to="https://de.indeed.com/viewjob?jk=bf33b3be35ae9f81" target="_blank"/>
+            <IodButton :is="NuxtLink" corner="l" size="l" background="#003A9B" icon-left="open_in_new"
+                label="Schnellbewerbung auf Indeed" to="https://de.indeed.com/viewjob?jk=3174e573d84548c8"
+                target="_blank" />
         </p>
         <HeDivider />
         <span>
@@ -67,17 +69,19 @@
                     <p>umfangreiche Fortbildungsmöglichkeiten mit Kostenübernahme</p>
                 </li>
                 <li>
-                    <p>Viele weitere Mitarbeitervorteile (z. B. betriebliche Altersvorsorge, Rabatte auf unsere Handelsprodukte, Corporate Benefits, Teamevents)</p>
+                    <p>Viele weitere Mitarbeitervorteile (z. B. betriebliche Altersvorsorge, Rabatte auf unsere
+                        Handelsprodukte, Corporate Benefits, Teamevents)</p>
                 </li>
             </ul>
             <p>
                 Du bist neugierig geworden?<br><br>
-                
+
                 Dann freuen wir uns auf Deine Bewerbung mit
                 Lebenslauf und Angabe Deines frühestmöglichen Eintrittstermins per E-Mail an:
             </p>
             <p>
-                <a target="_blank" rel="noopener noreferrer nofollow" href="mailto:bewerbungen@fdbs.de">bewerbungen@fdbs.de</a>
+                <a target="_blank" rel="noopener noreferrer nofollow"
+                    href="mailto:bewerbungen@fdbs.de">bewerbungen@fdbs.de</a>
             </p>
             <p>
                 Für weitere Rückfragen steht Dir <strong>Jessica Ackermann</strong> telefonisch
