@@ -38,7 +38,7 @@ export const useMenu = (menu: 'main'|'legal'|'about'|'auth') => {
             { id: '2000', label: "Datenschutz", href: "/datenschutz" },
             { id: '3000', label: "AGBs", href: "/agbs" },
             { id: '4000', label: "Info Videoüberwachung", href: "/video-info" },
-            { id: '5000', label: "Gewinnspiel Teilnahmebedingungen", href: "/gewinnspiel/teilnahmebedingungen" },
+            // { id: '5000', label: "Gewinnspiel Teilnahmebedingungen", href: "/gewinnspiel/teilnahmebedingungen" },
         ],
         'about': [
             { id: '1000', label: "Philosophie", href: "/philosophie" },
