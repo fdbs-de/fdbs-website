@@ -25,9 +25,9 @@
                 <span class="word">Ihr </span>
                 <span class="word">Marketing.</span>
                 <br>
-                <span class="word">Ob </span> 
-                <NuxtLink class="word fancy red" to="/mkbs/web">Web</NuxtLink>
-                <span class="word">, </span>
+                <span class="word">Ob </span>
+                <!-- <NuxtLink class="word fancy red" to="/mkbs/web">Web</NuxtLink> -->
+                <!-- <span class="word">, </span> -->
                 <NuxtLink class="word fancy blue" to="/mkbs/social-media">Social Media</NuxtLink>
                 <span class="word">, </span>
                 <NuxtLink class="word fancy yellow" to="/mkbs/print">Print</NuxtLink>

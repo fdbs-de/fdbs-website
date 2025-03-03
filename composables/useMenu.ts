@@ -21,7 +21,7 @@ export const useMenu = (menu: 'main'|'legal'|'about'|'auth') => {
                     { id: "4330", label: "Maxi France", href: "/marken/maxi-france" },
                 ]},
                 { id: "4400", label: "Marketing & Kommunikation", href: "/mkbs", children: [
-                    { id: "4410", label: "Web Entwicklung", href: "/mkbs/web" },
+                    //{ id: "4410", label: "Web Entwicklung", href: "/mkbs/web" },
                     { id: "4420", label: "Social Media Marketing", href: "/mkbs/social-media" },
                     { id: "4430", label: "Print Design", href: "/mkbs/print" },
                     { id: "4440", label: "Crossmedia Marketing", href: "/mkbs/crossmedia" },
