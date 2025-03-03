@@ -10,7 +10,8 @@
             und meldet automatisch bei Gerätestörungen.
             Dies spart Zeit und Kosten und gewährleistet volle HACCP-Konformität.
         </p>
-        <h2>Funktionen</h2>
+        <img src="/images/content/customerservice/haccp.png" alt="HACCP" class="rounded-lg">
+        <h2>Hauptfunktionen</h2>
         <ul class="list-disc pl-6">
             <li>
                 <b>Mobile CHECK:</b> Manuelle Temperaturmessung mittels bluetoothfähigem Kerntemperaturfühler oder
@@ -34,7 +35,7 @@
                 <b>80% Zeitersparnis</b>
             </li>
             <li>
-                Digital,sparente HACCP-Listen mit Echtzeit-Daten
+                Digital, transparente HACCP-Listen mit Echtzeit-Daten
             </li>
             <li>
                 24/7 Alarmierungsfunktion
@@ -53,11 +54,6 @@
             </li>
         </ul>
 
-        <div class="max-w-80 flex gap-6">
-            <Card :is="NuxtLink" class="flex-1" aspect-ratio="16/9" target="_blank" name="HACCP Broschüre"
-                image="/images/content/customerservice/checkhaccp.png" to="/downloads/haccp_flyer.pdf" />
-        </div>
-
         <h2>Neugierig geworden?</h2>
         <div class="formatted-content">
             <p>Für mehr Informationen, ein persönliches Gespräch oder Ihr individuelles Angebot, melden Sie sich
@@ -67,6 +63,13 @@
                     href="mailto:service@fdbs.de">service@fdbs.de</a>
             </p>
         </div>
+
+        <div class="max-w-80 flex gap-6">
+            <Card :is="NuxtLink" class="flex-1" aspect-ratio="16/9" target="_blank" name="HACCP Broschüre"
+                image="/images/content/customerservice/checkhaccp.png" to="/downloads/haccp_flyer.pdf" />
+        </div>
+
+
     </SectionText>
 </template>
 
