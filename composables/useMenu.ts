@@ -27,7 +27,8 @@ export const useMenu = (menu: 'main'|'legal'|'about'|'auth') => {
                     { id: "4440", label: "Crossmedia Marketing", href: "/mkbs/crossmedia" },
                 ]},
                 { id: "4500", label: "Technischer Kundendienst", href: "/technischer-kundendienst", children: [
-                    { id: "4510", label: "Top Aktuelles", href: "/technischer-kundendienst/aktuelles" },
+                    { id: "4510", label: "NEU: HAKO-Angebote", href: "/technischer-kundendienst/hako" },
+                    { id: "4520", label: "Digitales HACCP", href: "/technischer-kundendienst/digital-haccp" },
                 ]},
             ]},
             { id: "5000", label: "Karriere", href: "/karriere" },
