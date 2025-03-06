@@ -1,68 +1,65 @@
 <template>
-    <section class="section-customerservice-hero">
+    <SectionCta id="hero" color="#FF4C1B" src="/images/content/customerservice/hako/csm_Web_Header_Sweepmaster_ba823f8c94.jpg">
+        <h1>Der Frühling steht <br>vor der Tür!</h1>
+        <div>
+            <p>
+                Es ist die perfekte Zeit,<br>
+                um Ihr Sortiment an Reinigungs-<br>
+                und Wasserstrahltechnik aufzufrischen!
+            </p>
+            <p>
+                Nutzen Sie die erstklassigen Hako-Angebote, die<br>
+                Ihre Arbeit <b>erleichtert</b> und <b>effizienter</b> gestaltet!<br>
+                <br>
+                Angebote gültig vom 01.03.2025 bis 16.05.2025
+            </p>
+        </div>
+        <IodButton
+            :is="NuxtLink"
+            to="https://helium-api.fdbs.de/media/domain/angebote/Hako_Fru%CC%88hjahrsaktion_2025_FDBS.pdf"
+            size="l"
+            corner="pill"
+            label="Zum Flyer"
+            background="var(--color-on-primary)"
+            color="#FF4C1B"
+        />
+    </SectionCta>
+
+
+    <section id="angebote">
         <HeLimiter>
-            <div class="content-wrapper">
-                <div class="plain text-plain">
-                    <h2>Der Frühling steht <br>vor der Tür!</h2>
-                    <div>
-                        <p>
-                            Es ist die perfekte Zeit,<br>
-                            um Ihr Sortiment an Reinigungs-<br>
-                            und Wasserstrahltechnik aufzufrischen!
-                        </p>
-                        <p>
-                            Nutzen Sie die erstklassigen Hako-Angebote, die<br>
-                            Ihre Arbeit <b>erleichtert</b> und <b>effizienter</b> gestaltet!<br>
-                            <br>
-                            Angebote gültig vom 01.03.2025 bis 16.05.2025
-                        </p>
-                    </div>
-                    <IodButton :is="NuxtLink"
-                        to="https://helium-api.fdbs.de/media/domain/angebote/Hako_Fru%CC%88hjahrsaktion_2025_FDBS.pdf"
-                        size="1" corner="pill" label="Zum Flyer" />
+            <h2>Die Angebote von Hako & FDBS</h2>
+            <div class="grid">
+                <div class="flex-1">
+                    <img src="/images/content/customerservice/hako/scrubmaster-b5_400x350.png">
+                </div>
+                <div class="flex-1">
+                    <img src="/images/content/customerservice/hako/scrubmaster-b45_400x350.png">
+                </div>
+                <div class="flex-1">
+                    <img src="/images/content/customerservice/hako/scrubmaster-b25_400x350.png">
+                </div>
+                <div class="flex-1">
+                    <img src="/images/content/customerservice/hako/sweepmaster-m600_400x350.png">
+                </div>
+                <div class="flex-1">
+                    <img src="/images/content/customerservice/hako/oertzen-c.x305_400x350.png">
+                </div>
+                <div class="flex-1">
+                    <img src="/images/content/customerservice/hako/sweepmaster-b800-r_400x350.png">
                 </div>
             </div>
         </HeLimiter>
     </section>
 
 
-    <section class="section-customerservice-angebote">
-        <HeLimiter>
-            <h2>Die Angebote von Hako & FDBS</h2>
-            <div class="grid">
-                <NuxtLink class="flex-1">
-                    <img src="/images/content/customerservice/hako/scrubmaster-b5_400x350.png">
-                </NuxtLink>
-                <NuxtLink class="flex-1">
-                    <img src="/images/content/customerservice/hako/scrubmaster-b45_400x350.png">
-                </NuxtLink>
-                <NuxtLink class="flex-1">
-                    <img src="/images/content/customerservice/hako/scrubmaster-b25_400x350.png">
-                </NuxtLink>
-            </div>
-            <div class="grid">
-                <NuxtLink class="flex-1">
-                    <img src="/images/content/customerservice/hako/sweepmaster-m600_400x350.png">
-                </NuxtLink>
-                <NuxtLink class="flex-1">
-                    <img src="/images/content/customerservice/hako/oertzen-c.x305_400x350.png">
-                </NuxtLink>
-                <NuxtLink class="flex-1">
-                    <img src="/images/content/customerservice/hako/sweepmaster-b800-r_400x350.png">
-                </NuxtLink>
-            </div>
-        </HeLimiter>
-    </section>
     <SectionText>
-        <div class="formatted-content">
-            <p>
-                Bei Interesse melden Sie sich gerne unter <a target="_self" rel="noopener noreferrer nofollow"
-                    href="tel:05312105541">0531-210 55 - 41</a>
-                oder schreiben Sie eine Mail an <a target="_self" rel="noopener noreferrer nofollow"
-                    href="mailto:service@fdbs.de">service@fdbs.de</a>
-            </p>
-        </div>
-
+        <p class="text-center">
+            Bei Interesse melden Sie sich gerne unter
+            <a target="_self" rel="noopener noreferrer nofollow" href="tel:05312105541">0531-210 55 - 41</a>
+            oder schreiben Sie eine Mail an
+            <a target="_self" rel="noopener noreferrer nofollow" href="mailto:service@fdbs.de">service@fdbs.de</a>
+        </p>
     </SectionText>
 </template>
 
@@ -76,134 +73,41 @@
 </script>
 
 <style lang="sass" scoped>
-    p
-        text-align: center
-        font-size: clamp(1rem, 5vw, 1.25rem)
+    #hero
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw))
+        padding-block: 8rem 13rem
+        margin-bottom: 3rem
 
-    .section-customerservice-hero
-        margin-block: 0 5rem
-        --cut: 5vw
-        width: 100%
-        position: relative
-        background: var(--color-background-soft)
-        background-image: url('/images/content/customerservice/hako/csm_Web_Header_Sweepmaster_ba823f8c94.jpg')
-        background-size: cover
-        background-position: center
-        background-repeat: no-repeat
+        h1
+            font-size: clamp(2rem, 10vw, 3.5rem)
+            font-weight: 600
+            margin-block: 0
+            color: inherit
+            max-width: 700px
 
+        .iod-button
+            max-width: 400px
 
-        &::after
-            content: ''
-            background-image: linear-gradient(90deg, rgb(#FF4C1B, 1) 40%, rgb(#FF4C1B, .2) 60%)
-            width: 100%
-            height: 100%
-            position: absolute
-            bottom: 0
-            left: 0
-            z-index: 1
-
-        .content-wrapper
-            display: flex
-            position: relative
-            z-index: 2
-            gap: 4rem
-            padding-block: 10rem 12rem
-            
-            .plain
-                color: var(--color-on-primary)
-                display: flex
-                flex-direction: column
-                align-items: stretch
-                position: relative
-                z-index: 2
-                gap: 2rem
-
-                > h2
-                    font-size: clamp(2rem, 10vw, 3.5rem)
-                    font-weight: 600
-                    margin-block: 0
-                    color: inherit
-                    max-width: 700px
-
-                > div p
-                    text-align: left    
-                    color: inherit
-                    opacity: .9
-                
-                > .iod-button
-                    --local-color-background: var(--color-on-primary)
-                    color: rgb(#FF4C1B, 1)
-                    max-width: 400px
-
-
-
-    @media only screen and (max-width: 500px)
-        .fdbs-marketing
-            &::after
-                background-image: linear-gradient(0deg, rgb(#e00047, 1) 20%, rgb(#e00047, .2) 80%)
-
-            .content-wrapper
-                padding-block: 6rem
-                gap: 2rem
-
-                .plain
-                    text-align: center
-                    align-items: center
-
-
-
-
-    .section-customerservice-angebote
+    #angebote
         h2
             font-size: clamp(2rem, 10vw, 3.5rem)
             text-align: center
             font-weight: 600
-            margin-block: 0 3rem
-
-        .grid
-            display: flex
-            gap: 2rem
-            align-items: center
             margin-block: 0 2rem
 
-            a
+        .grid
+            display: grid
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr))
+            gap: 1.5rem
+
+            div
                 display: block
                 width: 100%
-                border-radius: 1rem
+                border-radius: var(--radius-l)
                 overflow: hidden
                 border: 1px solid var(--color-background-soft)
-                flex: 50
-
-                &.highlight
-                    box-shadow: var(--shadow-l)
-                    flex: 55
 
             img
                 width: 100%
                 display: flex
-                
-    @media only screen and (max-width: 700px)
-        .section-customerservice-angebote
-            .grid
-                gap: 2rem
-
-
-    
-    @media only screen and (max-width: 500px)
-        .section-customerservice-angebote
-            padding: 6rem 0
-            
-            h2
-                margin-bottom: 2rem
-
-            .grid
-                gap: .5rem
-
-                a
-                    flex: 1 !important
-                    border-radius: .5rem !important
-                    box-shadow: none !important
-
-
-
 </style>
