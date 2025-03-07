@@ -1,5 +1,5 @@
 <template>
-    <SectionHero title="Assistent der Vertriebsleitung"
+    <SectionHero title="Assistenz der Vertriebsleitung"
         image="/images/content/banner/karriere_513169496_482949832.webp" />
     <SectionText>
         <span>
@@ -22,7 +22,7 @@
             <p style="text-align: start">Du hast Interesse an der Food Branche, suchst Abwechslung und bist bereit
                 Verantwortung zu übernehmen? Dann bist Du bei uns genau richtig!</p>
             <p>Zur Verstärkung unseres Teams suchen wir zum nächstmöglichen Zeitpunkt</p>
-            <h3><strong><span style="color: var(--color-primary)">Mitarbeiter im Vertriebsinnendienst in Vollzeit
+            <h3><strong><span style="color: var(--color-primary)">Assistenz der Vertriebsleitung in Vollzeit
                         (m/w/d)</span></strong></h3>
             <p><strong>Zu Deinen Aufgaben zählt:</strong></p>
             <ul>
@@ -135,12 +135,12 @@
 
 <script lang="ts" setup>
 definePageMeta({
-    title: 'Assistent der Vertriebsleitung',
+    title: 'Assistenz der Vertriebsleitung',
     description: 'Vertrieb, Sales, Assistenz',
 })
 
 useSeoMeta({
-    title: 'Assistent der Vertriebsleitung',
+    title: 'Assistenz der Vertriebsleitung',
     description: 'Vertrieb, Sales, Assistenz',
 })
 </script>
