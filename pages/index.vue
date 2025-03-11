@@ -1,7 +1,6 @@
 <template>
     <SectionHomeHero />
     <SectionHomeServices />
-    <SectionHomeMarketing />
     <SectionCta id="marketing" color="var(--color-primary)" src="/images/content/mkbs/woman.jpg">
         <h2>Wir machen Ihr Unternehmen sichtbar!</h2>
         <div>
