@@ -23,7 +23,7 @@
             <p> </p>
             <p>Telefonnummer: <span>0531 210 55 0</span></p>
             <p>E-Mail-Adresse: <span>info@fdbs.de</span></p>
-            
+
             <h2 style="text-align: start">Bildnachweis:</h2>
             <p>
                 ©HBS, ©NDABCREATIVITY, ©Cristalov, ©littlewolf1989, ©New Africa, ©ikonoklast_hh, ©StudioDFlorez,
@@ -32,7 +32,8 @@
                 ©contrastwerkstatt, ©Оля Molly, ©Simple Line,
                 ©torik, ©mitay20, ©Екатерина Заносиенко, ©Yana, ©Sell Vector, ©Olga Rai, ©Mihail, ©sahs94, ©Valenty,
                 ©Natalia, ©samuii, ©ngupakarti, ©MuhammadZulfan, ©LuckyStep -
-                <a target="_blank" rel="noopener noreferrer nofollow" href="https://stock.adobe.com/">Adobe Stock</a>
+                <a target="_blank" rel="noopener noreferrer nofollow" href="https://stock.adobe.com/">Adobe Stock</a>,
+                ©Rieber, ©HAKO
             </p>
         </span>
     </SectionText>
