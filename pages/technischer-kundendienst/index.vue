@@ -1,6 +1,22 @@
 <template>
     <SectionHero title="Technischer Kundendienst"
         image="/images/content/banner/service_425530867_425530980_436047070_425530651_425530924_425530335.webp" />
+    <SectionText>
+        <h2>
+            Persönlich. Effizient. Lösungsorientiert.
+        </h2>
+        <p>
+            Zuverlässiger technischer Support macht den Unterschied – und genau das bieten wir unseren Kunden. <br>
+            Unser technischer Kundendienst steht für schnelle Hilfe, kompetente Beratung und maßgeschneiderte Lösungen.
+            Wir
+            begleiten unsere Kunden bei allen technischen Herausforderungen, um den reibungslosen Betrieb ihrer Geräte
+            und Systeme sicherzustellen. <br>
+            In dieser Vorstellung geben wir einen Überblick über unsere Aufgaben und den
+            Mehrwert, den unser Service bietet.
+        </p>
+    </SectionText>
+
+
     <SectionCta id="hero" color="var(--color-primary)" src="/images/content/customerservice/angebote_banner.jpg">
         <h2>Kennen Sie schon unsere <br>aktuellen Angebote?</h2>
         <div>
@@ -11,10 +27,10 @@
                 die perfekte Lösung für Ihre Anforderungen.
             </p>
             <p>
-                Sichern Sie sich Ihr Angebot - jetzt informieren & zugreifen!<br>
+                Jetzt entdecken & profitieren - wir beraten Sie gern!<br>
             </p>
         </div>
-        <IodButton :is=" NuxtLink" to="/technischer-kundendienst/aktuelles" size="l" corner="pill"
+        <IodButton :is="NuxtLink" to="/technischer-kundendienst/aktuelles" size="l" corner="pill"
             label="Zu den Angeboten" background="var(--color-on-primary)" color="var(--color-primary)" />
     </SectionCta>
     <SectionKeyfacts :keyfacts="keyfacts" title="Unsere Leistungen im Überblick" />
@@ -118,7 +134,6 @@ const keyfacts = ref([
     #hero
         clip-path: polygon(0 0, 100% 5vw, 100% 100%, 0 calc(100% - 5vw))
         padding-block: 8rem 11rem
-        margin-top: 3rem
         
         h2
             font-size: clamp(2rem, 10vw, 3.5rem)
