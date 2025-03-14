@@ -1,5 +1,6 @@
 <template>
-    <SectionCta id="hero" color="#FF4C1B" src="/images/content/customerservice/hako/csm_Web_Header_Sweepmaster_ba823f8c94.jpg">
+    <SectionCta id="hero" color="#FF4C1B"
+        src="/images/content/customerservice/hako/csm_Web_Header_Sweepmaster_ba823f8c94.jpg">
         <h1>Der Frühling steht <br>vor der Tür!</h1>
         <div>
             <p>
@@ -14,15 +15,8 @@
                 Angebote gültig vom 01.03.2025 bis 16.05.2025
             </p>
         </div>
-        <IodButton
-            :is="NuxtLink"
-            to="https://helium-api.fdbs.de/media/domain/angebote/Hako_Fru%CC%88hjahrsaktion_2025_FDBS.pdf"
-            size="l"
-            corner="pill"
-            label="Zum Flyer"
-            background="var(--color-on-primary)"
-            color="#FF4C1B"
-        />
+        <IodButton :is="NuxtLink" to="/downloads/hako_fdbs_aktion_2025.pdf" size="l" corner="pill" label="Zum Flyer"
+            background="var(--color-on-primary)" color="#FF4C1B" />
     </SectionCta>
 
 
