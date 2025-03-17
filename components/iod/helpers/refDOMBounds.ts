@@ -1,4 +1,5 @@
-import { Ref, ref, unref, watch } from "vue"
+import type { Ref } from "vue"
+import { ref, unref, watch } from "vue"
 
 export interface refDOMBounds {
   height: Ref<number>
