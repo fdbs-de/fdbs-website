@@ -3,7 +3,7 @@
     <SectionText>
         <p class="flex flex-col pb-12">
             <IodButton :is="NuxtLink" corner="l" size="l" background="#003A9B" icon-left="open_in_new"
-                label="Schnellbewerbung auf Indeed" to="https://de.indeed.com/viewjob?jk=3174e573d84548c8"
+                label="Schnellbewerbung auf Indeed" to="https://de.indeed.com/viewjob?jk=1a2da2fb5e419fe3a"
                 target="_blank" />
         </p>
         <HeDivider />
