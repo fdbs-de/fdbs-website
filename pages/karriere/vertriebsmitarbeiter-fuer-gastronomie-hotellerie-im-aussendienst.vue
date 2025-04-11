@@ -1,9 +1,10 @@
 <template>
-    <SectionHero title="Mediengestalter" image="/images/content/banner/karriere_513169496_482949832.webp" />
+    <SectionHero title="Vertriebsmitarbeiter für Gastronomie & Hotellerie im Außendienst (Großraum Magdeburg)"
+        image="/images/content/banner/karriere_513169496_482949832.webp" />
     <SectionText>
         <span>
             Anstellungsart: <b>Vollzeit</b><br>
-            Tags: <b>Marketing</b>
+            Tags: <b>Vertrieb, Außendienst</b>
         </span>
         <HeDivider />
         <div class="formatted-content">
@@ -20,79 +21,71 @@
                 in Kundendienst, Werkstatt und Marketing, der den Anforderungen unserer Kunden entspricht.</p>
             <p style="text-align: start">Du hast Interesse an der Food Branche, suchst Abwechslung und bist bereit
                 Verantwortung zu übernehmen? Dann bist Du bei uns genau richtig!</p>
-            <p>Wenn Du interessante und zukunftsorientierte Projekte umsetzen willst und etwas bewegen möchtest - dann
-                bist Du bei uns genau richtig!</p>
-            <h3><strong><span style="color: var(--color-primary)">Mediengestalter (m/w/d)</span></strong></h3>
+            <p>Zur Verstärkung unseres Verkaufsteams suchen wir jeweils für den <strong>Großraum Magdeburg</strong> zum
+                <strong>nächstmöglichen Zeitpunkt</strong> einen
+            </p>
+            <h3><strong><span style="color: var(--color-primary)">Vertriebsmitarbeiter für Gastronomie &amp; Hotellerie
+                        im Außendienst (m/w/d)</span></strong></h3>
             <p><strong>Zu Deinen Aufgaben zählt:</strong></p>
             <ul>
                 <li>
-                    <p><span>Konzeption, Gestaltung und Umsetzung moderner, responsiver Websites</span></p>
+                    <p>Akquisition von Neukunden; primär in den Bereichen Hotellerie, Gastronomie, Großküchen und
+                        Gemeinschaftsverpflegung</p>
                 </li>
                 <li>
-                    <p><span>Pflege und Weiterentwicklung bestehender Webauftritte (z. B. auf Basis von WordPress,
-                            Joomla oder TYPO3)</span></p>
+                    <p>Betreuung von Bestandskunden</p>
                 </li>
                 <li>
-                    <p><span>Social Media Anwendungen mit Adobe XD</span>
-                    </p>
+                    <p>Produktvorstellung und Sortimentspflege</p>
                 </li>
                 <li>
-                    <p><span>Bildbearbeitung, Retusche und Layouts für Print- und Online-Medien</span></p>
+                    <p>Angebotserstellung und Auftragserfassung</p>
                 </li>
                 <li>
-                    <p><span>Gestaltung und Satz von Katalogen, Handzetteln, Anzeigen und weiteren Werbemitteln</span>
-                    </p>
+                    <p>Optimierung von Verkaufsstrategien</p>
                 </li>
                 <li>
-                    <p><span>Kreative Mitarbeit bei Kampagnen (digital & print)</span></p>
-                </li>
-                <li>
-                    <p><span>Enge Zusammenarbeit mit internen Teams und externen Dienstleistern</span></p>
+                    <p>Reporting gegenüber der Vertriebsleitung</p>
                 </li>
             </ul>
             <p><strong>Das solltest Du mitbringen:</strong></p>
             <ul>
                 <li>
-                    <p><span>eine abgeschlossene Ausbildung (z. B. Mediengestaltung) oder ein Studium im Bereich
-                            Kommunikationsdesign – gerne auch Quereinsteiger mit entsprechender Erfahrung</span></p>
+                    <p>abgeschlossene Ausbildung im kaufmännischen Bereich, im Lebensmittelhandwerk und/oder in der
+                        Gastronomie</p>
                 </li>
                 <li>
-                    <p><span>Sicherer Umgang mit Adobe Creative Suite (wie Acrobat, InDesign, Photoshop und
-                            Illustrator) sowie Microsoft Office</span></p>
+                    <p>Kenntnisse über die Ansprüche und Bedürfnisse der Kunden in der Lebensmittelbranche</p>
                 </li>
                 <li>
-                    <p><span>Erfahrung in der Erstellung digitaler Inhalte, insbesondere für Social Media, sowie ein
-                            Gespür für digitale Trends</span></p>
+                    <p>Kommunikationsfähigkeit, sicheres Auftreten und Verhandlungsgeschick</p>
                 </li>
                 <li>
-                    <p><span>Grundkenntnisse in der Webseitengestaltung oder die Bereitschaft, Dich in diesem Bereich
-                            weiterzubilden</span></p>
+                    <p>eigenständiges Arbeiten, Organisationsvermögen und Flexibilität</p>
                 </li>
                 <li>
-                    <p><span>Kenntnisse im Bereich Werbetechnik und Fahrzeugbeschriftung sind ein Plus, aber kein
-                            Muss</span></p>
-                    <p></p>
+                    <p>sicherer Umgang mit Warenwirtschaftssystemen und den gängigen MS-Office Anwendungen (Excel, Word)</p>
                 </li>
             </ul>
             <p><strong>Wir bieten Dir:</strong></p>
             <ul>
                 <li>
-                    <p>attraktive Vergütung zzgl. Sonderzahlungen</p>
+                    <p>abwechslungsreiches und verantwortungsvolles Aufgabengebiet</p>
+                </li>
+                <li>
+                    <p>attraktive Vergütung inkl. Sonderzahlungen</p>
                 </li>
                 <li>
                     <p>30 Tage Jahresurlaub</p>
                 </li>
                 <li>
-                    <p>Dienstfahrrad-Leasing, Betriebliche Altersvorsorge</p>
+                    <p>betriebliche Altersvorsorge</p>
                 </li>
                 <li>
                     <p>umfangreiche Fortbildungsmöglichkeiten mit Kostenübernahme</p>
                 </li>
                 <li>
-                    <p>ein abwechslungsreiches und verantwortungsvolles Aufgabengebiet</p>
-                </li>
-                <li>
-                    <p>Viele weitere Mitarbeitervorteile (z. B. Rabatte auf unsere Handelsprodukte, Corporate Benefits, Teamevents)</p>
+                    <p>Viele weitere Mitarbeitervorteile (z. B. Rabatte auf unsere Handelsprodukte, Dienstradleasing, Corporate Benefits, Teamevents)</p>
                 </li>
             </ul>
             <p>Haben wir Dein Interesse geweckt?<br><br>Dann freuen wir uns auf Deine aussagekräftigen
@@ -105,14 +98,17 @@
         </div>
     </SectionText>
 </template>
+
 <script lang="ts" setup>
 definePageMeta({
-    title: 'Mediengestalter',
-    description: 'Vollzeit, Marketing',
+    title: 'Vertriebsmitarbeiter für Gastronomie & Hotellerie im Außendienst (Großraum Magdeburg)',
+    description: 'Vollzeit, Vertrieb, Außendienst',
 })
+
 useSeoMeta({
-    title: 'Mediengestalter',
-    description: 'Vollzeit, Marketing',
+    title: 'Vertriebsmitarbeiter für Gastronomie & Hotellerie im Außendienst (Großraum Magdeburg)',
+    description: 'Vollzeit, Vertrieb, Außendienst',
 })
 </script>
+
 <style lang="sass" scoped></style>
