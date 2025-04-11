@@ -4,19 +4,19 @@
             <h2>CHROMOnorm & FDBS</h2>
             <div class="grid">
                 <div class="flex-1">
-                    <img src="/images/content/customerservice/chromonorm/chromonorm-abfallkühler-1.png">
+                    <img src="/images/content/customerservice/chromonorm/abfallkuehler_1x240l.png">
                     <p class="text-center">
                         Abfallkühler 1x240l<br>
                     </p>
                 </div>
                 <div class="flex-1 highlight">
-                    <img src="/images/content/customerservice/chromonorm/flockeneisbereiter_test.png">
+                    <img src="/images/content/customerservice/chromonorm/flockeneisbereiter.png">
                     <p class="text-center">
                         Flockeneisbereiter mit Speicher und Wasserfilter<br>
                     </p>
                 </div>
                 <div class="Flex-1">
-                    <img src="/images/content/customerservice/chromonorm/chromonorm-abfallkühler-2-2.png">
+                    <img src="/images/content/customerservice/chromonorm/abfallkuehler_2x240l.png">
                     <p class="text-center">
                         Abfallkühler 2x240l<br>
                     </p>
@@ -203,12 +203,12 @@
 </template>
 
 <script lang="ts" setup>
-    useSeoMeta({
-        title: 'NEU: CHROMOnorm-Angebote',
-        description: '',
-    })
+useSeoMeta({
+    title: 'NEU: CHROMOnorm-Angebote',
+    description: '',
+})
 
-    const NuxtLink = defineNuxtLink({})
+const NuxtLink = defineNuxtLink({})
 </script>
 
 <style lang="sass" scoped>
@@ -253,6 +253,7 @@
                     flex: 55
 
             img
+                border-radius: 1rem 1rem 0 0
                 width: 100%
                 display: flex
 </style>
