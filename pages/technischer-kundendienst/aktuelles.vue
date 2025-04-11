@@ -59,7 +59,7 @@
 
 <script lang="ts" setup>
     useSeoMeta({
-        title: 'NEU: Hako-Angebote',
+        title: 'Hako-Angebote',
         description: '',
     })
 
