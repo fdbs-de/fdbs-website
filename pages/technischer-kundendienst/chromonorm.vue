@@ -86,13 +86,13 @@
             Energieverbrauch: 2,9 kWh / 24h
         </li>
         <li>
-            Kältemittel: R290 (umweltfreundlich)
+            Kältemittel: R290
         </li>
         <li>
             Anschluss: 440 W / 230 V
         </li>
         <p>
-            <b>FDBS-Vorteilspreis: x €</b>
+            FDBS-Vorteilspreis: x €
         </p>
         <br>
 
@@ -138,7 +138,7 @@
             Kältemittel: R290
         </li>
         <p>
-            <b>FDBS-Vorteilspreis: x €</b>
+            FDBS-Vorteilspreis: x €
         </p>
         <br>
 
@@ -180,13 +180,13 @@
             Energieverbrauch: 3,1 kWh / 24h
         </li>
         <li>
-            Kältemittel: R290 (umweltfreundlich)
+            Kältemittel: R290
         </li>
         <li>
             Anschluss: 440 W / 230 V
         </li>
         <p>
-            <b>FDBS-Vorteilspreis: x €</b>
+            FDBS-Vorteilspreis: x €
         </p>
         <br>
         <p>
@@ -195,9 +195,11 @@
         <br>
         <p class="text-center">
             Bei Interesse melden Sie sich gerne unter
-            <a target="_self" rel="noopener noreferrer nofollow" href="tel:05312105541">0531-210 55 - 41</a>
+            <a target="_self" rel="noopener noreferrer nofollow" href="tel:05312105541"
+                style="color:var(--color-primary)">0531-210 55 - 41</a>
             oder schreiben Sie eine Mail an
-            <a target="_self" rel="noopener noreferrer nofollow" href="mailto:service@fdbs.de">service@fdbs.de</a>
+            <a target="_self" rel="noopener noreferrer nofollow" href="mailto:service@fdbs.de"
+                style="color:var(--color-primary)">service@fdbs.de</a>
         </p>
     </SectionText>
 </template>
@@ -224,8 +226,6 @@ const NuxtLink = defineNuxtLink({})
             color: inherit
             max-width: 700px
 
-        .iod-button
-            max-width: 400px
 
     #angebote
         h2
