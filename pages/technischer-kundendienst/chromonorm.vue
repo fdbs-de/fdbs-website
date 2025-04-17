@@ -91,10 +91,7 @@
         <li>
             Anschluss: 440 W / 230 V
         </li>
-        <p>
-            FDBS-Vorteilspreis: x €
-        </p>
-        <br>
+        <IodTag class="mt-2 mb-6" label="FDBS Vorteilspreis" suffix="x €" color-preset="primary" border/>
 
 
         <h2>
@@ -137,10 +134,7 @@
         <li>
             Kältemittel: R290
         </li>
-        <p>
-            FDBS-Vorteilspreis: x €
-        </p>
-        <br>
+        <IodTag class="mt-2 mb-6" label="FDBS Vorteilspreis" suffix="x €" color-preset="primary" border/>
 
 
         <h2>
@@ -185,10 +179,8 @@
         <li>
             Anschluss: 440 W / 230 V
         </li>
-        <p>
-            FDBS-Vorteilspreis: x €
-        </p>
-        <br>
+        <IodTag class="mt-2 mb-6" label="FDBS Vorteilspreis" suffix="x €" color-preset="primary" border/>
+        
         <p>
             Angebote gültig vom 01.05.2025 bis 30.06.2025
         </p>
