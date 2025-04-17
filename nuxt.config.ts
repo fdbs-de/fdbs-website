@@ -1,18 +1,11 @@
-import tailwindcss from "@tailwindcss/vite"
-
 export default defineNuxtConfig({
     css: [
-        '~/assets/css/app.css',
+        '~/assets/css/app.sass',
     ],
-
-    vite: {
-        plugins: [
-            tailwindcss(),
-        ],
-    },
 
     modules: [
         '@pinia/nuxt',
+        '@nuxtjs/tailwindcss',
     ],
 
     pinia: {
