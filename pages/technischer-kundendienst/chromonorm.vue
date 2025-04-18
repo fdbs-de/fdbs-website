@@ -6,7 +6,7 @@
                 <div class="flex-1">
                     <img src="/images/content/customerservice/chromonorm/abfallkuehler_1x240l.png">
                     <p class="text-center">
-                        Abfallkühler 1x240l<br>
+                        Abfallkühler 1 x 240 Liter<br>
                     </p>
                 </div>
                 <div class="flex-1 highlight">
@@ -18,7 +18,7 @@
                 <div class="Flex-1">
                     <img src="/images/content/customerservice/chromonorm/abfallkuehler_2x240l.png">
                     <p class="text-center">
-                        Abfallkühler 2x240l<br>
+                        Abfallkühler 2 x 240 Liter<br>
                     </p>
                 </div>
             </div>
