@@ -36,8 +36,7 @@
             perfekte Lösung für saubere Prozesse und sichere Kühlung.
         </p>
         <li>
-            <b>Abfallkühler:</b> Verhindern Gerüche und Keimbildung, ideal für den hygienischen Umgang mit organischen
-            Reststoffen.
+            <b>Abfallkühler:</b> Verhindern Gerüche und Keimbildung, ideal für den hygienischen Umgang mit Biomüll.
         </li>
         <li>
             <b>Flockeneisbereiter:</b> Produzieren sofort einsatzbereites Eis – schonend, effizient und perfekt zur
