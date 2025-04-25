@@ -1,16 +1,16 @@
 # Build Stage
-FROM node:20 AS build-stage
+FROM node:22 AS build-stage
 
 WORKDIR /app
 
 COPY package*.json ./
-RUN npm install
+RUN npm ci
 
 COPY . .
 RUN npm run build
 
 # Production Stage
-FROM node:20-alpine AS production-stage
+FROM node:22-alpine AS production-stage
 
 WORKDIR /app
 
