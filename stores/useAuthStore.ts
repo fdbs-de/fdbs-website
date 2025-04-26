@@ -35,6 +35,8 @@ type User = {
     deleted_at: string | null
     created_at: string | null
     updated_at: string | null
+    blocked_at: string | null
+    block_reason: string | null
 
     settings: {
         [key: string]: any
@@ -118,6 +120,56 @@ export const useAuthStore = defineStore('auth', () => {
             fetchSession(),
             fetchDomain(),
         ])
+    }
+
+
+
+    /**
+     * Check if the user is authenticated
+     * @description This function checks if the user is authenticated and has passed 2FA
+     * 
+     * @returns {Boolean}
+     * @memberof AuthStore
+     */
+    function isAuthenticated(): Boolean {
+        // Base check
+        if (!user.value) return false
+        if (!session.value) return false
+
+        // Authenticated check
+        if (!session.value.authenticated) return false
+
+        // 2FA check
+        if (session.value.tfa_enabled && !session.value.tfa_verified) return false
+
+        return true
+    }
+
+    /**
+     * Check if the user is in some way restricted
+     * @description This function checks if the user has either not verified their email or is not enabled
+     * 
+     * @returns {Boolean}
+     * @memberof AuthStore
+     */
+    function isRestricted(): Boolean {
+        if ((user.value?.email_verified_at || null) === null) return true
+        if ((user.value?.enabled_at || null) === null) return true
+
+        return false
+    }
+
+    /**
+     * Check if the user is blocked
+     * @description This function checks if the user has been blocked
+     * 
+     * @returns {Boolean}
+     * @memberof AuthStore
+     */
+    function isBlocked(): Boolean {
+        if ((user.value?.blocked_at || null) === null) return false
+        
+        return true
     }
 
 
@@ -227,6 +279,10 @@ export const useAuthStore = defineStore('auth', () => {
         fetchSession,
         fetchDomain,
         load,
+
+        isAuthenticated,
+        isRestricted,
+        isBlocked,
         
         adminPanelUrl,
         navigateToLogin,
