@@ -6,19 +6,19 @@
                 <div class="flex-1">
                     <img src="/images/content/customerservice/chromonorm/abfallkuehler_1x240l.png">
                     <p class="text-center">
-                        Abfallkühler 1 x 240 Liter<br>
+                        Abfallkühler 1 x 240 Liter
                     </p>
                 </div>
                 <div class="flex-1 highlight">
                     <img src="/images/content/customerservice/chromonorm/flockeneisbereiter.png">
                     <p class="text-center">
-                        Flockeneisbereiter mit Speicher und Wasserfilter<br>
+                        Flockeneisbereiter mit Speicher und Wasserfilter
                     </p>
                 </div>
                 <div class="Flex-1">
                     <img src="/images/content/customerservice/chromonorm/abfallkuehler_2x240l.png">
                     <p class="text-center">
-                        Abfallkühler 2 x 240 Liter<br>
+                        Abfallkühler 2 x 240 Liter
                     </p>
                 </div>
             </div>
@@ -181,11 +181,11 @@
         <IodTag class="mt-2 mb-6" label="FDBS Vorteilspreis" suffix="3.245,00 €" color-preset="primary" border />
 
         <p>
-            Angebote gültig vom 01.05.2025 bis 30.06.2025
+            <br>Angebote gültig vom 01.05.2025 bis 30.06.2025
         </p>
         <br>
         <p class="text-center">
-            Bei Interesse melden Sie sich gerne unter
+            <br>Bei Interesse melden Sie sich gerne unter
             <a target="_self" rel="noopener noreferrer nofollow" href="tel:05312105541"
                 style="color:var(--color-primary)">0531-210 55 - 41</a>
             oder schreiben Sie eine Mail an
@@ -247,4 +247,7 @@ const NuxtLink = defineNuxtLink({})
                 border-radius: 1rem 1rem 0 0
                 width: 100%
                 display: flex
+                
+            p
+                margin-block: 1rem 1rem
 </style>
