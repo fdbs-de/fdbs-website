@@ -50,16 +50,18 @@
     <SectionText>
         <p class="text-center">
             Bei Interesse melden Sie sich gerne unter
-            <a target="_self" rel="noopener noreferrer nofollow" href="tel:05312105541">0531-210 55 - 41</a>
+            <a target="_self" rel="noopener noreferrer nofollow" href="tel:05312105541"
+                style="color:var(--color-primary)">0531-210 55 - 41</a>
             oder schreiben Sie eine Mail an
-            <a target="_self" rel="noopener noreferrer nofollow" href="mailto:service@fdbs.de">service@fdbs.de</a>
+            <a target="_self" rel="noopener noreferrer nofollow" href="mailto:service@fdbs.de"
+                style="color:var(--color-primary)">service@fdbs.de</a>
         </p>
     </SectionText>
 </template>
 
 <script lang="ts" setup>
     useSeoMeta({
-        title: 'NEU: Hako-Angebote',
+        title: 'Hako-Angebote',
         description: '',
     })
 
