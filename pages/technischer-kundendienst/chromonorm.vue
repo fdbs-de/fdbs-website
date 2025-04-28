@@ -49,7 +49,7 @@
         </p>
         <br>
         <h2>
-            Abfallkühler 1x240l - steckfertig - Winterschaltung - mit 2 Schlössern
+            Abfallkühler 1x240l - steckfertig - Winterschaltung - mit 2 Schlössern<br>(Art.: 7036066)
         </h2>
         <p>
             <b>Highlights:</b>
@@ -90,11 +90,11 @@
         <li>
             Anschluss: 440 W / 230 V
         </li>
-        <IodTag class="mt-2 mb-6" label="FDBS Vorteilspreis" suffix="x €" color-preset="primary" border/>
+        <IodTag class="mt-2 mb-6" label="FDBS Vorteilspreis" suffix="2.530,00 €" color-preset="primary" border />
 
 
         <h2>
-            Manitowoc Flockeneisbereiter mit 174kg Speicher & Wasserfilter
+            Manitowoc Flockeneisbereiter mit 174kg Speicher & Wasserfilter<br>(Art.: 7036096)
         </h2>
         <p>
             <b>Highlights:</b>
@@ -133,11 +133,11 @@
         <li>
             Kältemittel: R290
         </li>
-        <IodTag class="mt-2 mb-6" label="FDBS Vorteilspreis" suffix="x €" color-preset="primary" border/>
+        <IodTag class="mt-2 mb-6" label="FDBS Vorteilspreis" suffix="4.250,00 €" color-preset="primary" border />
 
 
         <h2>
-            Abfallkühler 2x240l - steckfertig - Winterschaltung - mit 2 Schlössern
+            Abfallkühler 2x240l - steckfertig - Winterschaltung - mit 2 Schlössern<br>(Art.: 7036067)
         </h2>
         <p>
             <b>Highlights:</b>
@@ -178,8 +178,8 @@
         <li>
             Anschluss: 440 W / 230 V
         </li>
-        <IodTag class="mt-2 mb-6" label="FDBS Vorteilspreis" suffix="x €" color-preset="primary" border/>
-        
+        <IodTag class="mt-2 mb-6" label="FDBS Vorteilspreis" suffix="3.245,00 €" color-preset="primary" border />
+
         <p>
             Angebote gültig vom 01.05.2025 bis 30.06.2025
         </p>
