@@ -66,7 +66,7 @@ export const useAuthStore = defineStore('auth', () => {
             guest: '/',
         },
         apiRoutes: {
-            csrf: '/sanctum/csrf-cookie',
+            csrf: '/api/csrf-cookie',
             session: '/api/session',
             domain: '/api/domain/settings',
             logout: '/logout',
