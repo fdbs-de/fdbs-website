@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.13.2",
-    "nuxt": "^3.17.0",
+    "nuxt": "^3.17.3",
     "sass-embedded": "^1.87.0"
   }
 }
