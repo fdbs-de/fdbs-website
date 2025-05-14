@@ -71,7 +71,7 @@
 
 <style lang="sass" scoped>
     .fdbs-services
-        padding: 10rem 0
+        padding: 4rem 0
 
         h2
             font-size: clamp(2rem, 10vw, 3.5rem)

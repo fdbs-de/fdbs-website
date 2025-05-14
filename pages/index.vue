@@ -1,5 +1,13 @@
 <template>
     <SectionHomeHero />
+    <section id="bestellzeiten">
+        <HeLimiter>
+            <div>
+                <img src="/images/content/bestellzeiten.png">
+            </div>
+        </HeLimiter>
+
+    </section>
     <SectionHomeServices />
     <SectionCta id="marketing" color="var(--color-primary)" src="/images/content/mkbs/woman.jpg">
         <h2>Wir machen Ihr Unternehmen sichtbar!</h2>
@@ -13,15 +21,8 @@
                 <b>wir bringen Sie an die Spitze!</b>
             </p>
         </div>
-        <IodButton
-            :is="NuxtLink"
-            to="/mkbs"
-            size="l"
-            corner="pill"
-            label="Jetzt durchstarten"
-            background="var(--color-on-primary)"
-            color="var(--color-primary)"
-        />
+        <IodButton :is="NuxtLink" to="/mkbs" size="l" corner="pill" label="Jetzt durchstarten"
+            background="var(--color-on-primary)" color="var(--color-primary)" />
     </SectionCta>
     <SectionHomeKundendienst />
     <SectionHomeTestimonials />
@@ -55,4 +56,18 @@
     @media only screen and (max-width: 500px)
         #marketing
             padding-block: 6rem 7rem
+
+
+    #bestellzeiten
+        margin-block: 3rem
+        div
+            display: block
+            width: 100%                
+            overflow: hidden
+            flex: 50
+    
+        img
+            width: 100%
+            display: flex
+            background: white
 </style>
