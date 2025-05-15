@@ -1,12 +1,6 @@
 <template>
     <SectionHero title="Auslieferungsfahrer ab 7,5t" image="/images/content/banner/karriere_513169496_482949832.webp" />
     <SectionText>
-        <p class="flex flex-col pb-12">
-            <IodButton :is="NuxtLink" corner="l" size="l" background="#003A9B" icon-left="open_in_new"
-                label="Schnellbewerbung auf Indeed" to="https://de.indeed.com/viewjob?jk=1a2da2fb5e419fe3"
-                target="_blank" />
-        </p>
-        <HeDivider />
         <span>
             Anstellungsart: <b>Vollzeit</b><br>
             Tags: <b>Logistik, Fahrer</b>
