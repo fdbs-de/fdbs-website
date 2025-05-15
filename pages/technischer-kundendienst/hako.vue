@@ -1,18 +1,18 @@
 <template>
     <SectionCta id="hero" color="#FF4C1B"
         src="/images/content/customerservice/hako/csm_Web_Header_Sweepmaster_ba823f8c94.jpg">
-        <h1>Der Frühling steht <br>vor der Tür!</h1>
+        <h1>Effizienz kennt<br>
+            kein Ablaufdatum!</h1>
         <div>
             <p>
-                Es ist die perfekte Zeit,<br>
-                um Ihr Sortiment an Reinigungs-<br>
-                und Wasserstrahltechnik aufzufrischen!
+                Die Nachfrage war hoch - und ihr Interesse ist uns wichtig!<br><br>
+                Deshalb verlängern wir unser aktuelles<br>
+                Angebot im Bereich Reinigungs- und Wasserstrahltechnik.
             </p>
             <p>
-                Nutzen Sie die erstklassigen Hako-Angebote, die<br>
-                Ihre Arbeit <b>erleichtert</b> und <b>effizienter</b> gestaltet!<br>
-                <br>
-                Angebote gültig vom 01.03.2025 bis 16.05.2025
+                Nutzen Sie die Gelegenheit, sich leistungsstarke<br>
+                Technik zu attraktiven Konditionen zu sichern.<br><br>
+                <b>Jetzt verlängert - nur bis 15.07.2025</b><br>
             </p>
         </div>
         <IodButton :is="NuxtLink" to="/downloads/hako_fdbs_aktion_2025.pdf" size="l" corner="pill" label="Zum Flyer"
