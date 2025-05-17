@@ -97,7 +97,7 @@
         loading.value = true
 
         try {
-            const {data} = await useAxios().get(apiRoute('/media/:path', {
+            const {data} = await useAxios().get(apiRoute('/api/media/:path', {
                 path: path.value,
                 size: pagination.value.size,
                 page: pagination.value.page,
