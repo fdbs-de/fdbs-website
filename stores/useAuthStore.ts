@@ -180,7 +180,7 @@ export const useAuthStore = defineStore('auth', () => {
 
     function navigateToAuth(endpoint: 'login' | 'register', returnTo: string = '') {
         returnTo = encodeURI(`${runtimeConfig.public.websiteUrl}${returnTo}`)
-        navigateTo(`${runtimeConfig.public.frontendUrl}${runtimeConfig.public.frontendPrefix}auth/${endpoint}?intended=${returnTo}`, { replace: true, external: true })
+        navigateTo(`${runtimeConfig.public.frontendUrl}${runtimeConfig.public.frontendPrefix}/auth/${endpoint}?intended=${returnTo}`, { replace: true, external: true })
     }
 
     function navigateToLogin(returnTo: string = '') {
@@ -193,7 +193,7 @@ export const useAuthStore = defineStore('auth', () => {
 
     function navigateToProfile(returnTo: string = '') {
         returnTo = encodeURI(`${runtimeConfig.public.websiteUrl}${returnTo}`)
-        navigateTo(`${runtimeConfig.public.frontendUrl}${runtimeConfig.public.frontendPrefix}auth/profile?return=${returnTo}`, { replace: true, external: true })
+        navigateTo(`${runtimeConfig.public.frontendUrl}${runtimeConfig.public.frontendPrefix}/auth/profile?return=${returnTo}`, { replace: true, external: true })
     }
 
     async function logout() {
