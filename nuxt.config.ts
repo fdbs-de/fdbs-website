@@ -59,10 +59,12 @@ export default defineNuxtConfig({
 
     runtimeConfig: {
         public: {
-            backendUrl: `${process.env.BASE_PROTOCOL ?? 'http://'}${process.env.BACKEND_DOMAIN ?? 'localhost:8000'}`,
-            frontendUrl: `${process.env.BASE_PROTOCOL ?? 'http://'}${process.env.FRONTEND_DOMAIN ?? 'localhost:3000'}`,
-            websiteUrl: `${process.env.BASE_PROTOCOL ?? 'http://'}${process.env.WEBSITE_DOMAIN ?? 'localhost:3001'}`,
-            screensUrl: `${process.env.BASE_PROTOCOL ?? 'http://'}${process.env.SCREENS_DOMAIN ?? 'localhost:3002'}`,
+            backendUrl: process.env.BACKEND_URL ?? 'http://localhost:8000',
+            backendPrefix: process.env.BACKEND_PREFIX ? `/${process.env.BACKEND_PREFIX}/` : '/',
+            frontendUrl: process.env.FRONTEND_URL ?? 'http://localhost:3000',
+            frontendPrefix: process.env.FRONTEND_PREFIX ? `/${process.env.FRONTEND_PREFIX}/` : '/',
+            websiteUrl: process.env.WEBSITE_URL ?? 'http://localhost:3001',
+            websitePrefix: process.env.WEBSITE_PREFIX ? `/${process.env.WEBSITE_PREFIX}/` : '/',
             posthogPublicKey: 'phc_IUjuGhQ1tgOqVVLtbrbnpy4yEYgS8CJJtNZUTIDYBUO',
             posthogHost: 'https://eu.i.posthog.com',
         },
