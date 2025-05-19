@@ -175,7 +175,7 @@ export const useAuthStore = defineStore('auth', () => {
 
 
     function adminPanelUrl() {
-        return `${runtimeConfig.public.frontendUrl}`
+        return `${runtimeConfig.public.frontendUrl}${runtimeConfig.public.frontendPrefix}`
     }
 
     function navigateToAuth(endpoint: 'login' | 'register', returnTo: string = '') {
