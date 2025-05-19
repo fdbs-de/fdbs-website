@@ -69,7 +69,7 @@ export const useAuthStore = defineStore('auth', () => {
             csrf: '/api/csrf-cookie',
             session: '/api/session',
             domain: '/api/domain/settings',
-            logout: '/logout',
+            logout: '/api/logout',
         },
         adminPermissions: ['system.admin', 'system.super-admin'],
         superAdminPermissions: ['system.super-admin'],
