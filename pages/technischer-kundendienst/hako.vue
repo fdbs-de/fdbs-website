@@ -15,7 +15,7 @@
                 <b>Jetzt verlängert - nur bis 15.07.2025</b><br>
             </p>
         </div>
-        <IodButton :is="NuxtLink" to="/downloads/hako_fdbs_aktion_2025.pdf" size="l" corner="pill" label="Zum Flyer"
+        <IodButton :is="NuxtLink" to="/downloads/hako_fdbs_aktion_2025-1.pdf" size="l" corner="pill" label="Zum Flyer"
             background="var(--color-on-primary)" color="#FF4C1B" />
     </SectionCta>
 
