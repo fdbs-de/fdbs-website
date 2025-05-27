@@ -1,13 +1,5 @@
 <template>
     <SectionHomeHero />
-    <section id="bestellzeiten">
-        <HeLimiter>
-            <div>
-                <img src="/images/content/bestellzeiten.png">
-            </div>
-        </HeLimiter>
-
-    </section>
     <SectionHomeServices />
     <SectionCta id="marketing" color="var(--color-primary)" src="/images/content/mkbs/woman.jpg">
         <h2>Wir machen Ihr Unternehmen sichtbar!</h2>
@@ -56,18 +48,4 @@
     @media only screen and (max-width: 500px)
         #marketing
             padding-block: 6rem 7rem
-
-
-    #bestellzeiten
-        margin-block: 3rem
-        div
-            display: block
-            width: 100%                
-            overflow: hidden
-            flex: 50
-    
-        img
-            width: 100%
-            display: flex
-            background: white
 </style>
