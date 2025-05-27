@@ -15,8 +15,8 @@
                 <b>Jetzt verlängert - nur bis 15.07.2025</b><br>
             </p>
         </div>
-        <IodButton :is="NuxtLink" to="/downloads/hako_fdbs_aktion_2025-1.pdf" size="l" corner="pill" label="Zum Flyer"
-            background="var(--color-on-primary)" color="#FF4C1B" />
+        <IodButton is="a" href="/downloads/hako_fdbs_aktion_2025-1.pdf" size="l" corner="pill" label="Zum Flyer"
+            background="var(--color-on-primary)" color="#FF4C1B" target="_blank" />
     </SectionCta>
 
 
@@ -60,12 +60,12 @@
 </template>
 
 <script lang="ts" setup>
-    useSeoMeta({
-        title: 'Hako-Angebote',
-        description: '',
-    })
+useSeoMeta({
+    title: 'Hako-Angebote',
+    description: '',
+})
 
-    const NuxtLink = defineNuxtLink({})
+const NuxtLink = defineNuxtLink({})
 </script>
 
 <style lang="sass" scoped>
