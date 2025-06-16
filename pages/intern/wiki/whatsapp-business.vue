@@ -100,7 +100,9 @@
             <p></p>
 
             <h2>6. Kurzlink</h2>
-            <p>Du kannst hier deine Kontoinformationen bearbeiten.</p>
+            <p>Hier kannst du einen Link erstellen, welcher für den Kunden direkt einen Chat mit euch öffnet. Du kannst
+                auch eine vorformulierte Nachricht hinterlegen (z.B. „Hallo! Ich habe Interesse an einem Ihrer
+                Produkte.“). Der Link kann auch als QR-Code geteilt und so direkt mit dem Handy geöffnet werden.</p>
             <img class="content-image" src="/images/content/wiki/marketing/whatsapp-business/whatsapp-business-12.png"
                 alt="">
             <p></p>
