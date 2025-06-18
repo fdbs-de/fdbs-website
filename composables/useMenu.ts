@@ -15,10 +15,8 @@ export const useMenu = (menu: 'main'|'legal'|'about'|'auth') => {
                     { id: "4220", label: "Tierhaltungskennzeichnung", href: "/foodservice/tierhaltungskennzeichnung" },
                     { id: "4230", label: "Mehrwegpflicht", href: "/foodservice/mehrwegpflicht" },
                 ]},
-                { id: "4300", label: "Unsere Marken", href: "/marken", children: [
-                    { id: "4310", label: "Eichenhof", href: "/marken/eichenhof" },
-                    //{ id: "4320", label: "Il Campese", href: "/marken/il-campese" },
-                    { id: "4330", label: "Maxi France", href: "/marken/maxi-france" },
+                { id: "4300", label: "Unsere Marke", href: "/marken", children: [
+                    { id: "4310", label: "Maxi France", href: "/marken/maxi-france" },
                 ]},
                 { id: "4400", label: "Marketing & Kommunikation", href: "/mkbs", children: [
                     //{ id: "4410", label: "Web Entwicklung", href: "/mkbs/web" },

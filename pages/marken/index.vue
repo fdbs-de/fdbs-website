@@ -1,20 +1,14 @@
 <template>
-    <SectionHero title="Unsere Marken" image="/images/content/banner/marken_509487561.webp" />
+    <SectionHero title="Unsere Marke" image="/images/content/banner/marken_509487561.webp" />
     <SectionGrid>
-        <Card :is="NuxtLink" cover to="/marken/eichenhof" name="Eichenhof"
-            image="/images/content/marken/eichenhof/eichenhof_card.png" />
-        <!--  
-            <Card :is="NuxtLink" cover to="/marken/il-campese" name="Il Campese"
-            image="/images/content/marken/il-campese/ilcampese_card.png" />
-        -->
-            <Card :is="NuxtLink" cover to="/marken/maxi-france" name="Maxi France"
-            image="/images/content/marken/maxi-france/maxifrance_card.png" />
+        <Card :is="NuxtLink" cover to="/marken/maxi-france" name="Maxi France"
+            image="/images/content/marken/maxi-france/maxifrance_card.png" style="max-width:600px" />
     </SectionGrid>
 </template>
 
 <script lang="ts" setup>
     useSeoMeta({
-        title: 'Unsere Marken',
+        title: 'Unsere Marke',
         description: '',
     })
 

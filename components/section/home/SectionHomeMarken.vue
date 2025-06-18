@@ -1,18 +1,10 @@
 <template>
     <section class="fdbs-marken">
         <HeLimiter>
-            <h2>Unsere Marken</h2>
+            <h2>Unsere Marke</h2>
             <div class="grid">
-                <NuxtLink class="flex-1 shadow" to="/marken/eichenhof">
-                    <img src="/images/content/marken/eichenhof/eichenhof_cover_1.png">
-                </NuxtLink>
-                <!--  
-                <NuxtLink class="flex-1 highlight" to="/marken/il-campese">
-                    <img src="/images/content/marken/il-campese/ilcampese_cover.png">
-                </NuxtLink>
-                -->
                 <NuxtLink class="flex-1 shadow" to="/marken/maxi-france">
-                    <img src="/images/content/marken/maxi-france/maxifrance_cover_1.png">
+                    <img src="/images/content/marken/maxi-france/maxifrance_card.png">
                 </NuxtLink>
             </div>
         </HeLimiter>
@@ -41,7 +33,8 @@
                 overflow: hidden
                 border: 1px solid var(--color-background-soft)
                 flex: 50
-                max-width: 480px
+                max-width: 750px
+
 
                 &.highlight
                     box-shadow: var(--shadow-l)
