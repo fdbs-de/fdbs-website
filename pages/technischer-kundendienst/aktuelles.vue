@@ -1,109 +1,85 @@
 <template>
-    <SectionCta id="hero" color="#FF4C1B"
-        src="/images/content/customerservice/hako/csm_Web_Header_Sweepmaster_ba823f8c94.jpg">
-        <h1>Effizienz kennt<br>
-            kein Ablaufdatum!</h1>
-        <div>
-            <p>
-                Die Nachfrage war hoch - und ihr Interesse ist uns wichtig!<br><br>
-                Deshalb verlängern wir unser aktuelles<br>
-                Angebot im Bereich Reinigungs- und Wasserstrahltechnik.
-            </p>
-            <p>
-                Nutzen Sie die Gelegenheit, sich leistungsstarke<br>
-                Technik zu attraktiven Konditionen zu sichern.<br><br>
-                <b>Jetzt verlängert - nur bis 15.07.2025</b><br>
+    <SectionHero title="Top Aktuelles vom technischen Kundendienst"
+        image="/images/content/banner/service_425530867_425530980_436047070_425530651_425530924_425530335.webp" />
+    <SectionText>
+        <h2>Digitale HACCP-Dokumentation</h2>
+        <p>
+            Die digitale CHECK HACCP-Lösung optimiert die Lebensmittelsicherheit durch
+            automatisierte Dokumentation und Echtzeit-Überwachung.
+            Sie ersetzt Papieraufzeichnungen, bietet Checklisten für Hygiene und Reinigung,
+            und meldet automatisch bei Gerätestörungen.
+            Dies spart Zeit und Kosten und gewährleistet volle HACCP-Konformität.
+        </p>
+        <img src="/images/content/customerservice/haccp.png" alt="HACCP" class="rounded-lg">
+        <h2>Hauptfunktionen</h2>
+        <ul class="list-disc pl-6">
+            <li>
+                <b>Mobile CHECK:</b> Manuelle Temperaturmessung mittels bluetoothfähigem Kerntemperaturfühler oder
+                Infrarot-Temperatursensor
+            </li>
+            <li>
+                <b>Auto CHECK:</b> Automatische Raumtemperaturerfassung mittels Sensoren, stationär und in mobilen
+                Geräten
+            </li>
+            <li>
+                <b>Hygiene CHECK:</b> Einfaches Hygiene- und Servicemanagement mit flexibel individuell erstellbaren
+                Checklisten und zusätzlicher Foto- und Textfuntkion über die CHECK App
+            </li>
+        </ul>
+        <h2>Ihre Vorteile</h2>
+        <ul class="list-disc pl-6">
+            <li>
+                <b>100% Papiereinsparung</b>
+            </li>
+            <li>
+                <b>80% Zeitersparnis</b>
+            </li>
+            <li>
+                Digital, transparente HACCP-Listen mit Echtzeit-Daten
+            </li>
+            <li>
+                24/7 Alarmierungsfunktion
+            </li>
+            <li>
+                Einfache Nutzer-, Rechteverwaltung und Konfiguration
+            </li>
+            <li>
+                Nachrüstbar in bestehende Infrastruktur
+            </li>
+            <li>
+                Bedienerfreundliche und intuitive Anwendung
+            </li>
+            <li>
+                Reduzierung von Personal-, Kosten-, und Zeitaufwand
+            </li>
+        </ul>
+
+        <h2>Neugierig geworden?</h2>
+        <div class="formatted-content">
+            <p>Für mehr Informationen, ein persönliches Gespräch oder Ihr individuelles Angebot, melden Sie sich
+                gerne
+                unter <a target="_self" rel="noopener noreferrer nofollow" href="tel:05312105541">0531-210
+                    55 - 41</a> oder schreiben Sie eine Mail an <a target="_self" rel="noopener noreferrer nofollow"
+                    href="mailto:service@fdbs.de">service@fdbs.de</a>
             </p>
         </div>
-        <IodButton is="a" href="/downloads/hako_fdbs_aktion_2025-1.pdf" size="l" corner="pill" label="Zum Flyer"
-            background="var(--color-on-primary)" color="#FF4C1B" target="_blank" />
-    </SectionCta>
+
+        <div class="max-w-80 flex gap-6">
+            <Card :is="NuxtLink" class="flex-1" aspect-ratio="16/9" target="_blank" name="HACCP Broschüre"
+                image="/images/content/customerservice/checkhaccp.png" to="/downloads/haccp_flyer.pdf" />
+        </div>
 
 
-    <section id="angebote">
-        <HeLimiter>
-            <h2>Die Angebote von Hako & FDBS</h2>
-            <div class="grid">
-                <div class="flex-1">
-                    <img src="/images/content/customerservice/hako/scrubmaster-b5_400x350.png">
-                </div>
-                <div class="flex-1">
-                    <img src="/images/content/customerservice/hako/scrubmaster-b45_400x350.png">
-                </div>
-                <div class="flex-1">
-                    <img src="/images/content/customerservice/hako/scrubmaster-b25_400x350.png">
-                </div>
-                <div class="flex-1">
-                    <img src="/images/content/customerservice/hako/sweepmaster-m600_400x350.png">
-                </div>
-                <div class="flex-1">
-                    <img src="/images/content/customerservice/hako/oertzen-c.x305_400x350.png">
-                </div>
-                <div class="flex-1">
-                    <img src="/images/content/customerservice/hako/sweepmaster-b800-r_400x350.png">
-                </div>
-            </div>
-        </HeLimiter>
-    </section>
-
-
-    <SectionText>
-        <p class="text-center">
-            Bei Interesse melden Sie sich gerne unter
-            <a target="_self" rel="noopener noreferrer nofollow" href="tel:05312105541"
-                style="color:var(--color-primary)">0531-210 55 - 41</a>
-            oder schreiben Sie eine Mail an
-            <a target="_self" rel="noopener noreferrer nofollow" href="mailto:service@fdbs.de"
-                style="color:var(--color-primary)">service@fdbs.de</a>
-        </p>
     </SectionText>
 </template>
 
 <script lang="ts" setup>
-useSeoMeta({
-    title: 'Hako-Angebote',
-    description: '',
-})
+    useSeoMeta({
+        title: 'Top Aktuelles vom technischen Kundendienst',
+        description: '',
+    })
 
-const NuxtLink = defineNuxtLink({})
+    const NuxtLink = defineNuxtLink({})
 </script>
 
-<style lang="sass" scoped>
-    #hero
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw))
-        padding-block: 8rem 13rem
-        margin-bottom: 3rem
-
-        h1
-            font-size: clamp(2rem, 10vw, 3.5rem)
-            font-weight: 600
-            margin-block: 0
-            color: inherit
-            max-width: 700px
-
-        .iod-button
-            max-width: 400px
-
-    #angebote
-        h2
-            font-size: clamp(2rem, 10vw, 3.5rem)
-            text-align: center
-            font-weight: 600
-            margin-block: 0 2rem
-
-        .grid
-            display: grid
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr))
-            gap: 1.5rem
-
-            div
-                display: block
-                width: 100%
-                border-radius: var(--radius-l)
-                overflow: hidden
-                border: 1px solid var(--color-background-soft)
-
-            img
-                width: 100%
-                display: flex
-</style>
+<style lang="sass" scoped></style>
