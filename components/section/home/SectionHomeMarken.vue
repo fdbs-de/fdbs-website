@@ -3,8 +3,8 @@
         <HeLimiter>
             <h2>Unsere Marke</h2>
             <div class="grid">
-                <NuxtLink class="flex-1 shadow" to="/marken/maxi-france">
-                    <img src="/images/content/marken/maxi-france/maxifrance_card.png">
+                <NuxtLink class="flex-1 shadow" to="/eigenmarke-maxi-france">
+                    <img src="/images/content/maxi-france/mf_cover.webp">
                 </NuxtLink>
             </div>
         </HeLimiter>

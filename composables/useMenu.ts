@@ -15,9 +15,7 @@ export const useMenu = (menu: 'main'|'legal'|'about'|'auth') => {
                     { id: "4220", label: "Tierhaltungskennzeichnung", href: "/foodservice/tierhaltungskennzeichnung" },
                     { id: "4230", label: "Mehrwegpflicht", href: "/foodservice/mehrwegpflicht" },
                 ]},
-                { id: "4300", label: "Unsere Marke", href: "/marken", children: [
-                    { id: "4310", label: "Maxi France", href: "/marken/maxi-france" },
-                ]},
+                { id: "4300", label: "Eigenmarke: Maxi France", href: "/eigenmarke-maxi-france"},
                 { id: "4400", label: "Marketing & Kommunikation", href: "/mkbs", children: [
                     //{ id: "4410", label: "Web Entwicklung", href: "/mkbs/web" },
                     { id: "4420", label: "Social Media Marketing", href: "/mkbs/social-media" },
