@@ -29,41 +29,49 @@
         </div>
 
 
-        <template v-if="auth.isAdmin() || auth.hasRole('Personal')">
-            <h2 class="mt-16 mb-6">Links und Tools</h2>
-            <div class="grid">
-                <NuxtLink class="icon-card" target="_blank" to="https://fdbs.prevenio.de/">
-                    <IodIcon icon="school"/>
-                    <h3>Prevenio Schulungen</h3>
-                    <p>Betriebliche Unterweisungen für den FDBS.</p>
-                </NuxtLink>
-                <NuxtLink class="icon-card" target="_blank" to="https://fleischer-dienst.mitarbeiterangebote.de/login">
-                    <IodIcon icon="percent"/>
-                    <h3>Mitarbeiterangebote</h3>
-                    <p>Angebote bei vielen Firmen für FDBS Mitarbeiter.</p>
-                </NuxtLink>
-                <NuxtLink class="icon-card" target="_blank" to="https://www.dienstradtool.eurorad.de/register/step1/de45f84422f17ec3961693afaa2844101e4a8c47a2789adeb449f966672656ba">
-                    <IodIcon icon="pedal_bike"/>
-                    <h3>Dienstrad</h3>
-                    <p>Dienstfahrrad-Leasing für Firmen.</p>
-                </NuxtLink>
-                <NuxtLink class="icon-card" target="_self" to="/intern/ci">
-                    <IodIcon icon="format_paint"/>
-                    <h3>Corporate Identity</h3>
-                    <p>Styleguides für die FDBS Marke.</p>
-                </NuxtLink>
-                <NuxtLink class="icon-card" target="_blank" to="https://fleischerdienstde-my.sharepoint.com/my">
-                    <IodIcon icon="cloud"/>
-                    <h3>Onedrive</h3>
-                    <p>Ihre persönliche Ablage für Dateien beim FDBS.</p>
-                </NuxtLink>
-                <NuxtLink class="icon-card" target="_blank" to="https://phoneapp.unify.com/#/dialpad">
-                    <IodIcon icon="phone"/>
-                    <h3>Unify Phone</h3>
-                    <p>Ihr Unify Phone bei FDBS.</p>
-                </NuxtLink>
-            </div>
-        </template>
+        <h2 class="mt-16 mb-6">Links und Tools</h2>
+        <div class="grid">
+            <NuxtLink class="icon-card" target="_blank" to="https://fdbs.prevenio.de/" v-if="auth.isAdmin() || auth.hasRole('Personal')">
+                <IodIcon icon="school"/>
+                <h3>Prevenio Schulungen</h3>
+                <p>Betriebliche Unterweisungen für den FDBS.</p>
+            </NuxtLink>
+            <NuxtLink class="icon-card" target="_blank" to="https://fleischer-dienst.mitarbeiterangebote.de/login" v-if="auth.isAdmin() || auth.hasRole('Personal')">
+                <IodIcon icon="percent"/>
+                <h3>Mitarbeiterangebote</h3>
+                <p>Angebote bei vielen Firmen für FDBS Mitarbeiter.</p>
+            </NuxtLink>
+            <NuxtLink class="icon-card" target="_blank" to="https://www.dienstradtool.eurorad.de/register/step1/de45f84422f17ec3961693afaa2844101e4a8c47a2789adeb449f966672656ba" v-if="auth.isAdmin() || auth.hasRole('Personal')">
+                <IodIcon icon="pedal_bike"/>
+                <h3>Dienstrad</h3>
+                <p>Dienstfahrrad-Leasing für Firmen.</p>
+            </NuxtLink>
+            <NuxtLink class="icon-card" target="_self" to="/intern/ci" v-if="auth.isAdmin() || auth.hasRole('Personal')">
+                <IodIcon icon="format_paint"/>
+                <h3>Corporate Identity</h3>
+                <p>Styleguides für die FDBS Marke.</p>
+            </NuxtLink>
+            <NuxtLink class="icon-card" target="_blank" to="https://fleischerdienstde-my.sharepoint.com/my" v-if="auth.isAdmin() || auth.hasRole('Personal')">
+                <IodIcon icon="cloud"/>
+                <h3>Onedrive</h3>
+                <p>Ihre persönliche Ablage für Dateien beim FDBS.</p>
+            </NuxtLink>
+            <NuxtLink class="icon-card" target="_blank" to="https://phoneapp.unify.com/#/dialpad" v-if="auth.isAdmin() || auth.hasRole('Personal')">
+                <IodIcon icon="phone"/>
+                <h3>Unify Phone</h3>
+                <p>Ihr Unify Phone bei FDBS.</p>
+            </NuxtLink>
+            <NuxtLink class="icon-card" target="_blank" to="https://restaurant.chefslist.de/" v-if="auth.isAdmin() || auth.hasRole('Personal')">
+                <IodIcon icon="work"/>
+                <h3>FDBS Bestellapp</h3>
+                <p>FDBS Bestellapp für Kunden</p>
+            </NuxtLink>
+            <NuxtLink class="icon-card" target="_blank" to="https://restaurant.chefslist.de/" v-if="auth.hasRole('Kunde')">
+                <IodIcon icon="work"/>
+                <h3>Außendienst-Fachberater</h3>
+                <p>Kontaktieren Sie Ihren Außendienst-Fachberater für weitere Informationen</p>
+            </NuxtLink>
+        </div>
     </SectionText>
 </template>
 
