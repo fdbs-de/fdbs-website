@@ -14,11 +14,17 @@
             Marken-Jungbullenfleisch. Die Marke ist leicht verständlich und lässt die Herkunft des Fleisches sofort
             erkennen. Der Name ist für jedermann gut auszusprechen und vermittelt dem Endverbraucher französisches
             Flair. Die drei Sterne im Logo stehen zudem für höchste Qualität. Dadurch bedingt entsteht ein maximaler
-            Wiedererkennungswert von Maxi France. Maxi France Erzeugnisse stammen zu 100 Prozent aus Frankreich – von
+            Wiedererkennungswert von Maxi France.
+        </p>
+        <p class="mt-4">
+            Maxi France Erzeugnisse stammen zu 100 Prozent aus Frankreich – von
             der Geburt der Tiere über die Aufzucht bis hin zur Schlachtung und Herstellung. Schon die Auswahl der
             Lieferanten erfolgt nach strengen Vorgaben. Das Fleisch für die Maxi France Produkte kommt ausnahmslos von
             vorab geprüften familiengeführten Bauernhöfen. Artgerechte Aufzucht, natürliche Haltungsbedingungen und
-            kurze Transportwege werden großgeschrieben. Maxi France unterliegt strengsten Kontrollen und sichert durch
+            kurze Transportwege werden großgeschrieben.
+        </p>
+        <p class="mt-4">
+            Maxi France unterliegt strengsten Kontrollen und sichert durch
             ein umfassendes Qualitäts-Sicherungsprogramm lückenlose Rückverfolgbarkeit – vom landwirtschaftlichen
             Betrieb bis zum POS. Dabei werden alle Prozesse von der Aufzucht bis zum POS unabhängig überwacht und
             kontrolliert.
