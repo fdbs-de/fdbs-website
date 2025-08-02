@@ -1,4 +1,4 @@
-import type { Role } from '~/types/role'
+import type { Role } from '~~/types/role'
 
 type User = {
     id: number

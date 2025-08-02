@@ -20,7 +20,7 @@
 </template>
 
 <script lang="ts" setup>
-    import type { MediaItem } from '~/types/media'
+    import type { MediaItem } from '~~/types/media'
 
     const props = defineProps({
         item: {

@@ -10,19 +10,19 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@pinia/nuxt": "^0.5.1",
-    "axios": "1.9.0",
+    "@pinia/nuxt": "^0.11.2",
+    "axios": "1.11.0",
     "floating-vue": "^5.2.2",
     "focus-trap-vue": "^4.0.3",
     "lodash.throttle": "^4.1.1",
-    "pinia": "^2.1.7",
-    "posthog-js": "1.236.7",
+    "pinia": "^3.0.3",
+    "posthog-js": "1.258.5",
     "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "vue-router": "^4.5.1"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^6.13.2",
-    "nuxt": "^3.17.3",
-    "sass-embedded": "^1.87.0"
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "nuxt": "^4.0.2",
+    "sass-embedded": "^1.89.2"
   }
 }

@@ -47,7 +47,7 @@
 </template>
 
 <script lang="ts" setup>
-    import type { MediaItem } from '~/types/media'
+    import type { MediaItem } from '~~/types/media'
     // @ts-ignore
     import throttle from 'lodash.throttle'
 

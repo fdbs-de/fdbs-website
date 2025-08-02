@@ -1,8 +1,3 @@
 pages/blog.vue
 pages/gewinnspiel
 pages/mkbs/web.vue
-public/fonts/brand-symbols.sass
-public/fonts/jetbrains-mono.sass
-public/fonts/material-symbols-rounded-filled.sass
-public/fonts/proxima-nova.sass
-public/fonts/sofia-pro.sass
