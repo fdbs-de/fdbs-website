@@ -25,6 +25,7 @@ export const useMenu = (menu: 'main'|'legal'|'about'|'auth') => {
                     { id: "4440", label: "Crossmedia Marketing", href: "/mkbs/crossmedia" },
                 ]},
                 { id: "4500", label: "Technischer Kundendienst", href: "/technischer-kundendienst", children: [
+                    { id: "4510", label: "NEU: MAGA Fleischpresse", href: "/technischer-kundendienst/maga-fleischpresse" },
                     { id: "4530", label: "Digitales HACCP", href: "/technischer-kundendienst/digitales-haccp" },
                 ]},
             ]},
