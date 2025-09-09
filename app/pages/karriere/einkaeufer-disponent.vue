@@ -1,10 +1,9 @@
 <template>
-    <SectionHero title="Elektromonteur / Elektriker als Servicetechniker"
-        image="/images/content/banner/karriere_513169496_482949832.webp" />
+    <SectionHero title="Einkäufer / Disponent" image="/images/content/banner/karriere_513169496_482949832.webp" />
     <SectionText>
         <span>
             Anstellungsart: <b>Vollzeit</b><br>
-            Tags: <b>Werkstatt & Kundendienst, Industrie</b>
+            Tags: <b>Einkauf</b>
         </span>
         <HeDivider />
         <div class="formatted-content">
@@ -21,43 +20,48 @@
                 in Kundendienst, Werkstatt und Marketing, der den Anforderungen unserer Kunden entspricht.</p>
             <p style="text-align: start">Du hast Interesse an der Food Branche, suchst Abwechslung und bist bereit
                 Verantwortung zu übernehmen? Dann bist Du bei uns genau richtig!</p>
-            <p>Zur Verstärkung unseres Verkaufsteams suchen wir zum
-                <strong>nächstmöglichen Zeitpunkt</strong> einen
-            </p>
-            <h3><strong><span style="color: var(--color-primary)">Elektromonteur / Elektriker als Servicetechniker
-                        (m/w/d)</span></strong></h3>
+            <p>Zur Verstärkung unseres Verkaufsteams suchen wir einen</p>
+            <h3><strong><span style="color: var(--color-primary)">Einkäufer / Disponenten (m/w/d)</span></strong></h3>
             <p><strong>Zu Deinen Aufgaben zählt:</strong></p>
             <ul class="list-disc pl-6 mt-4">
                 <li>
-                    <p>Fehlerdiagnose, Reparatur und Wartung von Fleischereimaschinen, Gewerbespülmaschinen und
-                        thermischen Küchengeräten in der Gastronomie und der Gemeinschafts- und Schulverpflegung</p>
+                    <p><span>Disposition verschiedenster Lebensmittel und sonstiger Bedarfsartikel</span></p>
                 </li>
                 <li>
-                    <p>Installation und Montage von Neugeräten</p>
+                    <p><span>Überwachung der fristgerechten Lieferungen</span></p>
                 </li>
                 <li>
-                    <p>Geräteprüfungen nach DGUV-V3</p>
+                    <p><span>Rechnungskontrolle und -freigabe</span></p>
+                </li>
+                <li>
+                    <p><span>Artikelstammpflege im Warenwirtschaftssystem</span></p>
+                </li>
+                <li>
+                    <p><span>regelmäßige Bestands- und Sortimentskontrollen</span></p>
+                </li>
+                <li>
+                    <p><span>Durchführung von Inventuren</span></p>
+                </li>
+                <li>
+                    <p><span>Bearbeiten von Retouren (Kunden und Lieferanten)</span></p>
+                    <p></p>
                 </li>
             </ul>
             <p><strong>Das solltest Du mitbringen:</strong></p>
             <ul class="list-disc pl-6 mt-4">
                 <li>
-                    <p>erfolgreich abgeschlossene Ausbildung in einem elektrotechnischen Beruf</p>
+                    <p><span>abgeschlossene kaufmännische Ausbildung</span></p>
                 </li>
                 <li>
-                    <p>mehrjährige Berufserfahrung wünschenswert, aber nicht Bedingung</p>
+                    <p><span>Kenntnisse im Lebensmittelbereich wünschenswert, aber nicht Bedingung</span></p>
                 </li>
                 <li>
-                    <p>Zuverlässigkeit, Teamfähigkeit, freundliches und kundenorientiertes Auftreten</p>
+                    <p>eigenständiges Arbeiten, Organisationsvermögen und Teamfähigkeit</p>
                 </li>
                 <li>
-                    <p>Selbstorganisation, Eigeninitiative und Mobilität</p>
-                </li>
-                <li>
-                    <p>Grundkenntnisse in MS-Office Anwendungen</p>
-                </li>
-                <li>
-                    <p>Führerschein Klasse B, vorteilhaft auch Klasse BE</p>
+                    <p><span>sicherer Umgang mit Warenwirtschaftssystemen, idealerweise Microsoft NAVISION, sowie mit
+                            MS-Office Anwendungen (Excel, Word)</span></p>
+                    <p></p>
                 </li>
             </ul>
             <p><strong>Wir bieten Dir:</strong></p>
@@ -78,9 +82,6 @@
                     <p>ein abwechslungsreiches und verantwortungsvolles Aufgabengebiet</p>
                 </li>
                 <li>
-                    <p>Gestellung von hochwertiger Arbeitsbekleidung, Werkzeug und modernen Service-Fahrzeugen</p>
-                </li>
-                <li>
                     <p>Viele weitere Mitarbeitervorteile (z. B. betriebliche Altersvorsorge, Rabatte auf unsere
                         Handelsprodukte, Corporate Benefits, Teamevents)</p>
                 </li>
@@ -95,17 +96,14 @@
         </div>
     </SectionText>
 </template>
-
 <script lang="ts" setup>
 definePageMeta({
-    title: 'Elektromonteur / Elektriker als Servicetechniker',
-    description: 'Vollzeit, Werkstatt & Kundendienst, Industrie',
+    title: 'Einkäufer / Disponent',
+    description: 'Vollzeit, Einkauf',
 })
-
 useSeoMeta({
-    title: 'Elektromonteur / Elektriker als Servicetechniker',
-    description: 'Vollzeit, Werkstatt & Kundendienst, Industrie',
+    title: 'Einkäufer / Disponent',
+    description: 'Vollzeit, Einkauf',
 })
 </script>
-
 <style lang="sass" scoped></style>
