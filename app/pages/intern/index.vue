@@ -3,25 +3,29 @@
     <SectionText size="page">
         <h2>Relevantes für Sie</h2>
         <div class="grid">
-            <NuxtLink class="icon-card highlight" target="_self" to="/intern/angebote" v-if="auth.isAdmin() || auth.hasAnyRole(['Personal', 'Kunde'])">
+            <NuxtLink class="icon-card highlight" target="_self" to="/intern/angebote"
+                v-if="auth.isAdmin() || auth.hasAnyRole(['Personal', 'Kunde'])">
                 <IodIcon icon="sell" />
                 <h3>Angebote</h3>
                 <p>Finden Sie unsere aktuellen Angebote ganz einfach zum Download.</p>
             </NuxtLink>
 
-            <NuxtLink class="icon-card" target="_self" to="/intern/wiki" v-if="auth.isAdmin() || auth.hasRole('Personal')">
+            <NuxtLink class="icon-card" target="_self" to="/intern/wiki"
+                v-if="auth.isAdmin() || auth.hasRole('Personal')">
                 <IodIcon icon="local_library" />
                 <h3>Firmenwiki</h3>
                 <p>Hier finden Sie alle Informationen rund um den FDBS.</p>
             </NuxtLink>
 
-            <NuxtLink class="icon-card" target="_self" to="/intern/dokumente" v-if="auth.isAdmin() || auth.hasRole('Personal')">
+            <NuxtLink class="icon-card" target="_self" to="/intern/dokumente"
+                v-if="auth.isAdmin() || auth.hasRole('Personal')">
                 <IodIcon icon="download" />
                 <h3>Dokumente</h3>
                 <p>Hier finden Sie alle Dokumente, die Sie für Ihre Arbeit benötigen.</p>
             </NuxtLink>
 
-            <NuxtLink class="icon-card" target="_self" to="/intern/spezifikationen" v-if="auth.isAdmin() || auth.hasAnyRole(['Personal', 'Kunde'])">
+            <NuxtLink class="icon-card" target="_self" to="/intern/spezifikationen"
+                v-if="auth.isAdmin() || auth.hasAnyRole(['Personal', 'Kunde'])">
                 <IodIcon icon="cloud_done" />
                 <h3>Spezifikationen</h3>
                 <p>Hier finden Sie alle Spezifikationen zu unseren Produkten.</p>
@@ -31,44 +35,53 @@
 
         <h2 class="mt-16 mb-6">Links und Tools</h2>
         <div class="grid">
-            <NuxtLink class="icon-card" target="_blank" to="https://fdbs.prevenio.de/" v-if="auth.isAdmin() || auth.hasRole('Personal')">
-                <IodIcon icon="school"/>
+            <NuxtLink class="icon-card" target="_blank" to="https://fdbs.prevenio.de/"
+                v-if="auth.isAdmin() || auth.hasRole('Personal')">
+                <IodIcon icon="school" />
                 <h3>Prevenio Schulungen</h3>
                 <p>Betriebliche Unterweisungen für den FDBS.</p>
             </NuxtLink>
-            <NuxtLink class="icon-card" target="_blank" to="https://fleischer-dienst.mitarbeiterangebote.de/login" v-if="auth.isAdmin() || auth.hasRole('Personal')">
-                <IodIcon icon="percent"/>
+            <NuxtLink class="icon-card" target="_blank" to="https://fleischer-dienst.mitarbeiterangebote.de/login"
+                v-if="auth.isAdmin() || auth.hasRole('Personal')">
+                <IodIcon icon="percent" />
                 <h3>Mitarbeiterangebote</h3>
                 <p>Angebote bei vielen Firmen für FDBS Mitarbeiter.</p>
             </NuxtLink>
-            <NuxtLink class="icon-card" target="_blank" to="https://www.dienstradtool.eurorad.de/register/step1/de45f84422f17ec3961693afaa2844101e4a8c47a2789adeb449f966672656ba" v-if="auth.isAdmin() || auth.hasRole('Personal')">
-                <IodIcon icon="pedal_bike"/>
+            <NuxtLink class="icon-card" target="_blank"
+                to="https://www.dienstradtool.eurorad.de/register/step1/de45f84422f17ec3961693afaa2844101e4a8c47a2789adeb449f966672656ba"
+                v-if="auth.isAdmin() || auth.hasRole('Personal')">
+                <IodIcon icon="pedal_bike" />
                 <h3>Dienstrad</h3>
                 <p>Dienstfahrrad-Leasing für Firmen.</p>
             </NuxtLink>
-            <NuxtLink class="icon-card" target="_self" to="/intern/ci" v-if="auth.isAdmin() || auth.hasRole('Personal')">
-                <IodIcon icon="format_paint"/>
+            <NuxtLink class="icon-card" target="_self" to="/intern/ci"
+                v-if="auth.isAdmin() || auth.hasRole('Personal')">
+                <IodIcon icon="format_paint" />
                 <h3>Corporate Identity</h3>
                 <p>Styleguides für die FDBS Marke.</p>
             </NuxtLink>
-            <NuxtLink class="icon-card" target="_blank" to="https://fleischerdienstde-my.sharepoint.com/my" v-if="auth.isAdmin() || auth.hasRole('Personal')">
-                <IodIcon icon="cloud"/>
+            <NuxtLink class="icon-card" target="_blank" to="https://fleischerdienstde-my.sharepoint.com/my"
+                v-if="auth.isAdmin() || auth.hasRole('Personal')">
+                <IodIcon icon="cloud" />
                 <h3>Onedrive</h3>
                 <p>Ihre persönliche Ablage für Dateien beim FDBS.</p>
             </NuxtLink>
-            <NuxtLink class="icon-card" target="_blank" to="https://phoneapp.unify.com/#/dialpad" v-if="auth.isAdmin() || auth.hasRole('Personal')">
-                <IodIcon icon="phone"/>
+            <NuxtLink class="icon-card" target="_blank" to="https://phoneapp.unify.com/#/dialpad"
+                v-if="auth.isAdmin() || auth.hasRole('Personal')">
+                <IodIcon icon="phone" />
                 <h3>Unify Phone</h3>
                 <p>Ihr Unify Phone bei FDBS.</p>
             </NuxtLink>
-            <NuxtLink class="icon-card" target="_blank" to="https://restaurant.chefslist.de/" v-if="auth.isAdmin() || auth.hasRole('Personal')">
-                <IodIcon icon="work"/>
+            <NuxtLink class="icon-card" target="_blank" to="https://restaurant.chefslist.de/"
+                v-if="auth.isAdmin() || auth.hasRole('Personal')">
+                <IodIcon icon="work" />
                 <h3>FDBS Bestellapp</h3>
                 <p>FDBS Bestellapp für Kunden</p>
             </NuxtLink>
-            <NuxtLink class="icon-card" target="_blank" to="https://restaurant.chefslist.de/" v-if="auth.hasRole('Kunde')">
-                <IodIcon icon="work"/>
-                <h3>Außendienst-Fachberater</h3>
+            <NuxtLink class="icon-card" target="_blank" to="https://restaurant.chefslist.de/"
+                v-if="auth.hasRole('Kunde')">
+                <IodIcon icon="work" />
+                <h3>FDBS Bestellapp</h3>
                 <p>Kontaktieren Sie Ihren Außendienst-Fachberater für weitere Informationen</p>
             </NuxtLink>
         </div>
