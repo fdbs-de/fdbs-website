@@ -1,6 +1,6 @@
 <template>
     <SectionHero title="Aufbau einer VPN-Verbindung (neu)"
-        image="/images/content/wiki/IT/Aufbau-einer-VPN-Verbindung-(neu)/VPN-Headline.png" />
+        image="/images/content/wiki/IT/Aufbau-einer-VPN-Verbindung-neu/VPN-Headline.png" />
     <SectionText>
         <HeDivider />
         <span>
@@ -23,15 +23,15 @@
             <p></p>
             <p>Beispielhaft wird hier die Aktivierung eines Hotspots anhand eines iPhones erklärt:<br>In den
                 Einstellungen ist im ersten Bereich "Persönlicher Hotspot zu finden":</p><img class="content-image"
-                src="/images/content/wiki/IT/Aufbau-einer-VPN-Verbindung-(neu)/Hotspot-1.PNG" alt="">
+                src="/images/content/wiki/IT/Aufbau-einer-VPN-Verbindung-neu/Hotspot-1.PNG" alt="">
             <p></p>
             <p>Hier kann nun der Zugriff für andere erlaubt werden und das WLAN-Passwort abgerufen werden:</p><img
-                class="content-image" src="/images/content/wiki/IT/Aufbau-einer-VPN-Verbindung-(neu)/Hotspot-2.PNG"
+                class="content-image" src="/images/content/wiki/IT/Aufbau-einer-VPN-Verbindung-neu/Hotspot-2.PNG"
                 alt="">
             <p></p>
             <p>Am Notebook wird als Nächstes in den WLAN-Einstellungen unten rechts geschaut. Hier sollte nun der Name
                 des iPhones auftauchen:</p><img class="content-image"
-                src="/images/content/wiki/IT/Aufbau-einer-VPN-Verbindung-(neu)/Hotspot-4.png" alt="">
+                src="/images/content/wiki/IT/Aufbau-einer-VPN-Verbindung-neu/Hotspot-4.png" alt="">
             <p>Anschließend wird das WLAN-Passwort vom iPhone am Notebook eingegeben. <br>Bei aufgebauter
                 Internetverbindung kann also jetzt die VPN-Verbindung aufgebaut werden.</p>
             <p></p>
@@ -42,7 +42,7 @@
                 folgende Seite aufgerufen: <a target="_blank" rel="noopener noreferrer nofollow"
                     href="https://vpn.fdbs.de">vpn.fdbs.de</a>
             </p><img class="content-image"
-                src="/images/content/wiki/IT/Aufbau-einer-VPN-Verbindung-(neu)/vpn-portal.png" alt="">
+                src="/images/content/wiki/IT/Aufbau-einer-VPN-Verbindung-neu/vpn-portal.png" alt="">
             <p>
                 Hier wird als Benutzername der bekannte Windows-Anmeldename verwendet, z.B. "ebeith"<br>Das Kennwort
                 entspricht dem Kennwort, welches auch für die Anmeldung am Notebook/PC verwendet wird.
@@ -55,22 +55,22 @@
             <p>Bei Nutzung eines Dienstsmartphones muss nun Multi-Faktor-Authentifizierung eingerichtet werden.</p>
             <p>Für Multi-Faktor-Authentifizierung wird nun ein QR-Code angezeigt. Dieser wird mit einer
                 Authentifizierungs-App auf dem Smartphone gescannt.</p><img class="content-image"
-                src="/images/content/wiki/IT/Aufbau-einer-VPN-Verbindung-(neu)/vpn-portal-mfa.png" alt="">
+                src="/images/content/wiki/IT/Aufbau-einer-VPN-Verbindung-neu/vpn-portal-mfa.png" alt="">
             <p>Dafür wird auf dem Smartphone der Authenticator zur Verfügung gestellt.<br>Nachdem die App geöffnet
                 wurde, befindet sich unten rechts der Button, um den QR-Code zu scannen:</p><img class="content-image"
-                src="/images/content/wiki/IT/Aufbau-einer-VPN-Verbindung-(neu)/authenticator-1.png" alt="">
+                src="/images/content/wiki/IT/Aufbau-einer-VPN-Verbindung-neu/authenticator-1.png" alt="">
             <p>Sobald der QR-Code erfolgreich gescannt wurde, erscheint der Multi-Faktor-Authentifizierungscode in der
                 Liste mit dem Titel "Sophos SFOS":</p><img class="content-image"
-                src="/images/content/wiki/IT/Aufbau-einer-VPN-Verbindung-(neu)/authenticator-2.png" alt="">
+                src="/images/content/wiki/IT/Aufbau-einer-VPN-Verbindung-neu/authenticator-2.png" alt="">
             <p>Die Webseite kann nun geschlossen werden.</p>
 
             <h2>Schritt #2 - Sophos Connect-Verbidnung herstellen</h2>
             <p>Kicke unten rechts in der Windows-Taskleiste auf das Pfeil-Symbol. Dort befindet sich das Sophos
                 Connect-Symbol.</p><img class="content-image"
-                src="/images/content/wiki/IT/Aufbau-einer-VPN-Verbindung-(neu)/sophos-connect-1.png" alt="">
+                src="/images/content/wiki/IT/Aufbau-einer-VPN-Verbindung-neu/sophos-connect-1.png" alt="">
             <p>Mit einem Klick öffnet sich das Programm und es kann eine VPN-Verbindung hergestellt
                 werden:</p><img class="content-image"
-                src="/images/content/wiki/IT/Aufbau-einer-VPN-Verbindung-(neu)/sophos-connect-2.png" alt="">
+                src="/images/content/wiki/IT/Aufbau-einer-VPN-Verbindung-neu/sophos-connect-2.png" alt="">
             <p>Anschließend öffnet sich ein Login-Fenster, in denen Benutzername und Kennwort eingegeben werden muss.
             </p>
             <p>Hier wird als Benutzername der bekannte Windows-Anmeldename verwendet, z.B. "ebeith"<br>Das Passwort
@@ -93,7 +93,7 @@
                 Lösung/alternative ist dann, zusätzlich eine Verbindung zum Terminalserver aufzubauen und von dort aus
                 auf alle Ressourcen zuzugreifen. <br>Den Terminalserver findet man auf dem
                 Desktop oder über die Suche:</p><img class="content-image"
-                src="/images/content/wiki/IT/Aufbau-einer-VPN-Verbindung-(neu)/Terminalserver_Suche.png" alt="">
+                src="/images/content/wiki/IT/Aufbau-einer-VPN-Verbindung-neu/Terminalserver_Suche.png" alt="">
             <p>Nach der Anmeldung mit Benutzernamen und Kennwort können hier wie gewohnt alle Programme ausgeführt und
                 genutzt werden.</p>
             <p>Der Benutzername entspricht dem ersten Buchstaben des Vornamens + dem Nachnamen, also z.B. ebeith für
