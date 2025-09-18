@@ -120,13 +120,9 @@
     const keyfacts = ref([
         { icon: 'edit', name:' Klassische Werbemittel' },
         { icon: 'store', name:' Außenwerbung' },
-        { icon: 'home_repair_service', name:' Planung und Montage' },
         { icon: 'cast', name:' Digital Signage' },
-        { icon: 'tv', name:' Addressable TV' },
-        { icon: 'videocam', name:' Foto- und Videodreh' },
         { icon: 'campaign', name:' Online Marketing' },
         { icon: 'edit_note', name:' Content Marketing' },
-        { icon: 'handshake', name:' Recruiting' },
     ])
 </script>
 
