@@ -11,9 +11,10 @@ export const useMenu = (menu: 'main'|'legal'|'about'|'auth') => {
             { id: "4000", label: "Produkte & Services", href: "/produkte-und-services", children: [
                 { id: "4100", label: "Aktuelle Angebote", href: "/angebote" },
                 { id: "4200", label: "Foodservice", href: "/foodservice", children: [
-                    { id: "4210", label: "Unsere Rezeptideen", href: "/foodservice/rezepte" },
-                    { id: "4220", label: "Tierhaltungskennzeichnung", href: "/foodservice/tierhaltungskennzeichnung" },
-                    { id: "4230", label: "Mehrwegpflicht", href: "/foodservice/mehrwegpflicht" },
+                    { id: "4210", label: "NEU: Online-Shop", href: "/foodservice/online-shop" },
+                    { id: "4220", label: "Unsere Rezeptideen", href: "/foodservice/rezepte" },
+                    { id: "4230", label: "Tierhaltungskennzeichnung", href: "/foodservice/tierhaltungskennzeichnung" },
+                    { id: "4240", label: "Mehrwegpflicht", href: "/foodservice/mehrwegpflicht" },
                 ]},
                 { id: "4300", label: "Eigenmarke: Maxi France", href: "/eigenmarke-maxi-france"},
                 { id: "4400", label: "Marketing & Kommunikation", href: "/mkbs", children: [
