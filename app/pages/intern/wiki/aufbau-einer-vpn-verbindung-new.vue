@@ -41,8 +41,8 @@
                 Um sich mit VPN verbinden zu können, muss einmalig der Benuter registriert werden.<br>Dafür wird
                 folgende Seite aufgerufen: <a target="_blank" rel="noopener noreferrer nofollow"
                     href="https://vpn.fdbs.de">vpn.fdbs.de</a>
-            </p><img class="content-image"
-                src="/images/content/wiki/IT/Aufbau-einer-VPN-Verbindung-neu/vpn-portal.png" alt="">
+            </p><img class="content-image" src="/images/content/wiki/IT/Aufbau-einer-VPN-Verbindung-neu/vpn-portal.png"
+                alt="">
             <p>
                 Hier wird als Benutzername der bekannte Windows-Anmeldename verwendet, z.B. "ebeith"<br>Das Kennwort
                 entspricht dem Kennwort, welches auch für die Anmeldung am Notebook/PC verwendet wird.
@@ -74,8 +74,9 @@
             <p>Anschließend öffnet sich ein Login-Fenster, in denen Benutzername und Kennwort eingegeben werden muss.
             </p>
             <p>Hier wird als Benutzername der bekannte Windows-Anmeldename verwendet, z.B. "ebeith"<br>Das Passwort
-                entpricht dem Kennwort, welches auch für die Anmeldung am Notebook/PC verwendet wird.<br>Screenshot
-                kommt bald!</p>
+                entpricht dem Kennwort, welches auch für die Anmeldung am Notebook/PC verwendet wird.</p><img
+                class="content-image" src="/images/content/wiki/IT/Aufbau-einer-VPN-Verbindung-neu/sophos-connect-3.png"
+                alt="">
             <p>Wenn Multi-Faktor-Authentifizierung konfiguriert wurde, ist Folgendes zu beachten:<br>Der
                 Multi-Faktor-Authentifizierungscode aus der App ist notwendig, um sich mit dem VPN zu verbinden.
                 Bei der Eingabe des Passwortes muss der Multi-Faktor-Authentifizierungscode gleichzeitig mit angegeben
@@ -83,10 +84,12 @@
                 also z.B. „passwort972748“<br>passwort steht dann für das Passwort, welches für die Anmeldung am
                 Notebook/PC verwendet wird.
                 <br>972748 steht für den Authentifizierungscode aus der App, der sich alle 30 Sekunden
-                ändert.<br>Screenshot kommt bald!
-            </p>
-            <p>Bei erfolgreichem Verbindungsaufbau sieht man im Sophos Connect den Status "Connected"<br>Screenshot
-                kommt bald!</p>
+                ändert.
+            </p><img class="content-image"
+                src="/images/content/wiki/IT/Aufbau-einer-VPN-Verbindung-neu/sophos-connect-4.png" alt="">
+            <p>Bei erfolgreichem Verbindungsaufbau sieht man im Sophos Connect den Status mit einem grünen Haken:</p>
+            <img class="content-image"
+                src="/images/content/wiki/IT/Aufbau-einer-VPN-Verbindung-neu/sophos-connect-5.png" alt="">
             <p></p>
             <h2>Schritt #3 - Optional: Terminalserver starten</h2>
             <p>Manchmal kann es trotz bestehender VPN-Verbindung zu Problemen verschiedener Arten kommen. Eine mögliche
