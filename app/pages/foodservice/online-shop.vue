@@ -56,7 +56,7 @@
     <SectionText class="overview">
         <div class="grid">
             <div class="flex-1">
-                <img src="/images/content/online-shop/online-shop-2.png" alt="Online-Shop" class="rounded-lg mt-12">
+                <img src="/images/content/online-shop/online-shop-3.png" alt="Online-Shop" class="rounded-lg mt-12">
             </div>
             <p class="flex-1">
                 Die Implementierung des Online-Shops ist ein wichtiger Schritt in die digitale Zukunft unseres
