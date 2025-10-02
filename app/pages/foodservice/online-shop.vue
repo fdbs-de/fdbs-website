@@ -10,23 +10,41 @@
             <b>👉 Jetzt den neuen Online-Shop testen und<br>
                 bequem einkaufen!</b><br>
         </div>
-        <IodButton is="a" href="/downloads/online-shop-flyer.pdf" size="l" corner="pill" label="Jetzt informieren"
-            background="var(--color-on-primary)" color="var(--color-primary)" target="_blank" />
+        <IodButton is="a" icon-left="call" href="tel:05312105523" size="l" corner="pill"
+            label="Fragen? - 0531 210 55 23" background="var(--color-on-primary)" color="var(--color-primary)"
+            target="_blank" />
     </SectionCta>
-
-    <SectionText>
+    <SectionText class="overview">
         <h2 class="my-0">Einfach online bestellen - mit ChefsList</h2>
         <p class="mt-4">
             Ab sofort können Sie Ihre Bestellungen bei uns ganz einfach und bequem über Chefslist tätigen. Mit dem
             digitalen Webshop haben Sie unser komplettes Sortiment jederzeit im Blick – inklusive Ihrer
-            individuellen Preise und aktuellen Verfügbarkeiten. So bestellen Sie rund um die Uhr, flexibel und
+            individuellen Preise. <br>So bestellen Sie rund um die Uhr, flexibel und
             unabhängig von Öffnungszeiten.
         </p>
-        <p class="mt-4">
+        <p class="mt-4 mb-12">
             Ob per Smartphone, Tablet oder Computer: Mit Chefslist erledigen Sie Ihre Bestellungen schnell,
             übersichtlich und effizient, ohne lange Telefonate oder Papierkram. Einfach einloggen, auswählen und
             bestellen – so leicht geht Einkauf heute.
         </p>
+        <div class="grid">
+            <div class="flex-1">
+                <img src="/images/content/online-shop/chefslist-registration.png" alt="ChefsList" class="rounded-xl"
+                    style="border: 1px solid var(--color-background-soft);box-shadow: var(--shadow-m)">
+            </div>
+            <div class="flex-1 mt-4">
+                <p>
+                    Laden Sie die ChefsList App kostenlos im App Store oder bei Google
+                    Play
+                    herunter und
+                    haben Sie Ihr
+                    komplettes Artikelsortiment immer griffbereit:
+                    <img src="/images/content/online-shop/qr-code.png" alt="App Installation" class="my-5"
+                        width="200px">
+                    👉 Für einen Magic Code <br>von FDBS sprechen Sie gerne<br>Ihren Außendienstler an!
+                </p>
+            </div>
+        </div>
     </SectionText>
     <SectionText class="tilt-clip bg-slate-100">
         <h2 class="my-0">So bequem wie nie zuvor:</h2>
@@ -49,20 +67,24 @@
             </li>
         </ul>
         <p><br></p>
-        <IodButton is="a" label="Jetzt informieren" href="/downloads/online-shop-flyer.pdf" target="_blank" size="xl"
-            shadow="l" corner="l" background="var(--color-primary)" color="var(--color-on-primary)"
-            class="mt-1 w-full" />
+        <IodButton is="a" icon-left="call" label="Jetzt informieren – 0531 210 55 23" href="tel:05312105523"
+            target="_blank" size="xl" shadow="l" corner="l" background="var(--color-primary)"
+            color="var(--color-on-primary)" class="mt-1 w-full" />
     </SectionText>
     <SectionText class="overview">
-        <div class="grid">
-            <div class="flex-1">
-                <img src="/images/content/online-shop/online-shop-3.png" alt="Online-Shop" class="rounded-lg mt-12">
+        <div class="grid mt-4">
+            <div class="flex-1 mt-4">
+                <p class="flex-1">
+                    ChefsList vereint Komfort, Übersicht und Kontrolle – alles an einem Ort. <br>Jeder Klick ist darauf
+                    ausgelegt, Ihren Alltag leichter zu machen, Ihre Bestellungen sicher zu halten und Abläufe zu
+                    optimieren. <br><br>Mehr als ein Shop, mehr als ein Tool: ChefsList ist Ihr digitaler Partner für
+                    effizientes, stressfreies Arbeiten – <br><b>weil Ihr Erfolg unser Antrieb ist.</b>
+                </p>
             </div>
-            <p class="flex-1">
-                Die Implementierung des Online-Shops ist ein wichtiger Schritt in die digitale Zukunft unseres
-                Unternehmens – mit einem klaren Ziel: <br><br><b>Unseren Kunden den bestmöglichen Service zu bieten und
-                    gleichzeitig interne Abläufe nachhaltig zu optimieren.</b>
-            </p>
+            <div class="flex-1">
+                <img src="/images/content/online-shop/online-shop-3.png" alt="Online-Shop" class="rounded-xl"
+                    style="border: 1px solid var(--color-background-soft);box-shadow: var(--shadow-m)">
+            </div>
         </div>
         <p class="text-center mt-20">
             Wollen Sie sich für den Online-Shop registrieren lassen?<br>
@@ -107,15 +129,4 @@
         .grid
             display: flex
             gap: 2rem
-            align-items: center
-            
-            div
-                display: block
-                border-radius: 1rem
-                overflow: hidden
-
-            img
-                border-radius: 1rem 1rem 0 0
-                width: 100%
-                display: flex
 </style>
