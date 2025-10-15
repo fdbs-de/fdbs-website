@@ -7,12 +7,12 @@
                 frischen und hochwertigen Lebensmitteln -<br>
                 einfach, schnell und zuverlässig bestellt.<br><br>
             </p>
-            <b>👉 Jetzt den neuen Online-Shop testen und<br>
-                bequem einkaufen!</b><br>
+            <b>
+                👉 Jetzt den neuen Online-Shop testen und<br>
+                bequem einkaufen!
+            </b><br>
         </div>
-        <IodButton is="a" icon-left="call" href="tel:05312105523" size="l" corner="pill"
-            label="Fragen? - 0531 210 55 23" background="var(--color-on-primary)" color="var(--color-primary)"
-            target="_blank" />
+        <IodButton is="a" icon-left="call" href="tel:05312105523" size="l" corner="pill" label="Fragen? - 0531 210 55 23" background="var(--color-on-primary)" color="var(--color-primary)" target="_blank" />
     </SectionCta>
     <SectionText class="overview">
         <h2 class="my-0">Einfach online bestellen - mit ChefsList</h2>
@@ -27,10 +27,9 @@
             übersichtlich und effizient, ohne lange Telefonate oder Papierkram. Einfach einloggen, auswählen und
             bestellen – so leicht geht Einkauf heute.
         </p>
-        <div class="grid">
+        <div class="grid flex-col sm:flex-row">
             <div class="flex-1">
-                <img src="/images/content/online-shop/chefslist-registration.png" alt="ChefsList" class="rounded-xl"
-                    style="border: 1px solid var(--color-background-soft);box-shadow: var(--shadow-m)">
+                <img src="/images/content/online-shop/chefslist-registration.png" alt="ChefsList" class="rounded-xl" style="border: 1px solid var(--color-background-soft);box-shadow: var(--shadow-m)">
             </div>
             <div class="flex-1 mt-4">
                 <p>
@@ -39,8 +38,7 @@
                     herunter und
                     haben Sie Ihr
                     komplettes Artikelsortiment immer griffbereit:
-                    <img src="/images/content/online-shop/qr-code.png" alt="App Installation" class="my-5"
-                        width="200px">
+                    <img src="/images/content/online-shop/qr-code.png" alt="App Installation" class="my-5" width="200px">
                     👉 Für einen Magic Code <br>von FDBS sprechen Sie gerne<br>Ihren Außendienstler an!
                 </p>
             </div>
@@ -72,7 +70,7 @@
             color="var(--color-on-primary)" class="mt-1 w-full" />
     </SectionText>
     <SectionText class="overview">
-        <div class="grid mt-4">
+        <div class="grid flex-col sm:flex-row mt-4">
             <div class="flex-1 mt-4">
                 <p class="flex-1">
                     ChefsList vereint Komfort, Übersicht und Kontrolle – alles an einem Ort. <br>Jeder Klick ist darauf
