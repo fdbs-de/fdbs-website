@@ -1,7 +1,7 @@
 <template>
     <SectionHero title="Unsere aktuellen Angebote" image="/images/content/banner/angebote_526077708.webp" />
     <SectionText size="page">
-        <MediaExplorer root="domain/angebote" />
+        <AppOfferExplorer content="domain/angebote/ohne_preise" featured="domain/angebote/ohne_preise/aktuell"/>
     </SectionText>
 </template>
 
