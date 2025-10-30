@@ -1,7 +1,7 @@
 <template>
     <SectionHero title="Unsere Angebote" image="/images/content/banner/foodservice_365702048_356901877_454625888.webp" />
     <SectionText size="page">
-        <MediaExplorer root="domain/angebote/mp" />
+        <AppOfferExplorer content="domain/angebote/mit_preise" featured="domain/angebote/mit_preise/aktuell"/>
     </SectionText>
 </template>
 
