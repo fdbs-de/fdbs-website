@@ -87,7 +87,7 @@
 <style lang="sass" scoped>
     .featured-grid
         display: grid
-        grid-template-columns: repeat(2, 1fr)
+        grid-template-columns: repeat(3, 1fr)
         gap: 1rem
 
     .content-grid
@@ -147,7 +147,7 @@
 
     @media (max-width: 768px)
         .featured-grid
-            grid-template-columns: 1fr
+            grid-template-columns: repeat(2, 1fr)
 
         .content-grid
             grid-template-columns: repeat(2, 1fr)
