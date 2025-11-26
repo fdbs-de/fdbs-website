@@ -4,7 +4,6 @@ export const useMenu = (menu: 'main'|'legal'|'about'|'auth') => {
     const menus = ref({
         'main': [
             { id: '1000', label: "Home", href: "/" },
-            // { id: "2000", href: "/blog", label: "Blog" },
             { id: "3000", label: "Philosophie", href: "/philosophie", children: [
                 { id: "3100", label: "Nachhaltigkeit", href: "/nachhaltigkeit" },
             ]},
@@ -18,10 +17,8 @@ export const useMenu = (menu: 'main'|'legal'|'about'|'auth') => {
                 ]},
                 { id: "4300", label: "Eigenmarke: Maxi France", href: "/eigenmarke-maxi-france"},
                 { id: "4400", label: "Marketing & Kommunikation", href: "/mkbs", children: [
-                    //{ id: "4410", label: "Web Entwicklung", href: "/mkbs/web" },
                     { id: "4420", label: "Social Media Marketing", href: "/mkbs/social-media" },
                     { id: "4430", label: "Print Design", href: "/mkbs/print" },
-                    { id: "4440", label: "Crossmedia Marketing", href: "/mkbs/crossmedia" },
                 ]},
                 { id: "4500", label: "Technischer Kundendienst", href: "/technischer-kundendienst", children: [
                     { id: "4510", label: "NEU: MAGA Fleischpresse", href: "/technischer-kundendienst/maga-fleischpresse" },

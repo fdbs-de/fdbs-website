@@ -14,9 +14,6 @@
 
         <Card :is="NuxtLink" cover to="/mkbs/print" name="Print Design"
             image="/images/content/mkbs/banner/header_print.png" />
-
-        <Card :is="NuxtLink" cover to="/mkbs/crossmedia" name="Crossmedia Marketing"
-            image="/images/content/mkbs/banner/header_cossmedia_292968998.png" />
     </SectionGrid>
 </template>
 
