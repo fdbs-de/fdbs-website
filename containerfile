@@ -4,7 +4,7 @@ FROM node:22-alpine AS build-stage
 WORKDIR /app
 
 COPY package*.json ./
-RUN npm ci
+RUN npm i
 
 COPY . .
 RUN npm run build
