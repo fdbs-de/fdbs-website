@@ -2,7 +2,7 @@
     <SectionHero title="Tierhaltungskennzeichnung" image="/images/content/banner/tierthaltungskennzeichnung_629129111.webp" />
     <SectionText>
         <p>
-            Im Herbst 2023 tritt das Tierhaltungskennzeichnungsgesetz in Kraft. Wir haben für
+            Im Jahr 2027 tritt das Tierhaltungskennzeichnungsgesetz in Kraft. Wir haben für
             Sie die wichtigsten Informationen zusammengestellt.
         </p>
         <p>
